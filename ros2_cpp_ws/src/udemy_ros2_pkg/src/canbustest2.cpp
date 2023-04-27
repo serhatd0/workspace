@@ -1,45 +1,42 @@
-#include <iostream>
-#include <string>
-#include <vector>
+#include <stdio.h>
+#include <string.h>
 #include <unistd.h>
-#include <cstdlib>
-#include <cstring>
 #include <net/if.h>
 #include <sys/ioctl.h>
 #include <sys/socket.h>
 #include <linux/can.h>
-#include <chrono>
-#include "rclcpp/rclcpp.hpp"
+#include <linux/can/raw.h>
 
-int main()
-{
+int main() {
     int s;
     struct sockaddr_can addr;
     struct ifreq ifr;
+    struct can_frame frame;
+    const char *ifname = "can0";
 
-    const char* ifname = "can0"; // açmak istediğimiz arabirim adı
+    if ((s = socket(PF_CAN, SOCK_RAW, CAN_RAW)) < 0) {
+        perror("socket");
+        return 1;
+    }
 
-    s = socket(PF_CAN, SOCK_RAW, CAN_RAW);
     strcpy(ifr.ifr_name, ifname);
     ioctl(s, SIOCGIFINDEX, &ifr);
+
     addr.can_family = AF_CAN;
     addr.can_ifindex = ifr.ifr_ifindex;
-    bind(s, (struct sockaddr *)&addr, sizeof(addr));
 
-    while (1)
-    {
-        struct can_frame frame;
-        int nbytes = read(s, &frame, sizeof(struct can_frame));
-        if (nbytes > 0)
-        {
-            std::string data;
-            for (int i = 0; i < frame.can_dlc; i++)
-            {
-                data += std::to_string(frame.data[i]);
-                data += " ";
-            }
-            std::cout << "Received message on CAN bus: " << data << std::endl;
-        }
+    if (bind(s, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
+        perror("bind");
+        return 1;
+    }
+
+    frame.can_id = 0x123;
+    frame.can_dlc = strlen("Hello, World!");
+    strcpy((char*)frame.data, "Hello, World!");
+
+    if (write(s, &frame, sizeof(struct can_frame)) != sizeof(struct can_frame)) {
+        perror("write");
+        return 1;
     }
 
     close(s);

@@ -47,6 +47,9 @@ ament_target_dependencies(rpm_speed rclcpp std_msgs geometry_msgs)
 add_executable(canbustest src/canbustest.cpp)
 ament_target_dependencies(canbustest rclcpp std_msgs geometry_msgs)
 
+add_executable(canbustest2 src/canbustest.cpp)
+ament_target_dependencies(canbustest2 rclcpp std_msgs geometry_msgs)
+
 add_executable(rpm_pub src/rpm_pub.cpp)
 ament_target_dependencies(rpm_pub rclcpp std_msgs)
 
@@ -85,6 +88,7 @@ install(TARGETS
   rpm_speed
   rpm_pub
   canbustest
+  canbustest2
   speed_calc
   service_server
   service_client

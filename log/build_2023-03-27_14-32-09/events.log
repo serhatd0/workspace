@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000743] (udemy_ros2_pkg) JobQueued: {'identifier': 'udemy_ros2_pkg', 'dependencies': OrderedDict()}
+[0.000801] (udemy_ros2_pkg) JobStarted: {'identifier': 'udemy_ros2_pkg'}
+[0.012655] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'cmake'}
+[0.012872] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'build'}
+[0.014366] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/serhat/workspaces/build/udemy_ros2_pkg', '--', '-j12', '-l12'], 'cwd': '/home/serhat/workspaces/build/udemy_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'serhat'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/serhat'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/serhat'), ('TERM_PROGRAM_VERSION', '1.76.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/122/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1460'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/serhat/workspaces/ros2_cpp_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'serhat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'serhat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/serhat-ABRA-A5-V15-2:@/tmp/.ICE-unix/1432,unix/serhat-ABRA-A5-V15-2:/tmp/.ICE-unix/1432'), ('XDG_MENU_PREFIX', 'gnome-'), ('RMW_IMLEMENTATION', 'rmw_cyclonedds_cpp'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c1813b52_6a9c_40e8_9621_fd1089fc18f1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O64J21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-287faa05ef.sock'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/122/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/serhat/workspaces/build/udemy_ros2_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[0.055189] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099286] (-) TimerEvent: {}
+[0.199597] (-) TimerEvent: {}
+[0.201974] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.212137] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.247438] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.250266] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.256768] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.267551] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.282819] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299699] (-) TimerEvent: {}
+[0.348541] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.349716] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399815] (-) TimerEvent: {}
+[0.477871] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499962] (-) TimerEvent: {}
+[0.600302] (-) TimerEvent: {}
+[0.659813] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700379] (-) TimerEvent: {}
+[0.719773] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.720050] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.720161] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.721087] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.722909] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.723068] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.723590] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.725130] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.742168] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.743691] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/serhat/workspaces/build/udemy_ros2_pkg\n'}
+[0.766851] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher\x1b[0m\n'}
+[0.767090] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber\x1b[0m\n'}
+[0.767492] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rpm_pub\x1b[0m\n'}
+[0.777633] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o\x1b[0m\n'}
+[0.785974] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 37%] Built target publisher\n'}
+[0.786241] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 87%] Built target subscriber\n'}
+[0.786417] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 87%] Built target rpm_pub\n'}
+[0.800466] (-) TimerEvent: {}
+[0.900704] (-) TimerEvent: {}
+[1.000951] (-) TimerEvent: {}
+[1.101198] (-) TimerEvent: {}
+[1.201445] (-) TimerEvent: {}
+[1.301689] (-) TimerEvent: {}
+[1.401967] (-) TimerEvent: {}
+[1.502241] (-) TimerEvent: {}
+[1.602536] (-) TimerEvent: {}
+[1.702776] (-) TimerEvent: {}
+[1.803055] (-) TimerEvent: {}
+[1.903257] (-) TimerEvent: {}
+[2.003526] (-) TimerEvent: {}
+[2.103825] (-) TimerEvent: {}
+[2.204077] (-) TimerEvent: {}
+[2.304354] (-) TimerEvent: {}
+[2.404569] (-) TimerEvent: {}
+[2.504866] (-) TimerEvent: {}
+[2.605232] (-) TimerEvent: {}
+[2.705515] (-) TimerEvent: {}
+[2.805802] (-) TimerEvent: {}
+[2.906121] (-) TimerEvent: {}
+[3.006371] (-) TimerEvent: {}
+[3.106662] (-) TimerEvent: {}
+[3.195198] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSpeedCalcNode::SpeedCalcNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.195371] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:17:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSpeedCalcNode::create_subscription<std_msgs::msg::Float64>(const char [6], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.195436] (udemy_ros2_pkg) StderrLine: {'line': b'   17 |             speed_publisher_ = \x1b[01;31m\x1b[Kthis->create_subscription<std_msgs::msg::Float64>(\x1b[m\x1b[K\n'}
+[3.195491] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.195543] (udemy_ros2_pkg) StderrLine: {'line': b'   18 | \x1b[01;31m\x1b[K                "speed", 10\x1b[m\x1b[K\n'}
+[3.195595] (udemy_ros2_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K                                                      \n'}
+[3.195646] (udemy_ros2_pkg) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[K                )\x1b[m\x1b[K;\n'}
+[3.195695] (udemy_ros2_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                                \n'}
+[3.195746] (udemy_ros2_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[3.195802] (udemy_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.195887] (udemy_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.195943] (udemy_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.195994] (udemy_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:1\x1b[m\x1b[K:\n'}
+[3.196045] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.196110] (udemy_ros2_pkg) StderrLine: {'line': b'   92 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_subscription(\n'}
+[3.196162] (udemy_ros2_pkg) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.196233] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.202872] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:17:81:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 2 provided\n'}
+[3.203016] (udemy_ros2_pkg) StderrLine: {'line': b'   17 |             speed_publisher_ = \x1b[01;36m\x1b[Kthis->create_subscription<std_msgs::msg::Float64>(\x1b[m\x1b[K\n'}
+[3.203103] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.203200] (udemy_ros2_pkg) StderrLine: {'line': b'   18 | \x1b[01;36m\x1b[K                "speed", 10\x1b[m\x1b[K\n'}
+[3.203282] (udemy_ros2_pkg) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K                                                      \n'}
+[3.203378] (udemy_ros2_pkg) StderrLine: {'line': b'   19 | \x1b[01;36m\x1b[K                )\x1b[m\x1b[K;\n'}
+[3.203468] (udemy_ros2_pkg) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~\x1b[m\x1b[K                                                                \n'}
+[3.203562] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:20:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [30]\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator<<\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.203663] (udemy_ros2_pkg) StderrLine: {'line': b'   20 |                 \x1b[01;31m\x1b[Kstd::count<<"Speed Calc Node Is Running..."\x1b[m\x1b[K<<std::endl;\n'}
+[3.203759] (udemy_ros2_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.206736] (-) TimerEvent: {}
+[3.307051] (-) TimerEvent: {}
+[3.407288] (-) TimerEvent: {}
+[3.507537] (-) TimerEvent: {}
+[3.607795] (-) TimerEvent: {}
+[3.708061] (-) TimerEvent: {}
+[3.808339] (-) TimerEvent: {}
+[3.908616] (-) TimerEvent: {}
+[4.008859] (-) TimerEvent: {}
+[4.109117] (-) TimerEvent: {}
+[4.209361] (-) TimerEvent: {}
+[4.309614] (-) TimerEvent: {}
+[4.409895] (-) TimerEvent: {}
+[4.510151] (-) TimerEvent: {}
+[4.610436] (-) TimerEvent: {}
+[4.710638] (-) TimerEvent: {}
+[4.810879] (-) TimerEvent: {}
+[4.911194] (-) TimerEvent: {}
+[5.011461] (-) TimerEvent: {}
+[5.111757] (-) TimerEvent: {}
+[5.211993] (-) TimerEvent: {}
+[5.312348] (-) TimerEvent: {}
+[5.316688] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/speed_calc.dir/build.make:76: CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o] Error 1\n'}
+[5.317015] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/speed_calc.dir/all] Error 2\n'}
+[5.317326] (udemy_ros2_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.319435] (udemy_ros2_pkg) CommandEnded: {'returncode': 2}
+[5.371813] (udemy_ros2_pkg) JobEnded: {'identifier': 'udemy_ros2_pkg', 'rc': 2}
+[5.382296] (-) EventReactorShutdown: {}

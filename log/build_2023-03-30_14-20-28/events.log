@@ -1,0 +1,533 @@
+[0.000000] (-) TimerEvent: {}
+[0.000091] (udemy_ros2_pkg) JobQueued: {'identifier': 'udemy_ros2_pkg', 'dependencies': OrderedDict()}
+[0.000117] (udemy_ros2_pkg) JobStarted: {'identifier': 'udemy_ros2_pkg'}
+[0.039731] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'cmake'}
+[0.054072] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'build'}
+[0.055414] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/serhat/workspaces/build/udemy_ros2_pkg', '--', '-j12', '-l12'], 'cwd': '/home/serhat/workspaces/build/udemy_ros2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'serhat'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/serhat/workspaces/install/udemy_ros2_pkg/lib:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/serhat'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/serhat'), ('TERM_PROGRAM_VERSION', '1.76.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/122/usr/share/code/code'), ('MANAGERPID', '1302'), ('SYSTEMD_EXEC_PID', '1497'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5711'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/serhat/workspaces/install:/home/serhat/workspaces/ros2_cpp_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'serhat'), ('JOURNAL_STREAM', '8:35963'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'serhat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/serhat-ABRA-A5-V15-2:@/tmp/.ICE-unix/1464,unix/serhat-ABRA-A5-V15-2:/tmp/.ICE-unix/1464'), ('INVOCATION_ID', 'bec77f3867f0488bbbbe939652798575'), ('XDG_MENU_PREFIX', 'gnome-'), ('RMW_IMLEMENTATION', 'rmw_cyclonedds_cpp'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CQZP21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-287faa05ef.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/122/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:792cbab4-ed0a-436d-9803-90056dc50caf'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/serhat/workspaces/build/udemy_ros2_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099171] (-) TimerEvent: {}
+[0.199612] (-) TimerEvent: {}
+[0.299835] (-) TimerEvent: {}
+[0.400321] (-) TimerEvent: {}
+[0.455354] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500467] (-) TimerEvent: {}
+[0.600780] (-) TimerEvent: {}
+[0.682006] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700949] (-) TimerEvent: {}
+[0.788168] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.801078] (-) TimerEvent: {}
+[0.901623] (-) TimerEvent: {}
+[1.002160] (-) TimerEvent: {}
+[1.102486] (-) TimerEvent: {}
+[1.168660] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.193668] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.202634] (-) TimerEvent: {}
+[1.232237] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.288632] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.302772] (-) TimerEvent: {}
+[1.340305] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.403018] (-) TimerEvent: {}
+[1.465772] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.476134] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.503140] (-) TimerEvent: {}
+[1.603477] (-) TimerEvent: {}
+[1.703768] (-) TimerEvent: {}
+[1.803069] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.803859] (-) TimerEvent: {}
+[1.904157] (-) TimerEvent: {}
+[2.004774] (-) TimerEvent: {}
+[2.105116] (-) TimerEvent: {}
+[2.168495] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.197891] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.205287] (-) TimerEvent: {}
+[2.305945] (-) TimerEvent: {}
+[2.406287] (-) TimerEvent: {}
+[2.428738] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.469510] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[2.506418] (-) TimerEvent: {}
+[2.606710] (-) TimerEvent: {}
+[2.706969] (-) TimerEvent: {}
+[2.807190] (-) TimerEvent: {}
+[2.907426] (-) TimerEvent: {}
+[3.007714] (-) TimerEvent: {}
+[3.107972] (-) TimerEvent: {}
+[3.114423] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.5 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[3.127062] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.5 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[3.144196] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.5 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[3.172438] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.208193] (-) TimerEvent: {}
+[3.308803] (-) TimerEvent: {}
+[3.409035] (-) TimerEvent: {}
+[3.509272] (-) TimerEvent: {}
+[3.609513] (-) TimerEvent: {}
+[3.709772] (-) TimerEvent: {}
+[3.810052] (-) TimerEvent: {}
+[3.847597] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.910168] (-) TimerEvent: {}
+[4.010405] (-) TimerEvent: {}
+[4.036225] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.108982] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.110516] (-) TimerEvent: {}
+[4.192005] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.192466] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.192743] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.210700] (-) TimerEvent: {}
+[4.311382] (-) TimerEvent: {}
+[4.336208] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.5 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[4.340826] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.5 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[4.364482] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.411626] (-) TimerEvent: {}
+[4.448131] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.450066] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.450406] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.454794] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.454990] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.471569] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.471806] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.472412] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.473299] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.474469] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.475369] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.493358] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.511727] (-) TimerEvent: {}
+[4.612019] (-) TimerEvent: {}
+[4.712300] (-) TimerEvent: {}
+[4.812542] (-) TimerEvent: {}
+[4.905019] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[4.909486] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/serhat/workspaces/build/udemy_ros2_pkg\n'}
+[4.912676] (-) TimerEvent: {}
+[4.943098] (udemy_ros2_pkg) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.947171] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher\x1b[0m\n'}
+[4.960316] (udemy_ros2_pkg) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_udemy_ros2_pkg\n'}
+[4.966166] (udemy_ros2_pkg) StdoutLine: {'line': b'[  4%] Built target publisher\n'}
+[4.970443] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target speed_calc\x1b[0m\n'}
+[4.976759] (udemy_ros2_pkg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.980482] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber\x1b[0m\n'}
+[4.992973] (udemy_ros2_pkg) StdoutLine: {'line': b'[  9%] Built target speed_calc\n'}
+[4.998446] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rpm_pub\x1b[0m\n'}
+[5.002328] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 12%] Built target subscriber\n'}
+[5.012849] (-) TimerEvent: {}
+[5.018744] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 15%] Built target rpm_pub\n'}
+[5.112979] (-) TimerEvent: {}
+[5.213288] (-) TimerEvent: {}
+[5.285652] (udemy_ros2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.286414] (udemy_ros2_pkg) StdoutLine: {'line': b'writing udemy_ros2_pkg.egg-info/PKG-INFO\n'}
+[5.286659] (udemy_ros2_pkg) StdoutLine: {'line': b'writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt\n'}
+[5.286871] (udemy_ros2_pkg) StdoutLine: {'line': b'writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt\n'}
+[5.294926] (udemy_ros2_pkg) StdoutLine: {'line': b"reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'\n"}
+[5.295746] (udemy_ros2_pkg) StdoutLine: {'line': b"writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'\n"}
+[5.313367] (-) TimerEvent: {}
+[5.328669] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg\n'}
+[5.413489] (-) TimerEvent: {}
+[5.513740] (-) TimerEvent: {}
+[5.614072] (-) TimerEvent: {}
+[5.714128] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 15%] Built target udemy_ros2_pkg__cpp\n'}
+[5.714330] (-) TimerEvent: {}
+[5.725972] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.727250] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.728675] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.814460] (-) TimerEvent: {}
+[5.869226] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_generator_c\x1b[0m\n'}
+[5.884373] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.o\x1b[0m\n'}
+[5.884691] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.o\x1b[0m\n'}
+[5.884866] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.o\x1b[0m\n'}
+[5.914543] (-) TimerEvent: {}
+[6.014783] (-) TimerEvent: {}
+[6.115082] (-) TimerEvent: {}
+[6.215311] (-) TimerEvent: {}
+[6.315505] (-) TimerEvent: {}
+[6.415832] (-) TimerEvent: {}
+[6.422696] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.441997] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/udemy_ros2_pkg/srv/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[6.442625] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/udemy_ros2_pkg/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[6.443091] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/udemy_ros2_pkg/srv/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[6.515957] (-) TimerEvent: {}
+[6.616263] (-) TimerEvent: {}
+[6.676945] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.684373] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.713548] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/udemy_ros2_pkg/srv/detail/dds_fastrtps/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[6.714913] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/udemy_ros2_pkg/srv/detail/dds_fastrtps/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[6.716347] (-) TimerEvent: {}
+[6.717005] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/udemy_ros2_pkg/action/detail/dds_fastrtps/navigate__type_support.cpp.o\x1b[0m\n'}
+[6.722754] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/udemy_ros2_pkg/srv/detail/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[6.726779] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/udemy_ros2_pkg/action/detail/navigate__type_support.cpp.o\x1b[0m\n'}
+[6.728595] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[6.816467] (-) TimerEvent: {}
+[6.916752] (-) TimerEvent: {}
+[7.017027] (-) TimerEvent: {}
+[7.117340] (-) TimerEvent: {}
+[7.217618] (-) TimerEvent: {}
+[7.317802] (-) TimerEvent: {}
+[7.418039] (-) TimerEvent: {}
+[7.518287] (-) TimerEvent: {}
+[7.618547] (-) TimerEvent: {}
+[7.718804] (-) TimerEvent: {}
+[7.819079] (-) TimerEvent: {}
+[7.919315] (-) TimerEvent: {}
+[8.019654] (-) TimerEvent: {}
+[8.119866] (-) TimerEvent: {}
+[8.220107] (-) TimerEvent: {}
+[8.320486] (-) TimerEvent: {}
+[8.420853] (-) TimerEvent: {}
+[8.521131] (-) TimerEvent: {}
+[8.606464] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libudemy_ros2_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[8.621200] (-) TimerEvent: {}
+[8.721478] (-) TimerEvent: {}
+[8.821798] (-) TimerEvent: {}
+[8.922078] (-) TimerEvent: {}
+[9.022349] (-) TimerEvent: {}
+[9.122651] (-) TimerEvent: {}
+[9.222933] (-) TimerEvent: {}
+[9.323208] (-) TimerEvent: {}
+[9.423666] (-) TimerEvent: {}
+[9.523949] (-) TimerEvent: {}
+[9.624237] (-) TimerEvent: {}
+[9.648399] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 41%] Built target udemy_ros2_pkg__rosidl_generator_c\n'}
+[9.666828] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.667690] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.668090] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.724335] (-) TimerEvent: {}
+[9.824945] (-) TimerEvent: {}
+[9.925328] (-) TimerEvent: {}
+[9.962002] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libudemy_ros2_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.025424] (-) TimerEvent: {}
+[10.041884] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libudemy_ros2_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.125514] (-) TimerEvent: {}
+[10.225803] (-) TimerEvent: {}
+[10.246051] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libudemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.281643] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 50%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp\n'}
+[10.315660] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_server\x1b[0m\n'}
+[10.321871] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turn_camera_service\x1b[0m\n'}
+[10.327335] (-) TimerEvent: {}
+[10.336740] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turn_camera_client\x1b[0m\n'}
+[10.340377] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 50%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp\n'}
+[10.344274] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o\x1b[0m\n'}
+[10.347455] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_client\x1b[0m\n'}
+[10.363360] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turn_camera_service.dir/src/turn_camera_service.cpp.o\x1b[0m\n'}
+[10.374014] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/turn_camera_client.dir/src/turn_camera_client.cpp.o\x1b[0m\n'}
+[10.390107] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o\x1b[0m\n'}
+[10.427434] (-) TimerEvent: {}
+[10.431493] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 57%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[10.457342] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_c\x1b[0m\n'}
+[10.488473] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/udemy_ros2_pkg/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[10.489361] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/udemy_ros2_pkg/srv/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[10.493770] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/udemy_ros2_pkg/srv/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[10.527553] (-) TimerEvent: {}
+[10.627874] (-) TimerEvent: {}
+[10.678180] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libudemy_ros2_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.728007] (-) TimerEvent: {}
+[10.803404] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 63%] Built target udemy_ros2_pkg__rosidl_typesupport_c\n'}
+[10.810519] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.828111] (-) TimerEvent: {}
+[10.829261] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/udemy_ros2_pkg/action/detail/navigate__type_support_c.cpp.o\x1b[0m\n'}
+[10.829543] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/udemy_ros2_pkg/srv/detail/turn_camera__type_support_c.cpp.o\x1b[0m\n'}
+[10.829690] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/udemy_ros2_pkg/srv/detail/odd_even_check__type_support_c.cpp.o\x1b[0m\n'}
+[10.870271] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[10.886991] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.c.o\x1b[0m\n'}
+[10.887236] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/udemy_ros2_pkg/srv/detail/turn_camera__type_support.c.o\x1b[0m\n'}
+[10.889373] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/udemy_ros2_pkg/action/detail/navigate__type_support.c.o\x1b[0m\n'}
+[10.928211] (-) TimerEvent: {}
+[11.028488] (-) TimerEvent: {}
+[11.086835] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking C shared library libudemy_ros2_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.128578] (-) TimerEvent: {}
+[11.215379] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 74%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c\n'}
+[11.228683] (-) TimerEvent: {}
+[11.328988] (-) TimerEvent: {}
+[11.429267] (-) TimerEvent: {}
+[11.529629] (-) TimerEvent: {}
+[11.629983] (-) TimerEvent: {}
+[11.675443] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libudemy_ros2_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.730086] (-) TimerEvent: {}
+[11.830410] (-) TimerEvent: {}
+[11.873685] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 76%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c\n'}
+[11.915930] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 76%] Built target udemy_ros2_pkg\n'}
+[11.930534] (-) TimerEvent: {}
+[11.939959] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.030626] (-) TimerEvent: {}
+[12.130933] (-) TimerEvent: {}
+[12.231255] (-) TimerEvent: {}
+[12.331548] (-) TimerEvent: {}
+[12.432134] (-) TimerEvent: {}
+[12.532428] (-) TimerEvent: {}
+[12.632842] (-) TimerEvent: {}
+[12.733297] (-) TimerEvent: {}
+[12.833611] (-) TimerEvent: {}
+[12.933868] (-) TimerEvent: {}
+[13.034107] (-) TimerEvent: {}
+[13.134397] (-) TimerEvent: {}
+[13.234762] (-) TimerEvent: {}
+[13.335048] (-) TimerEvent: {}
+[13.435341] (-) TimerEvent: {}
+[13.535962] (-) TimerEvent: {}
+[13.633207] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 77%] Built target udemy_ros2_pkg__py\n'}
+[13.636050] (-) TimerEvent: {}
+[13.685955] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_generator_py\x1b[0m\n'}
+[13.703852] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_py.dir/rosidl_generator_py/udemy_ros2_pkg/srv/_turn_camera_s.c.o\x1b[0m\n'}
+[13.704125] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_py.dir/rosidl_generator_py/udemy_ros2_pkg/action/_navigate_s.c.o\x1b[0m\n'}
+[13.705678] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_py.dir/rosidl_generator_py/udemy_ros2_pkg/srv/_odd_even_check_s.c.o\x1b[0m\n'}
+[13.736146] (-) TimerEvent: {}
+[13.836419] (-) TimerEvent: {}
+[13.936738] (-) TimerEvent: {}
+[14.037043] (-) TimerEvent: {}
+[14.137374] (-) TimerEvent: {}
+[14.237710] (-) TimerEvent: {}
+[14.279977] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/udemy_ros2_pkg/libudemy_ros2_pkg__rosidl_generator_py.so\x1b[0m\n'}
+[14.337817] (-) TimerEvent: {}
+[14.402053] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 84%] Built target udemy_ros2_pkg__rosidl_generator_py\n'}
+[14.425897] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[14.436113] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[14.437900] (-) TimerEvent: {}
+[14.442967] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.453571] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.466587] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[14.487960] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.538014] (-) TimerEvent: {}
+[14.638752] (-) TimerEvent: {}
+[14.739109] (-) TimerEvent: {}
+[14.839503] (-) TimerEvent: {}
+[14.940003] (-) TimerEvent: {}
+[14.951223] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.955535] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.023063] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.032943] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 93%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[15.039824] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 93%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.040054] (-) TimerEvent: {}
+[15.112159] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 93%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext\n'}
+[15.140162] (-) TimerEvent: {}
+[15.240433] (-) TimerEvent: {}
+[15.340867] (-) TimerEvent: {}
+[15.441193] (-) TimerEvent: {}
+[15.541477] (-) TimerEvent: {}
+[15.641785] (-) TimerEvent: {}
+[15.742125] (-) TimerEvent: {}
+[15.842482] (-) TimerEvent: {}
+[15.942839] (-) TimerEvent: {}
+[16.043247] (-) TimerEvent: {}
+[16.143653] (-) TimerEvent: {}
+[16.243921] (-) TimerEvent: {}
+[16.344243] (-) TimerEvent: {}
+[16.444590] (-) TimerEvent: {}
+[16.544860] (-) TimerEvent: {}
+[16.645204] (-) TimerEvent: {}
+[16.745557] (-) TimerEvent: {}
+[16.845914] (-) TimerEvent: {}
+[16.946209] (-) TimerEvent: {}
+[17.046529] (-) TimerEvent: {}
+[17.146880] (-) TimerEvent: {}
+[17.247199] (-) TimerEvent: {}
+[17.347500] (-) TimerEvent: {}
+[17.447854] (-) TimerEvent: {}
+[17.548187] (-) TimerEvent: {}
+[17.648538] (-) TimerEvent: {}
+[17.748805] (-) TimerEvent: {}
+[17.849189] (-) TimerEvent: {}
+[17.949514] (-) TimerEvent: {}
+[18.049855] (-) TimerEvent: {}
+[18.072096] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable service_client\x1b[0m\n'}
+[18.076404] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable service_server\x1b[0m\n'}
+[18.149952] (-) TimerEvent: {}
+[18.250215] (-) TimerEvent: {}
+[18.350577] (-) TimerEvent: {}
+[18.439756] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable turn_camera_client\x1b[0m\n'}
+[18.450640] (-) TimerEvent: {}
+[18.550894] (-) TimerEvent: {}
+[18.651112] (-) TimerEvent: {}
+[18.751382] (-) TimerEvent: {}
+[18.753682] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turn_camera_service\x1b[0m\n'}
+[18.851484] (-) TimerEvent: {}
+[18.950550] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] Built target service_server\n'}
+[18.951556] (-) TimerEvent: {}
+[18.978118] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] Built target service_client\n'}
+[19.051688] (-) TimerEvent: {}
+[19.151962] (-) TimerEvent: {}
+[19.252215] (-) TimerEvent: {}
+[19.352479] (-) TimerEvent: {}
+[19.452815] (-) TimerEvent: {}
+[19.553080] (-) TimerEvent: {}
+[19.653335] (-) TimerEvent: {}
+[19.753548] (-) TimerEvent: {}
+[19.853801] (-) TimerEvent: {}
+[19.954051] (-) TimerEvent: {}
+[20.054324] (-) TimerEvent: {}
+[20.154621] (-) TimerEvent: {}
+[20.254868] (-) TimerEvent: {}
+[20.355156] (-) TimerEvent: {}
+[20.455371] (-) TimerEvent: {}
+[20.555658] (-) TimerEvent: {}
+[20.646829] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] Built target turn_camera_service\n'}
+[20.655784] (-) TimerEvent: {}
+[20.692368] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] Built target turn_camera_client\n'}
+[20.703042] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[20.755925] (-) TimerEvent: {}
+[20.835571] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'install'}
+[20.844334] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/serhat/workspaces/build/udemy_ros2_pkg'], 'cwd': '/home/serhat/workspaces/build/udemy_ros2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'serhat'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/serhat/workspaces/install/udemy_ros2_pkg/lib:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/serhat'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/serhat'), ('TERM_PROGRAM_VERSION', '1.76.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/122/usr/share/code/code'), ('MANAGERPID', '1302'), ('SYSTEMD_EXEC_PID', '1497'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5711'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/serhat/workspaces/install:/home/serhat/workspaces/ros2_cpp_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'serhat'), ('JOURNAL_STREAM', '8:35963'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'serhat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/serhat-ABRA-A5-V15-2:@/tmp/.ICE-unix/1464,unix/serhat-ABRA-A5-V15-2:/tmp/.ICE-unix/1464'), ('INVOCATION_ID', 'bec77f3867f0488bbbbe939652798575'), ('XDG_MENU_PREFIX', 'gnome-'), ('RMW_IMLEMENTATION', 'rmw_cyclonedds_cpp'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CQZP21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-287faa05ef.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/122/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:792cbab4-ed0a-436d-9803-90056dc50caf'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/serhat/workspaces/build/udemy_ros2_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[20.851699] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[20.852157] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.852416] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/rosidl_interfaces/udemy_ros2_pkg\n'}
+[20.853087] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__functions.h\n'}
+[20.855995] (-) TimerEvent: {}
+[20.862344] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__struct.h\n'}
+[20.869987] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__type_support.h\n'}
+[20.882159] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/navigate.h\n'}
+[20.892200] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.892462] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__functions.h\n'}
+[20.892566] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__struct.h\n'}
+[20.892725] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.h\n'}
+[20.892838] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__functions.h\n'}
+[20.893058] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__struct.h\n'}
+[20.893236] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__type_support.h\n'}
+[20.893514] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/odd_even_check.h\n'}
+[20.893679] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/turn_camera.h\n'}
+[20.893902] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/library_path.sh\n'}
+[20.894107] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/library_path.dsv\n'}
+[20.894674] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_c.h\n'}
+[20.903727] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.903988] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h\n'}
+[20.904087] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_c.h\n'}
+[20.904413] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__builder.hpp\n'}
+[20.913144] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__struct.hpp\n'}
+[20.920603] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__traits.hpp\n'}
+[20.929383] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/navigate.hpp\n'}
+[20.936799] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__builder.hpp\n'}
+[20.937091] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__struct.hpp\n'}
+[20.937285] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__traits.hpp\n'}
+[20.937502] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__builder.hpp\n'}
+[20.937684] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__struct.hpp\n'}
+[20.937836] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__traits.hpp\n'}
+[20.937973] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/odd_even_check.hpp\n'}
+[20.938095] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/turn_camera.hpp\n'}
+[20.938905] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.946435] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.946734] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.946868] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.947251] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_introspection_c.h\n'}
+[20.955240] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.955517] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_c.h\n'}
+[20.955659] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_c.h\n'}
+[20.956039] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.956172] (-) TimerEvent: {}
+[20.964553] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.964823] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.965068] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh\n'}
+[20.965192] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv\n'}
+[20.965579] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[20.965850] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[20.966004] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[20.966187] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[20.968438] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/__init__.py\n'}
+[20.968722] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_c.c\n'}
+[20.968837] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.968962] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.969069] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/__init__.py\n'}
+[20.979564] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/_navigate.py\n'}
+[20.988458] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/_navigate_s.c\n'}
+[20.998976] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/libudemy_ros2_pkg__rosidl_generator_py.so\n'}
+[20.999199] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/__init__.py\n'}
+[20.999360] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_odd_even_check.py\n'}
+[20.999519] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_odd_even_check_s.c\n'}
+[20.999710] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_turn_camera.py\n'}
+[20.999904] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_turn_camera_s.c\n'}
+[21.000093] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.000282] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.000470] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.000958] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.001438] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.001935] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.002184] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck.idl\n'}
+[21.002430] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera.idl\n'}
+[21.002716] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/action/Navigate.idl\n'}
+[21.012166] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck.srv\n'}
+[21.012516] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck_Request.msg\n'}
+[21.012809] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck_Response.msg\n'}
+[21.013044] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera.srv\n'}
+[21.013297] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera_Request.msg\n'}
+[21.013544] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera_Response.msg\n'}
+[21.013701] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/action/Navigate.action\n'}
+[21.022190] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher\n'}
+[21.022404] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber\n'}
+[21.022575] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/rpm_pub\n'}
+[21.022742] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/speed_calc\n'}
+[21.022949] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/service_server\n'}
+[21.023160] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/service_client\n'}
+[21.023343] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/turn_camera_service\n'}
+[21.023549] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/turn_camera_client\n'}
+[21.024036] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/launch_project.launch.py\n'}
+[21.024184] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/rpm_node.launch.py\n'}
+[21.024438] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg\n'}
+[21.024670] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg\n'}
+[21.024964] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh\n'}
+[21.025242] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[21.025496] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh\n'}
+[21.025765] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv\n'}
+[21.026003] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash\n'}
+[21.026209] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh\n'}
+[21.026486] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh\n'}
+[21.026749] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv\n'}
+[21.026936] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv\n'}
+[21.035103] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg\n'}
+[21.035348] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[21.035520] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.035727] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.035942] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.036179] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[21.036392] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[21.036589] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[21.036805] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake\n'}
+[21.037016] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake\n'}
+[21.037225] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml\n'}
+[21.053211] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_generator_c.so\n'}
+[21.054180] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_generator_c.so" to ""\n'}
+[21.056246] (-) TimerEvent: {}
+[21.070216] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[21.071275] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[21.086320] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[21.087242] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[21.087781] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_introspection_c.so\n'}
+[21.088397] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[21.088804] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_c.so\n'}
+[21.089328] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_c.so" to ""\n'}
+[21.102974] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[21.103752] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[21.104274] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_cpp.so\n'}
+[21.104825] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_cpp.so" to ""\n'}
+[21.156341] (-) TimerEvent: {}
+[21.179292] (udemy_ros2_pkg) StdoutLine: {'line': b"Listing '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg'...\n"}
+[21.179496] (udemy_ros2_pkg) StdoutLine: {'line': b"Compiling '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/__init__.py'...\n"}
+[21.179628] (udemy_ros2_pkg) StdoutLine: {'line': b"Listing '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action'...\n"}
+[21.179740] (udemy_ros2_pkg) StdoutLine: {'line': b"Compiling '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/__init__.py'...\n"}
+[21.179845] (udemy_ros2_pkg) StdoutLine: {'line': b"Compiling '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/_navigate.py'...\n"}
+[21.179952] (udemy_ros2_pkg) StdoutLine: {'line': b"Listing '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv'...\n"}
+[21.180065] (udemy_ros2_pkg) StdoutLine: {'line': b"Compiling '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/__init__.py'...\n"}
+[21.180171] (udemy_ros2_pkg) StdoutLine: {'line': b"Compiling '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_odd_even_check.py'...\n"}
+[21.180274] (udemy_ros2_pkg) StdoutLine: {'line': b"Compiling '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_turn_camera.py'...\n"}
+[21.183929] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_generator_py.so\n'}
+[21.184495] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/serhat/workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_generator_py.so" to ""\n'}
+[21.184665] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Old export file "/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cExport-relwithdebinfo.cmake].\n'}
+[21.184805] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cExport.cmake\n'}
+[21.184995] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cExport-relwithdebinfo.cmake\n'}
+[21.185223] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Old export file "/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cExport-relwithdebinfo.cmake].\n'}
+[21.185362] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[21.185505] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cExport-relwithdebinfo.cmake\n'}
+[21.185734] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cppExport.cmake\n'}
+[21.185959] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Old export file "/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cppExport-relwithdebinfo.cmake].\n'}
+[21.186103] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[21.186254] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cppExport-relwithdebinfo.cmake\n'}
+[21.186490] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Old export file "/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake].\n'}
+[21.186632] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[21.186771] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake\n'}
+[21.187030] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Old export file "/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cExport-relwithdebinfo.cmake].\n'}
+[21.187173] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cExport.cmake\n'}
+[21.187316] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cExport-relwithdebinfo.cmake\n'}
+[21.187549] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Old export file "/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake].\n'}
+[21.187690] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[21.187828] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake\n'}
+[21.188087] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Old export file "/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cppExport-relwithdebinfo.cmake].\n'}
+[21.188234] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[21.188386] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cppExport-relwithdebinfo.cmake\n'}
+[21.188602] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Old export file "/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_pyExport-relwithdebinfo.cmake].\n'}
+[21.188748] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_pyExport.cmake\n'}
+[21.188938] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_pyExport-relwithdebinfo.cmake\n'}
+[21.190914] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[21.256478] (-) TimerEvent: {}
+[21.356778] (-) TimerEvent: {}
+[21.419734] (udemy_ros2_pkg) JobEnded: {'identifier': 'udemy_ros2_pkg', 'rc': 0}
+[21.420398] (-) EventReactorShutdown: {}

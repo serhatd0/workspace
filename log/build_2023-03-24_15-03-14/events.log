@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000172] (udemy_ros2_pkg) JobQueued: {'identifier': 'udemy_ros2_pkg', 'dependencies': OrderedDict()}
+[0.000595] (udemy_ros2_pkg) JobStarted: {'identifier': 'udemy_ros2_pkg'}
+[0.009636] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'cmake'}
+[0.011165] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'build'}
+[0.011555] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/serhat/workspaces/build/udemy_ros2_pkg', '--', '-j12', '-l12'], 'cwd': '/home/serhat/workspaces/build/udemy_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'serhat'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/serhat'), ('OLDPWD', '/home/serhat'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1461'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/serhat/workspaces/install:/home/serhat/workspaces/ros2_cpp_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'serhat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'serhat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/serhat-ABRA-A5-V15-2:@/tmp/.ICE-unix/1432,unix/serhat-ABRA-A5-V15-2:/tmp/.ICE-unix/1432'), ('XDG_MENU_PREFIX', 'gnome-'), ('RMW_IMLEMENTATION', 'rmw_cyclonedds_cpp'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a3efb22c_2cae_4ec6_880f_a1c0d6d86ca6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VCO011'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/serhat/workspaces/build/udemy_ros2_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[0.044049] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber\x1b[0m\n'}
+[0.054512] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 50%] Built target publisher\n'}
+[0.060258] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.098728] (-) TimerEvent: {}
+[0.199312] (-) TimerEvent: {}
+[0.299585] (-) TimerEvent: {}
+[0.399843] (-) TimerEvent: {}
+[0.500112] (-) TimerEvent: {}
+[0.600385] (-) TimerEvent: {}
+[0.700645] (-) TimerEvent: {}
+[0.800912] (-) TimerEvent: {}
+[0.901180] (-) TimerEvent: {}
+[1.001433] (-) TimerEvent: {}
+[1.101708] (-) TimerEvent: {}
+[1.201967] (-) TimerEvent: {}
+[1.302259] (-) TimerEvent: {}
+[1.402516] (-) TimerEvent: {}
+[1.502830] (-) TimerEvent: {}
+[1.603103] (-) TimerEvent: {}
+[1.703379] (-) TimerEvent: {}
+[1.803639] (-) TimerEvent: {}
+[1.903956] (-) TimerEvent: {}
+[2.004206] (-) TimerEvent: {}
+[2.104493] (-) TimerEvent: {}
+[2.204776] (-) TimerEvent: {}
+[2.305015] (-) TimerEvent: {}
+[2.405300] (-) TimerEvent: {}
+[2.505594] (-) TimerEvent: {}
+[2.605844] (-) TimerEvent: {}
+[2.706135] (-) TimerEvent: {}
+[2.806472] (-) TimerEvent: {}
+[2.906766] (-) TimerEvent: {}
+[3.007059] (-) TimerEvent: {}
+[3.107299] (-) TimerEvent: {}
+[3.207626] (-) TimerEvent: {}
+[3.307867] (-) TimerEvent: {}
+[3.408165] (-) TimerEvent: {}
+[3.508433] (-) TimerEvent: {}
+[3.608738] (-) TimerEvent: {}
+[3.709013] (-) TimerEvent: {}
+[3.809274] (-) TimerEvent: {}
+[3.909542] (-) TimerEvent: {}
+[4.009812] (-) TimerEvent: {}
+[4.110086] (-) TimerEvent: {}
+[4.210358] (-) TimerEvent: {}
+[4.310620] (-) TimerEvent: {}
+[4.410879] (-) TimerEvent: {}
+[4.511137] (-) TimerEvent: {}
+[4.611391] (-) TimerEvent: {}
+[4.711647] (-) TimerEvent: {}
+[4.811897] (-) TimerEvent: {}
+[4.912151] (-) TimerEvent: {}
+[5.012421] (-) TimerEvent: {}
+[5.112717] (-) TimerEvent: {}
+[5.212984] (-) TimerEvent: {}
+[5.313240] (-) TimerEvent: {}
+[5.413500] (-) TimerEvent: {}
+[5.513765] (-) TimerEvent: {}
+[5.614032] (-) TimerEvent: {}
+[5.714295] (-) TimerEvent: {}
+[5.814563] (-) TimerEvent: {}
+[5.914834] (-) TimerEvent: {}
+[6.015143] (-) TimerEvent: {}
+[6.115409] (-) TimerEvent: {}
+[6.215682] (-) TimerEvent: {}
+[6.315939] (-) TimerEvent: {}
+[6.416198] (-) TimerEvent: {}
+[6.516456] (-) TimerEvent: {}
+[6.616753] (-) TimerEvent: {}
+[6.717045] (-) TimerEvent: {}
+[6.817302] (-) TimerEvent: {}
+[6.917557] (-) TimerEvent: {}
+[7.017822] (-) TimerEvent: {}
+[7.118084] (-) TimerEvent: {}
+[7.218379] (-) TimerEvent: {}
+[7.318635] (-) TimerEvent: {}
+[7.418928] (-) TimerEvent: {}
+[7.519180] (-) TimerEvent: {}
+[7.619472] (-) TimerEvent: {}
+[7.719732] (-) TimerEvent: {}
+[7.820026] (-) TimerEvent: {}
+[7.920300] (-) TimerEvent: {}
+[8.020564] (-) TimerEvent: {}
+[8.120848] (-) TimerEvent: {}
+[8.221152] (-) TimerEvent: {}
+[8.321415] (-) TimerEvent: {}
+[8.421709] (-) TimerEvent: {}
+[8.521963] (-) TimerEvent: {}
+[8.622252] (-) TimerEvent: {}
+[8.722511] (-) TimerEvent: {}
+[8.822803] (-) TimerEvent: {}
+[8.923064] (-) TimerEvent: {}
+[9.023324] (-) TimerEvent: {}
+[9.123616] (-) TimerEvent: {}
+[9.223870] (-) TimerEvent: {}
+[9.324199] (-) TimerEvent: {}
+[9.424496] (-) TimerEvent: {}
+[9.524848] (-) TimerEvent: {}
+[9.625134] (-) TimerEvent: {}
+[9.725450] (-) TimerEvent: {}
+[9.825742] (-) TimerEvent: {}
+[9.926053] (-) TimerEvent: {}
+[10.026313] (-) TimerEvent: {}
+[10.126630] (-) TimerEvent: {}
+[10.227286] (-) TimerEvent: {}
+[10.327681] (-) TimerEvent: {}
+[10.428252] (-) TimerEvent: {}
+[10.528535] (-) TimerEvent: {}
+[10.628820] (-) TimerEvent: {}
+[10.729143] (-) TimerEvent: {}
+[10.829387] (-) TimerEvent: {}
+[10.929627] (-) TimerEvent: {}
+[11.029884] (-) TimerEvent: {}
+[11.130164] (-) TimerEvent: {}
+[11.230458] (-) TimerEvent: {}
+[11.289840] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[11.330547] (-) TimerEvent: {}
+[11.430836] (-) TimerEvent: {}
+[11.499754] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[11.508577] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[11.530161] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'install'}
+[11.530948] (-) TimerEvent: {}
+[11.538046] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/serhat/workspaces/build/udemy_ros2_pkg'], 'cwd': '/home/serhat/workspaces/build/udemy_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'serhat'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/serhat'), ('OLDPWD', '/home/serhat'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1461'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/serhat/workspaces/install:/home/serhat/workspaces/ros2_cpp_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'serhat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'serhat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/serhat-ABRA-A5-V15-2:@/tmp/.ICE-unix/1432,unix/serhat-ABRA-A5-V15-2:/tmp/.ICE-unix/1432'), ('XDG_MENU_PREFIX', 'gnome-'), ('RMW_IMLEMENTATION', 'rmw_cyclonedds_cpp'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a3efb22c_2cae_4ec6_880f_a1c0d6d86ca6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VCO011'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/serhat/workspaces/build/udemy_ros2_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[11.543022] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[11.543386] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.543749] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher\n'}
+[11.543964] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber\n'}
+[11.550400] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg\n'}
+[11.550613] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg\n'}
+[11.550698] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh\n'}
+[11.550788] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[11.550948] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh\n'}
+[11.551147] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv\n'}
+[11.551249] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash\n'}
+[11.551311] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh\n'}
+[11.551387] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh\n'}
+[11.551538] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv\n'}
+[11.551634] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv\n'}
+[11.558180] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg\n'}
+[11.558372] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake\n'}
+[11.558480] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake\n'}
+[11.558552] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml\n'}
+[11.560861] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[11.605219] (udemy_ros2_pkg) JobEnded: {'identifier': 'udemy_ros2_pkg', 'rc': 0}
+[11.605828] (-) EventReactorShutdown: {}

@@ -1,0 +1,31 @@
+[  1%] Built target udemy_ros2_pkg__cpp
+[  9%] Built target udemy_ros2_pkg__rosidl_generator_c
+[ 12%] Built target rpm_pub
+[ 18%] Built target speed_calc
+[ 18%] Built target publisher
+[ 21%] Built target subscriber
+[ 21%] Built target ament_cmake_python_symlink_udemy_ros2_pkg
+[ 36%] Built target udemy_ros2_pkg__rosidl_typesupport_c
+[ 36%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp
+[ 46%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp
+[ 52%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c
+[ 60%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[ 67%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c
+[ 69%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[ 69%] Built target udemy_ros2_pkg
+[ 72%] Built target service_client
+[ 75%] Built target turn_camera_client
+[ 78%] Built target service_server
+[ 81%] Built target turn_camera_service
+[ 83%] Built target udemy_ros2_pkg__py
+[ 89%] Built target udemy_ros2_pkg__rosidl_generator_py
+[ 92%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext
+[ 95%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext
+[ 98%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext
+running egg_info
+writing udemy_ros2_pkg.egg-info/PKG-INFO
+writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt
+writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt
+reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[ 98%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg

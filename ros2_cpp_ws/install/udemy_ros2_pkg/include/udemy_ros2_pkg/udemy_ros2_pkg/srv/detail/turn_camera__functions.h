@@ -1,0 +1,1 @@
+/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.h

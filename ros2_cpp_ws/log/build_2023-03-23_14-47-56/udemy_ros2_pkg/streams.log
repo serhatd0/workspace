@@ -1,0 +1,53 @@
+[0.013s] Invoking command in '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j12 -l12
+[0.030s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.182s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.541s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.578s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.608s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.682s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.719s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.853s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.869s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.303s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.381s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.432s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.535s] -- Looking for pthread.h
+[1.640s] -- Looking for pthread.h - found
+[1.640s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.731s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.733s] -- Found Threads: TRUE  
+[2.013s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.072s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.072s] -- Configured cppcheck include dirs: 
+[2.072s] -- Configured cppcheck exclude dirs and/or files: 
+[2.073s] -- Added test 'lint_cmake' to check CMake code style
+[2.074s] -- Added test 'uncrustify' to check C / C++ code style
+[2.074s] -- Configured uncrustify additional arguments: 
+[2.074s] -- Added test 'xmllint' to check XML markup files
+[2.075s] -- Configuring done
+[2.115s] -- Generating done
+[2.118s] -- Build files have been written to: /home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg
+[2.156s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[6.011s] [100%] [32m[1mLinking CXX executable publisher[0m
+[6.845s] [100%] Built target publisher
+[6.854s] Invoked command in '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j12 -l12
+[6.883s] Invoking command in '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg
+[6.888s] -- Install configuration: ""
+[6.888s] -- Installing: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher
+[6.889s] -- Set runtime path of "/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher" to ""
+[6.890s] -- Installing: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[6.890s] -- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[6.890s] -- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[6.890s] -- Installing: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[6.890s] -- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[6.890s] -- Installing: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[6.890s] -- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[6.890s] -- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[6.890s] -- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[6.890s] -- Installing: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[6.890s] -- Installing: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[6.891s] -- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[6.891s] -- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[6.891s] -- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[6.891s] -- Installing: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[6.892s] Invoked command in '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg

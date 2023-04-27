@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:39 (ament_cmake_symlink_install):
+  Unknown CMake command "ament_cmake_symlink_install".
+
+[0m
+gmake: *** [Makefile:390: cmake_check_build_system] Error 1

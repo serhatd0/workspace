@@ -1,0 +1,30 @@
+[0.069s] Invoking command in '/home/serhat/workspaces/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/udemy_ros2_pkg -- -j12 -l12
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target rpm_pub[0m
+[0.119s] [ 66%] Built target publisher
+[0.120s] [ 66%] Built target subscriber
+[0.330s] [ 83%] [32mBuilding CXX object CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o[0m
+[7.151s] [100%] [32m[1mLinking CXX executable rpm_pub[0m
+[7.315s] [100%] Built target rpm_pub
+[7.326s] Invoked command in '/home/serhat/workspaces/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/udemy_ros2_pkg -- -j12 -l12
+[7.365s] Invoking command in '/home/serhat/workspaces/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspaces/build/udemy_ros2_pkg
+[7.372s] -- Install configuration: "RelWithDebInfo"
+[7.372s] -- Execute custom install script
+[7.372s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher
+[7.372s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber
+[7.373s] -- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/rpm_pub
+[7.380s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[7.380s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[7.381s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[7.381s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[7.381s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[7.381s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[7.381s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[7.381s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[7.381s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[7.382s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[7.382s] -- Symlinking: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[7.389s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[7.390s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[7.390s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[7.390s] -- Up-to-date symlink: /home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[7.392s] Invoked command in '/home/serhat/workspaces/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspaces/build/udemy_ros2_pkg

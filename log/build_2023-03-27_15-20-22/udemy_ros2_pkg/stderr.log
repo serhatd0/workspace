@@ -1,0 +1,4 @@
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:[m[K In member function ‘[01m[Kvoid SpeedCalcNode::calculate_and_pub_speed(const Float64&) const[m[K’:
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:30:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kwheel_radius_param[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   30 |             speed_msg.data=rpm_msg.data * ([01;35m[K2 * wheel_radius_param[m[K  * M_PI) / 60;
+      |                                            [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K

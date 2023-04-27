@@ -1,0 +1,18 @@
+[0.027s] Invoking command in '/home/serhat/workspaces/ros2_cpp_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/serhat/workspaces/ros2_cpp_ws/src/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/serhat/workspaces/ros2_cpp_ws/install/realsense2_camera
+[0.220s] [0mCMake Error: The source directory "/home/serhat/workspaces/ros2_cpp_ws/src/realsense2_camera" does not appear to contain CMakeLists.txt.
+[0.220s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.236s] Invoked command in '/home/serhat/workspaces/ros2_cpp_ws/build/realsense2_camera' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/serhat/workspaces/ros2_cpp_ws/src/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/serhat/workspaces/ros2_cpp_ws/install/realsense2_camera
+[0.240s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 112, in get_buildfile
+    if 'Ninja' in generator:
+TypeError: argument of type 'NoneType' is not iterable

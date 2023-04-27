@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000518] (udemy_ros2_pkg) JobQueued: {'identifier': 'udemy_ros2_pkg', 'dependencies': OrderedDict()}
+[0.000547] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.000564] (udemy_ros2_pkg) JobStarted: {'identifier': 'udemy_ros2_pkg'}
+[0.072134] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.099262] (-) TimerEvent: {}
+[0.199591] (-) TimerEvent: {}
+[0.273614] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'cmake'}
+[0.277103] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'build'}
+[0.279691] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', '--', '-j12', '-l12'], 'cwd': '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'serhat'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/serhat/workspaces/install/usb_cam/lib:/home/serhat/workspaces/install/udemy_ros2_pkg/lib:/home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/lib:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/serhat'), ('OLDPWD', '/home/serhat/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4386'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/serhat/workspaces/ros2_cpp_ws/install:/home/serhat/workspaces/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'serhat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'serhat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/serhat-ABRA-A5-V15-2:@/tmp/.ICE-unix/1458,unix/serhat-ABRA-A5-V15-2:/tmp/.ICE-unix/1458'), ('XDG_MENU_PREFIX', 'gnome-'), ('RMW_IMLEMENTATION', 'rmw_cyclonedds_cpp'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e3473bf_7dbc_4131_9485_5bf80cb0f6e2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D2S921'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/serhat/workspaces/install/usb_cam:/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/usb_cam:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/serhat/workspaces/install/usb_cam:/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/usb_cam:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[0.299800] (-) TimerEvent: {}
+[0.386914] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber\x1b[0m\n'}
+[0.396620] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[0.397289] (udemy_ros2_pkg) StdoutLine: {'line': b'[  1%] Built target udemy_ros2_pkg__cpp\n'}
+[0.397984] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[0.398444] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/serhat/workspaces/ros2_cpp_ws/build/usb_cam', '--', '-j12', '-l12'], 'cwd': '/home/serhat/workspaces/ros2_cpp_ws/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'serhat'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/serhat/workspaces/install/usb_cam/lib:/home/serhat/workspaces/install/udemy_ros2_pkg/lib:/home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/lib:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/serhat'), ('OLDPWD', '/home/serhat/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4386'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/serhat/workspaces/ros2_cpp_ws/install:/home/serhat/workspaces/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'serhat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'serhat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/serhat-ABRA-A5-V15-2:@/tmp/.ICE-unix/1458,unix/serhat-ABRA-A5-V15-2:/tmp/.ICE-unix/1458'), ('XDG_MENU_PREFIX', 'gnome-'), ('RMW_IMLEMENTATION', 'rmw_cyclonedds_cpp'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e3473bf_7dbc_4131_9485_5bf80cb0f6e2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D2S921'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/serhat/workspaces/install/usb_cam:/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/usb_cam:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/serhat/workspaces/ros2_cpp_ws/build/usb_cam'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/serhat/workspaces/install/usb_cam:/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/usb_cam:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[0.400697] (-) TimerEvent: {}
+[0.400831] (udemy_ros2_pkg) StdoutLine: {'line': b'[  8%] Built target udemy_ros2_pkg__rosidl_generator_c\n'}
+[0.403958] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 11%] Built target rpm_pub\n'}
+[0.407756] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 14%] Built target publisher\n'}
+[0.408751] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_symlink_udemy_ros2_pkg\n'}
+[0.414283] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 17%] Built target speed_calc\n'}
+[0.421174] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 20%] Built target subscriber\n'}
+[0.433227] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 28%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.433517] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 35%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp\n'}
+[0.439121] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 46%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c\n'}
+[0.439451] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 50%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c\n'}
+[0.442568] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 58%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp\n'}
+[0.445847] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 65%] Built target udemy_ros2_pkg__rosidl_typesupport_c\n'}
+[0.457034] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turn_camera_client\x1b[0m\n'}
+[0.461832] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_server\x1b[0m\n'}
+[0.462203] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turn_camera_service\x1b[0m\n'}
+[0.466104] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_client\x1b[0m\n'}
+[0.482879] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 68%] Built target service_server\n'}
+[0.485933] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 68%] Built target udemy_ros2_pkg\n'}
+[0.486584] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 71%] Built target service_client\n'}
+[0.492441] (usb_cam) StdoutLine: {'line': b'[ 14%] Built target gtest_main\n'}
+[0.493144] (usb_cam) StdoutLine: {'line': b'[ 28%] Built target gtest\n'}
+[0.496530] (usb_cam) StdoutLine: {'line': b'[ 42%] Built target usb_cam\n'}
+[0.500808] (-) TimerEvent: {}
+[0.506194] (usb_cam) StdoutLine: {'line': b'[ 57%] Built target usb_cam_node_exe\n'}
+[0.520268] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable turn_camera_client\x1b[0m\n'}
+[0.520467] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 74%] Built target udemy_ros2_pkg__py\n'}
+[0.532348] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable turn_camera_service\x1b[0m\n'}
+[0.532588] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o\x1b[0m\n'}
+[0.532777] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o\x1b[0m\n'}
+[0.533018] (usb_cam) StdoutLine: {'line': b'[ 71%] Built target test_usb_cam_utils\n'}
+[0.543958] (usb_cam) StdoutLine: {'line': b'[ 85%] Built target test_usb_cam_lib\n'}
+[0.556519] (usb_cam) StdoutLine: {'line': b'[100%] Built target usb_cam_node\n'}
+[0.559725] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 85%] Built target udemy_ros2_pkg__rosidl_generator_py\n'}
+[0.580807] (usb_cam) CommandEnded: {'returncode': 0}
+[0.600083] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 88%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext\n'}
+[0.600540] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 91%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[0.600876] (-) TimerEvent: {}
+[0.614192] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 94%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.640206] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'install'}
+[0.652016] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/serhat/workspaces/ros2_cpp_ws/build/usb_cam'], 'cwd': '/home/serhat/workspaces/ros2_cpp_ws/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'serhat'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/serhat/workspaces/install/usb_cam/lib:/home/serhat/workspaces/install/udemy_ros2_pkg/lib:/home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/lib:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/serhat'), ('OLDPWD', '/home/serhat/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4386'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/serhat/workspaces/ros2_cpp_ws/install:/home/serhat/workspaces/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'serhat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'serhat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/serhat-ABRA-A5-V15-2:@/tmp/.ICE-unix/1458,unix/serhat-ABRA-A5-V15-2:/tmp/.ICE-unix/1458'), ('XDG_MENU_PREFIX', 'gnome-'), ('RMW_IMLEMENTATION', 'rmw_cyclonedds_cpp'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e3473bf_7dbc_4131_9485_5bf80cb0f6e2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D2S921'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/serhat/workspaces/install/usb_cam:/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/usb_cam:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/serhat/workspaces/ros2_cpp_ws/build/usb_cam'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/serhat/workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/serhat/workspaces/install/usb_cam:/home/serhat/workspaces/install/udemy_ros2_pkg:/home/serhat/workspaces/ros2_cpp_ws/install/usb_cam:/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[0.660513] (usb_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.660736] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/environment/library_path.sh\n'}
+[0.660908] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv\n'}
+[0.661104] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe\n'}
+[0.661290] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/lib/usb_cam/show_image.py\n'}
+[0.661636] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/lib/libusb_cam.so\n'}
+[0.661969] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/lib/libusb_cam_node.so\n'}
+[0.662313] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/include\n'}
+[0.662539] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/include/usb_cam\n'}
+[0.662700] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/include/usb_cam/conversions.hpp\n'}
+[0.662888] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp\n'}
+[0.663047] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/include/usb_cam/utils.hpp\n'}
+[0.663196] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/include/usb_cam/constants.hpp\n'}
+[0.663397] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/include/usb_cam/usb_cam.hpp\n'}
+[0.663542] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/lib/libusb_cam_node.so\n'}
+[0.663777] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/launch\n'}
+[0.663961] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/launch/demo_launch.py\n'}
+[0.664206] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/config\n'}
+[0.664497] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml\n'}
+[0.664704] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/config/params.yaml\n'}
+[0.664935] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam\n'}
+[0.665193] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam\n'}
+[0.665447] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh\n'}
+[0.665671] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv\n'}
+[0.665808] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/environment/path.sh\n'}
+[0.665966] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/environment/path.dsv\n'}
+[0.666095] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/local_setup.bash\n'}
+[0.666215] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/local_setup.sh\n'}
+[0.666334] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/local_setup.zsh\n'}
+[0.666452] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/local_setup.dsv\n'}
+[0.666587] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/package.dsv\n'}
+[0.666706] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam\n'}
+[0.666824] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam\n'}
+[0.666927] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.667003] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.667075] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.667146] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake\n'}
+[0.667216] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake\n'}
+[0.667301] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/serhat/workspaces/ros2_cpp_ws/install/usb_cam/share/usb_cam/package.xml\n'}
+[0.700964] (-) TimerEvent: {}
+[0.704593] (usb_cam) CommandEnded: {'returncode': 0}
+[0.801312] (-) TimerEvent: {}
+[0.828053] (udemy_ros2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.828775] (udemy_ros2_pkg) StdoutLine: {'line': b'writing udemy_ros2_pkg.egg-info/PKG-INFO\n'}
+[0.847537] (udemy_ros2_pkg) StdoutLine: {'line': b'writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt\n'}
+[0.847881] (udemy_ros2_pkg) StdoutLine: {'line': b'writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt\n'}
+[0.850508] (udemy_ros2_pkg) StdoutLine: {'line': b"reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'\n"}
+[0.851359] (udemy_ros2_pkg) StdoutLine: {'line': b"writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'\n"}
+[0.879932] (udemy_ros2_pkg) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[0.880189] (udemy_ros2_pkg) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[0.882380] (udemy_ros2_pkg) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.884192] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turn_camera_service.dir/build.make:233: turn_camera_service] Error 1\n'}
+[0.884443] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:769: CMakeFiles/turn_camera_service.dir/all] Error 2\n'}
+[0.884588] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.886430] (udemy_ros2_pkg) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[0.886617] (udemy_ros2_pkg) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[0.888852] (udemy_ros2_pkg) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.890447] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turn_camera_client.dir/build.make:233: turn_camera_client] Error 1\n'}
+[0.890643] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:796: CMakeFiles/turn_camera_client.dir/all] Error 2\n'}
+[0.901421] (-) TimerEvent: {}
+[1.001736] (-) TimerEvent: {}
+[1.017559] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg\n'}
+[1.070232] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 0}
+[1.101849] (-) TimerEvent: {}
+[1.202143] (-) TimerEvent: {}
+[1.302454] (-) TimerEvent: {}
+[1.402744] (-) TimerEvent: {}
+[1.503096] (-) TimerEvent: {}
+[1.603491] (-) TimerEvent: {}
+[1.703809] (-) TimerEvent: {}
+[1.804142] (-) TimerEvent: {}
+[1.904415] (-) TimerEvent: {}
+[2.004637] (-) TimerEvent: {}
+[2.105048] (-) TimerEvent: {}
+[2.205314] (-) TimerEvent: {}
+[2.305586] (-) TimerEvent: {}
+[2.405842] (-) TimerEvent: {}
+[2.506097] (-) TimerEvent: {}
+[2.606391] (-) TimerEvent: {}
+[2.706658] (-) TimerEvent: {}
+[2.806968] (-) TimerEvent: {}
+[2.907223] (-) TimerEvent: {}
+[3.007482] (-) TimerEvent: {}
+[3.014192] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NavigateActionServerNode::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<udemy_ros2_pkg::action::Navigate> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.014327] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_server.cpp:80:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct udemy_ros2_pkg::action::Navigate_Result_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct udemy_ros2_pkg::action::Navigate_Result_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kelpased_time\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kelapsed_time\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.014400] (udemy_ros2_pkg) StderrLine: {'line': b'   80 |             result->\x1b[01;31m\x1b[Kelpased_time\x1b[m\x1b[K = (rclcpp::Clock().now() - start_time).seconds();\n'}
+[3.014456] (udemy_ros2_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.014508] (udemy_ros2_pkg) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kelapsed_time\x1b[m\x1b[K\n'}
+[3.107613] (-) TimerEvent: {}
+[3.207867] (-) TimerEvent: {}
+[3.308095] (-) TimerEvent: {}
+[3.408353] (-) TimerEvent: {}
+[3.508621] (-) TimerEvent: {}
+[3.608913] (-) TimerEvent: {}
+[3.709145] (-) TimerEvent: {}
+[3.809425] (-) TimerEvent: {}
+[3.909703] (-) TimerEvent: {}
+[4.009971] (-) TimerEvent: {}
+[4.110295] (-) TimerEvent: {}
+[4.177889] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable action_client\x1b[0m\n'}
+[4.210382] (-) TimerEvent: {}
+[4.310648] (-) TimerEvent: {}
+[4.342549] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 95%] Built target action_client\n'}
+[4.410775] (-) TimerEvent: {}
+[4.511049] (-) TimerEvent: {}
+[4.611373] (-) TimerEvent: {}
+[4.711699] (-) TimerEvent: {}
+[4.811983] (-) TimerEvent: {}
+[4.912240] (-) TimerEvent: {}
+[5.012496] (-) TimerEvent: {}
+[5.112722] (-) TimerEvent: {}
+[5.139907] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1\n'}
+[5.140141] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:823: CMakeFiles/action_server.dir/all] Error 2\n'}
+[5.140349] (udemy_ros2_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.142013] (udemy_ros2_pkg) CommandEnded: {'returncode': 2}
+[5.212846] (-) TimerEvent: {}
+[5.275324] (udemy_ros2_pkg) JobEnded: {'identifier': 'udemy_ros2_pkg', 'rc': 2}
+[5.285726] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+[ 25%] Built target subscriber
+[ 50%] Built target rpm_pub
+[ 75%] Built target publisher
+[ 87%] [32mBuilding CXX object CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o[0m

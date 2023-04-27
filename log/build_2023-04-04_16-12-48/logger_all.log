@@ -1,0 +1,259 @@
+[0.314s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.314s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fab883fd600>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fab88338b20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fab88338b20>>)
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.336s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/serhat/workspaces'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/build) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/build) ignored
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'ros'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extensions ['cmake', 'python']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/install) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/install) ignored
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/log) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/log) ignored
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'ros'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extensions ['cmake', 'python']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'cmake'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'python'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extensions ['python_setup_py']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'python_setup_py'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/build) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/build) ignored
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/install) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/install) ignored
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/log) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/log) ignored
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_cpp_ws/src/udemy_ros2_pkg' with type 'ros.ament_cmake' and name 'udemy_ros2_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/usb_cam) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/usb_cam) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/usb_cam) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/usb_cam) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/usb_cam) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/usb_cam) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/usb_cam) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/usb_cam) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_cpp_ws/src/usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'ros'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.378s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/serhat/workspaces/ros2_cpp_ws/install
+[0.380s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 359 installed packages in /opt/ros/humble
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'udemy_ros2_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/serhat/workspaces/build/udemy_ros2_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/serhat/workspaces/install/udemy_ros2_pkg', 'merge_install': False, 'path': '/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/serhat/workspaces/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/serhat/workspaces/install/usb_cam', 'merge_install': False, 'path': '/home/serhat/workspaces/ros2_cpp_ws/src/usb_cam', 'symlink_install': True, 'test_result_base': None}
+[0.453s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.456s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg' with build type 'ament_cmake'
+[0.456s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg'
+[0.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.464s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/serhat/workspaces/ros2_cpp_ws/src/usb_cam' with build type 'ament_cmake'
+[0.464s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/serhat/workspaces/ros2_cpp_ws/src/usb_cam'
+[0.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspaces/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/udemy_ros2_pkg -- -j12 -l12
+[0.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspaces/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/usb_cam -- -j12 -l12
+[0.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspaces/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/usb_cam -- -j12 -l12
+[0.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspaces/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspaces/build/usb_cam
+[0.648s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspaces/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspaces/build/usb_cam
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam' for CMake module files
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam' for CMake config files
+[0.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspaces/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspaces/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspaces/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam/lib'
+[0.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspaces/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspaces/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspaces/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[0.658s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam/bin'
+[0.658s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam/lib/python3.10/site-packages'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam/bin'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspaces/install/usb_cam/share/usb_cam/package.ps1'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspaces/install/usb_cam/share/usb_cam/package.dsv'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspaces/install/usb_cam/share/usb_cam/package.sh'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspaces/install/usb_cam/share/usb_cam/package.bash'
+[0.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspaces/install/usb_cam/share/usb_cam/package.zsh'
+[0.664s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspaces/install/usb_cam/share/colcon-core/packages/usb_cam)
+[0.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[0.706s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam' for CMake module files
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam' for CMake config files
+[0.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[0.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspaces/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspaces/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspaces/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam/lib'
+[0.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspaces/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspaces/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspaces/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[0.711s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam/bin'
+[0.711s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam/lib/python3.10/site-packages'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/usb_cam/bin'
+[0.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspaces/install/usb_cam/share/usb_cam/package.ps1'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspaces/install/usb_cam/share/usb_cam/package.dsv'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspaces/install/usb_cam/share/usb_cam/package.sh'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspaces/install/usb_cam/share/usb_cam/package.bash'
+[0.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspaces/install/usb_cam/share/usb_cam/package.zsh'
+[0.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspaces/install/usb_cam/share/colcon-core/packages/usb_cam)
+[2.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspaces/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/udemy_ros2_pkg -- -j12 -l12
+[3.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspaces/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspaces/build/udemy_ros2_pkg
+[3.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspaces/build/udemy_ros2_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspaces/build/udemy_ros2_pkg
+[3.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udemy_ros2_pkg)
+[3.157s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/udemy_ros2_pkg' for CMake module files
+[3.158s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/udemy_ros2_pkg' for CMake config files
+[3.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('udemy_ros2_pkg', 'cmake_prefix_path')
+[3.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/cmake_prefix_path.ps1'
+[3.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/cmake_prefix_path.dsv'
+[3.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/cmake_prefix_path.sh'
+[3.163s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/udemy_ros2_pkg/lib'
+[3.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('udemy_ros2_pkg', 'ld_library_path_lib')
+[3.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/ld_library_path_lib.ps1'
+[3.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/ld_library_path_lib.dsv'
+[3.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/ld_library_path_lib.sh'
+[3.166s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/udemy_ros2_pkg/bin'
+[3.166s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/udemy_ros2_pkg/lib/pkgconfig/udemy_ros2_pkg.pc'
+[3.167s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/udemy_ros2_pkg/lib/python3.10/site-packages'
+[3.167s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspaces/install/udemy_ros2_pkg/bin'
+[3.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.ps1'
+[3.169s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv'
+[3.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.sh'
+[3.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.bash'
+[3.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.zsh'
+[3.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspaces/install/udemy_ros2_pkg/share/colcon-core/packages/udemy_ros2_pkg)
+[3.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.183s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.190s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.190s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.190s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.203s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.205s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/serhat/workspaces/install/local_setup.ps1'
+[3.206s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/serhat/workspaces/install/_local_setup_util_ps1.py'
+[3.208s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/serhat/workspaces/install/setup.ps1'
+[3.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/serhat/workspaces/install/local_setup.sh'
+[3.209s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/serhat/workspaces/install/_local_setup_util_sh.py'
+[3.210s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/serhat/workspaces/install/setup.sh'
+[3.211s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/serhat/workspaces/install/local_setup.bash'
+[3.211s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/serhat/workspaces/install/setup.bash'
+[3.212s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/serhat/workspaces/install/local_setup.zsh'
+[3.213s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/serhat/workspaces/install/setup.zsh'

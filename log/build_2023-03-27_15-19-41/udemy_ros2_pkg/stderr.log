@@ -1,0 +1,7 @@
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:[m[K In constructor ‘[01m[KSpeedCalcNode::SpeedCalcNode()[m[K’:
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:13:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krpm_subscription_[m[K’
+   13 |             [01;31m[Krpm_subscription_[m[K = this->create_subscription<std_msgs::msg::Float64>(
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/speed_calc.dir/build.make:76: CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/speed_calc.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

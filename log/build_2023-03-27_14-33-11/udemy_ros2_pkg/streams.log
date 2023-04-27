@@ -1,0 +1,30 @@
+[0.016s] Invoking command in '/home/serhat/workspaces/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/udemy_ros2_pkg -- -j12 -l12
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target speed_calc[0m
+[0.081s] [ 50%] Built target subscriber
+[0.081s] [ 50%] Built target publisher
+[0.081s] [ 75%] Built target rpm_pub
+[0.090s] [ 87%] [32mBuilding CXX object CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o[0m
+[2.470s] [01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:[m[K In constructor ‘[01m[KSpeedCalcNode::SpeedCalcNode()[m[K’:
+[2.470s] [01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:17:81:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSpeedCalcNode::create_subscription<std_msgs::msg::Float64>(const char [6], int)[m[K’
+[2.470s]    17 |             speed_publisher_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Float64>([m[K
+[2.471s]       |                                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.471s]    18 | [01;31m[K                "speed", 10)[m[K;
+[2.471s]       |                 [01;31m[K~~~~~~~~~~~~[m[K                                                     
+[2.471s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.471s]                  from [01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:1[m[K:
+[2.471s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[2.471s]    92 | [01;36m[KNode[m[K::create_subscription(
+[2.471s]       | [01;36m[K^~~~[m[K
+[2.471s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.471s] [01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:17:81:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 2 provided
+[2.471s]    17 |             speed_publisher_ = [01;36m[Kthis->create_subscription<std_msgs::msg::Float64>([m[K
+[2.471s]       |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.471s]    18 | [01;36m[K                "speed", 10)[m[K;
+[2.471s]       |                 [01;36m[K~~~~~~~~~~~~[m[K                                                     
+[4.630s] gmake[2]: *** [CMakeFiles/speed_calc.dir/build.make:76: CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o] Error 1
+[4.630s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/speed_calc.dir/all] Error 2
+[4.630s] gmake: *** [Makefile:146: all] Error 2
+[4.633s] Invoked command in '/home/serhat/workspaces/build/udemy_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/udemy_ros2_pkg -- -j12 -l12

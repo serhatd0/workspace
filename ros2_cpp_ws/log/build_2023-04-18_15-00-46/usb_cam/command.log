@@ -1,0 +1,1 @@
+Invoking command in '/home/serhat/workspaces/ros2_cpp_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/serhat/workspaces/ros2_cpp_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/serhat/workspaces/ros2_cpp_ws/install/usb_cam

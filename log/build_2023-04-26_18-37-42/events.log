@@ -1,0 +1,551 @@
+[0.000000] (-) TimerEvent: {}
+[0.000117] (udemy_ros2_pkg) JobQueued: {'identifier': 'udemy_ros2_pkg', 'dependencies': OrderedDict()}
+[0.000153] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.000184] (udemy_ros2_pkg) JobStarted: {'identifier': 'udemy_ros2_pkg'}
+[0.099022] (-) TimerEvent: {}
+[0.159843] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.181636] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'cmake'}
+[0.199089] (-) TimerEvent: {}
+[0.222971] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'build'}
+[0.224283] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/serhat/workspaces/build/udemy_ros2_pkg', '--', '-j12', '-l12'], 'cwd': '/home/serhat/workspaces/build/udemy_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'serhat'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/serhat'), ('OLDPWD', '/home/serhat/workspaces/ros2_cpp_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'serhat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'serhat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/serhat-ABRA-A5-V15-2:@/tmp/.ICE-unix/1448,unix/serhat-ABRA-A5-V15-2:/tmp/.ICE-unix/1448'), ('XDG_MENU_PREFIX', 'gnome-'), ('RMW_IMLEMENTATION', 'rmw_cyclonedds_cpp'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39f2b605_7e13_4cc4_8113_ec87bf2c7d38'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8OA031'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/serhat/workspaces/build/udemy_ros2_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.323799] (-) TimerEvent: {}
+[0.325394] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[0.415005] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[0.415082] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/serhat/workspaces/build/usb_cam', '--', '-j12', '-l12'], 'cwd': '/home/serhat/workspaces/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'serhat'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/serhat'), ('OLDPWD', '/home/serhat/workspaces/ros2_cpp_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'serhat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'serhat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/serhat-ABRA-A5-V15-2:@/tmp/.ICE-unix/1448,unix/serhat-ABRA-A5-V15-2:/tmp/.ICE-unix/1448'), ('XDG_MENU_PREFIX', 'gnome-'), ('RMW_IMLEMENTATION', 'rmw_cyclonedds_cpp'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39f2b605_7e13_4cc4_8113_ec87bf2c7d38'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8OA031'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/serhat/workspaces/build/usb_cam'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.423923] (-) TimerEvent: {}
+[0.524357] (-) TimerEvent: {}
+[0.624599] (-) TimerEvent: {}
+[0.724963] (-) TimerEvent: {}
+[0.825546] (-) TimerEvent: {}
+[0.926195] (-) TimerEvent: {}
+[1.026607] (-) TimerEvent: {}
+[1.127331] (-) TimerEvent: {}
+[1.227923] (-) TimerEvent: {}
+[1.328733] (-) TimerEvent: {}
+[1.429291] (-) TimerEvent: {}
+[1.529782] (-) TimerEvent: {}
+[1.630528] (-) TimerEvent: {}
+[1.730832] (-) TimerEvent: {}
+[1.831600] (-) TimerEvent: {}
+[1.932430] (-) TimerEvent: {}
+[2.032702] (-) TimerEvent: {}
+[2.133174] (-) TimerEvent: {}
+[2.234490] (-) TimerEvent: {}
+[2.334991] (-) TimerEvent: {}
+[2.435537] (-) TimerEvent: {}
+[2.536128] (-) TimerEvent: {}
+[2.636884] (-) TimerEvent: {}
+[2.737564] (-) TimerEvent: {}
+[2.837980] (-) TimerEvent: {}
+[2.898701] (udemy_ros2_pkg) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_udemy_ros2_pkg\n'}
+[2.915655] (usb_cam) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o\x1b[0m\n'}
+[2.938070] (-) TimerEvent: {}
+[2.940741] (usb_cam) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[3.012745] (usb_cam) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[3.030444] (udemy_ros2_pkg) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o\x1b[0m\n'}
+[3.030806] (udemy_ros2_pkg) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[3.031124] (udemy_ros2_pkg) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[3.038161] (-) TimerEvent: {}
+[3.138520] (-) TimerEvent: {}
+[3.176435] (udemy_ros2_pkg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o\x1b[0m\n'}
+[3.179235] (usb_cam) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o\x1b[0m\n'}
+[3.238582] (-) TimerEvent: {}
+[3.339671] (-) TimerEvent: {}
+[3.433343] (udemy_ros2_pkg) StdoutLine: {'line': b'[  7%] Built target udemy_ros2_pkg__cpp\n'}
+[3.439773] (-) TimerEvent: {}
+[3.472808] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rpm_speed\x1b[0m\n'}
+[3.542853] (-) TimerEvent: {}
+[3.601990] (udemy_ros2_pkg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/rpm_speed.dir/src/rpm_speed.cpp.o\x1b[0m\n'}
+[3.642942] (-) TimerEvent: {}
+[3.731720] (udemy_ros2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.735909] (udemy_ros2_pkg) StdoutLine: {'line': b'writing udemy_ros2_pkg.egg-info/PKG-INFO\n'}
+[3.736884] (udemy_ros2_pkg) StdoutLine: {'line': b'writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt\n'}
+[3.737636] (udemy_ros2_pkg) StdoutLine: {'line': b'writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt\n'}
+[3.743150] (-) TimerEvent: {}
+[3.816244] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 16%] Built target udemy_ros2_pkg__rosidl_generator_c\n'}
+[3.843298] (-) TimerEvent: {}
+[3.866194] (udemy_ros2_pkg) StdoutLine: {'line': b"reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'\n"}
+[3.901008] (udemy_ros2_pkg) StdoutLine: {'line': b"writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'\n"}
+[3.942827] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg\n'}
+[3.943337] (-) TimerEvent: {}
+[4.043587] (-) TimerEvent: {}
+[4.144167] (-) TimerEvent: {}
+[4.244607] (-) TimerEvent: {}
+[4.328890] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/udemy_ros2_pkg/srv/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[4.330884] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/udemy_ros2_pkg/srv/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[4.334199] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/udemy_ros2_pkg/srv/detail/odd_even_check__type_support_c.cpp.o\x1b[0m\n'}
+[4.340377] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 29%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c\n'}
+[4.342128] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/udemy_ros2_pkg/srv/detail/dds_fastrtps/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[4.342931] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 38%] Built target udemy_ros2_pkg__rosidl_typesupport_c\n'}
+[4.343494] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[4.344652] (-) TimerEvent: {}
+[4.349406] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/udemy_ros2_pkg/srv/detail/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[4.351457] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/udemy_ros2_pkg/action/detail/navigate__type_support.cpp.o\x1b[0m\n'}
+[4.444849] (-) TimerEvent: {}
+[4.545479] (-) TimerEvent: {}
+[4.646025] (-) TimerEvent: {}
+[4.746867] (-) TimerEvent: {}
+[4.847404] (-) TimerEvent: {}
+[4.948175] (-) TimerEvent: {}
+[5.048813] (-) TimerEvent: {}
+[5.149661] (-) TimerEvent: {}
+[5.249979] (-) TimerEvent: {}
+[5.350557] (-) TimerEvent: {}
+[5.451259] (-) TimerEvent: {}
+[5.552422] (-) TimerEvent: {}
+[5.653124] (-) TimerEvent: {}
+[5.753857] (-) TimerEvent: {}
+[5.854262] (-) TimerEvent: {}
+[5.954954] (-) TimerEvent: {}
+[6.055681] (-) TimerEvent: {}
+[6.156660] (-) TimerEvent: {}
+[6.257414] (-) TimerEvent: {}
+[6.358409] (-) TimerEvent: {}
+[6.459096] (-) TimerEvent: {}
+[6.559689] (-) TimerEvent: {}
+[6.660295] (-) TimerEvent: {}
+[6.760614] (-) TimerEvent: {}
+[6.860993] (-) TimerEvent: {}
+[6.961241] (-) TimerEvent: {}
+[7.061490] (-) TimerEvent: {}
+[7.161747] (-) TimerEvent: {}
+[7.262020] (-) TimerEvent: {}
+[7.362307] (-) TimerEvent: {}
+[7.462551] (-) TimerEvent: {}
+[7.562818] (-) TimerEvent: {}
+[7.663111] (-) TimerEvent: {}
+[7.763324] (-) TimerEvent: {}
+[7.863552] (-) TimerEvent: {}
+[7.963909] (-) TimerEvent: {}
+[8.041323] (usb_cam) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[8.041558] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/udemy_ros2_pkg/action/detail/dds_fastrtps/navigate__type_support.cpp.o\x1b[0m\n'}
+[8.041747] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/udemy_ros2_pkg/srv/detail/dds_fastrtps/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[8.041912] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/udemy_ros2_pkg/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[8.042351] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/udemy_ros2_pkg/srv/detail/turn_camera__type_support_c.cpp.o\x1b[0m\n'}
+[8.043259] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/udemy_ros2_pkg/action/detail/navigate__type_support_c.cpp.o\x1b[0m\n'}
+[8.043469] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libudemy_ros2_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.063974] (-) TimerEvent: {}
+[8.164255] (-) TimerEvent: {}
+[8.264498] (-) TimerEvent: {}
+[8.364806] (-) TimerEvent: {}
+[8.465087] (-) TimerEvent: {}
+[8.565335] (-) TimerEvent: {}
+[8.665689] (-) TimerEvent: {}
+[8.767417] (-) TimerEvent: {}
+[8.867711] (-) TimerEvent: {}
+[8.928907] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libudemy_ros2_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.967827] (-) TimerEvent: {}
+[9.068151] (-) TimerEvent: {}
+[9.074623] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libudemy_ros2_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.130964] (usb_cam) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam.so\x1b[0m\n'}
+[9.138031] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libudemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.168309] (-) TimerEvent: {}
+[9.268865] (-) TimerEvent: {}
+[9.369216] (-) TimerEvent: {}
+[9.455617] (usb_cam) StdoutLine: {'line': b'[ 42%] Built target gtest_main\n'}
+[9.469311] (-) TimerEvent: {}
+[9.569580] (-) TimerEvent: {}
+[9.669826] (-) TimerEvent: {}
+[9.742640] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 58%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp\n'}
+[9.769926] (-) TimerEvent: {}
+[9.870236] (-) TimerEvent: {}
+[9.876763] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 63%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[9.888114] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 63%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp\n'}
+[9.888784] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 63%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c\n'}
+[9.970410] (-) TimerEvent: {}
+[10.070986] (-) TimerEvent: {}
+[10.171475] (-) TimerEvent: {}
+[10.271845] (usb_cam) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[10.272077] (-) TimerEvent: {}
+[10.342943] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o\x1b[0m\n'}
+[10.351833] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o\x1b[0m\n'}
+[10.372325] (-) TimerEvent: {}
+[10.473113] (-) TimerEvent: {}
+[10.487713] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o\x1b[0m\n'}
+[10.535162] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 67%] Built target udemy_ros2_pkg\n'}
+[10.554976] (usb_cam) StdoutLine: {'line': b'[ 50%] Built target gtest\n'}
+[10.573224] (-) TimerEvent: {}
+[10.586050] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 69%] Built target udemy_ros2_pkg__py\n'}
+[10.601216] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o\x1b[0m\n'}
+[10.673336] (-) TimerEvent: {}
+[10.694057] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_py.dir/rosidl_generator_py/udemy_ros2_pkg/action/_navigate_s.c.o\x1b[0m\n'}
+[10.695038] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_py.dir/rosidl_generator_py/udemy_ros2_pkg/srv/_odd_even_check_s.c.o\x1b[0m\n'}
+[10.695210] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_py.dir/rosidl_generator_py/udemy_ros2_pkg/srv/_turn_camera_s.c.o\x1b[0m\n'}
+[10.773440] (-) TimerEvent: {}
+[10.873737] (-) TimerEvent: {}
+[10.974008] (-) TimerEvent: {}
+[11.074339] (-) TimerEvent: {}
+[11.174733] (-) TimerEvent: {}
+[11.275078] (-) TimerEvent: {}
+[11.375415] (-) TimerEvent: {}
+[11.475750] (-) TimerEvent: {}
+[11.576085] (-) TimerEvent: {}
+[11.676419] (-) TimerEvent: {}
+[11.776752] (-) TimerEvent: {}
+[11.877081] (-) TimerEvent: {}
+[11.977424] (-) TimerEvent: {}
+[12.080638] (-) TimerEvent: {}
+[12.180996] (-) TimerEvent: {}
+[12.281431] (-) TimerEvent: {}
+[12.381849] (-) TimerEvent: {}
+[12.482292] (-) TimerEvent: {}
+[12.582797] (-) TimerEvent: {}
+[12.683303] (-) TimerEvent: {}
+[12.716085] (usb_cam) StdoutLine: {'line': b'[ 50%] Built target usb_cam\n'}
+[12.783406] (-) TimerEvent: {}
+[12.883762] (-) TimerEvent: {}
+[12.973199] (usb_cam) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/test_usb_cam_lib.dir/test/test_usb_cam_lib.cpp.o\x1b[0m\n'}
+[12.978836] (usb_cam) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o\x1b[0m\n'}
+[12.983874] (-) TimerEvent: {}
+[12.995885] (usb_cam) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o\x1b[0m\n'}
+[13.083977] (-) TimerEvent: {}
+[13.184382] (-) TimerEvent: {}
+[13.284778] (-) TimerEvent: {}
+[13.385171] (-) TimerEvent: {}
+[13.485588] (-) TimerEvent: {}
+[13.586015] (-) TimerEvent: {}
+[13.603907] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/udemy_ros2_pkg/libudemy_ros2_pkg__rosidl_generator_py.so\x1b[0m\n'}
+[13.686136] (-) TimerEvent: {}
+[13.787153] (-) TimerEvent: {}
+[13.887490] (-) TimerEvent: {}
+[13.987827] (-) TimerEvent: {}
+[14.088242] (-) TimerEvent: {}
+[14.188749] (-) TimerEvent: {}
+[14.229546] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 76%] Built target udemy_ros2_pkg__rosidl_generator_py\n'}
+[14.288864] (-) TimerEvent: {}
+[14.389228] (-) TimerEvent: {}
+[14.489583] (-) TimerEvent: {}
+[14.556795] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.565320] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.580995] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.589685] (-) TimerEvent: {}
+[14.664433] (usb_cam) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable test_usb_cam_utils\x1b[0m\n'}
+[14.689812] (-) TimerEvent: {}
+[14.790190] (-) TimerEvent: {}
+[14.875076] (usb_cam) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable test_usb_cam_lib\x1b[0m\n'}
+[14.890304] (-) TimerEvent: {}
+[14.990651] (-) TimerEvent: {}
+[15.091586] (-) TimerEvent: {}
+[15.191946] (-) TimerEvent: {}
+[15.293451] (-) TimerEvent: {}
+[15.393863] (-) TimerEvent: {}
+[15.495433] (-) TimerEvent: {}
+[15.505940] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRobotController::RobotController()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.506200] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:25:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspi_fd_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksi_fd\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[15.506332] (udemy_ros2_pkg) StderrLine: {'line': b'   25 |     \x1b[01;31m\x1b[Kspi_fd_\x1b[m\x1b[K = open("/dev/spidev0.0", O_RDWR);\n'}
+[15.506440] (udemy_ros2_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.506548] (udemy_ros2_pkg) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ksi_fd\x1b[m\x1b[K\n'}
+[15.515691] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kvirtual RobotController::~RobotController()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.515944] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:32:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspi_fd_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksi_fd\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[15.516072] (udemy_ros2_pkg) StderrLine: {'line': b'   32 |     close(\x1b[01;31m\x1b[Kspi_fd_\x1b[m\x1b[K);\n'}
+[15.516169] (udemy_ros2_pkg) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.516262] (udemy_ros2_pkg) StderrLine: {'line': b'      |           \x1b[32m\x1b[Ksi_fd\x1b[m\x1b[K\n'}
+[15.530693] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RobotController::cmd_vel_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.530956] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:80:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspi_fd_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksi_fd\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[15.531106] (udemy_ros2_pkg) StderrLine: {'line': b'   80 |     int status_left = ioctl(\x1b[01;31m\x1b[Kspi_fd_\x1b[m\x1b[K, SPI_IOC_MESSAGE(1), &spi_left);\n'}
+[15.531215] (udemy_ros2_pkg) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.531317] (udemy_ros2_pkg) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Ksi_fd\x1b[m\x1b[K\n'}
+[15.595533] (-) TimerEvent: {}
+[15.665318] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:83:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with a value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.665552] (udemy_ros2_pkg) StderrLine: {'line': b'   83 |       return \x1b[01;31m\x1b[K-1\x1b[m\x1b[K;\n'}
+[15.665669] (udemy_ros2_pkg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[15.666024] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:104:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with a value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.666230] (udemy_ros2_pkg) StderrLine: {'line': b'  104 |       return \x1b[01;31m\x1b[K-1\x1b[m\x1b[K;\n'}
+[15.666336] (udemy_ros2_pkg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[15.666453] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:62:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktx_buffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.666575] (udemy_ros2_pkg) StderrLine: {'line': b'   62 |     uint8_t \x1b[01;35m\x1b[Ktx_buffer\x1b[m\x1b[K[4];\n'}
+[15.666677] (udemy_ros2_pkg) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[15.666781] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:63:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Krx_buffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.666887] (udemy_ros2_pkg) StderrLine: {'line': b'   63 |     uint8_t \x1b[01;35m\x1b[Krx_buffer\x1b[m\x1b[K[4];\n'}
+[15.666986] (udemy_ros2_pkg) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[15.673246] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint send_data_to_pican2(double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.673535] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:11:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Klvalue required as unary \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 operand\n'}
+[15.673670] (udemy_ros2_pkg) StderrLine: {'line': b'   11 | #define SPI_MODE    \x1b[01;31m\x1b[K0\x1b[m\x1b[K\n'}
+[15.673768] (udemy_ros2_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[15.673892] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:151:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KSPI_MODE\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.673995] (udemy_ros2_pkg) StderrLine: {'line': b'  151 |     ret = ioctl(spi_fd, SPI_IOC_WR_MODE, &\x1b[01;36m\x1b[KSPI_MODE\x1b[m\x1b[K);\n'}
+[15.674099] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.674348] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:10:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Klvalue required as unary \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 operand\n'}
+[15.674469] (udemy_ros2_pkg) StderrLine: {'line': b'   10 | #define SPI_SPEED   \x1b[01;31m\x1b[K1000000\x1b[m\x1b[K\n'}
+[15.674571] (udemy_ros2_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.674881] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:157:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KSPI_SPEED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.674983] (udemy_ros2_pkg) StderrLine: {'line': b'  157 |     ret = ioctl(spi_fd, SPI_IOC_WR_MAX_SPEED_HZ, &\x1b[01;36m\x1b[KSPI_SPEED\x1b[m\x1b[K);\n'}
+[15.675102] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[15.675208] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:165:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator>>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.675330] (udemy_ros2_pkg) StderrLine: {'line': b'  165 |     tx_buffer[1] = (uint8_t)(\x1b[32m\x1b[Kleft_speed\x1b[m\x1b[K \x1b[01;31m\x1b[K>>\x1b[m\x1b[K \x1b[34m\x1b[K8\x1b[m\x1b[K);\n'}
+[15.675445] (udemy_ros2_pkg) StderrLine: {'line': b'      |                              \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~\x1b[m\x1b[K\n'}
+[15.675561] (udemy_ros2_pkg) StderrLine: {'line': b'      |                              \x1b[32m\x1b[K|\x1b[m\x1b[K             \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[15.675682] (udemy_ros2_pkg) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kdouble\x1b[m\x1b[K        \x1b[34m\x1b[Kint\x1b[m\x1b[K\n'}
+[15.675797] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:167:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator>>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.675938] (udemy_ros2_pkg) StderrLine: {'line': b'  167 |     tx_buffer[3] = (uint8_t)(\x1b[32m\x1b[Kright_speed\x1b[m\x1b[K \x1b[01;31m\x1b[K>>\x1b[m\x1b[K \x1b[34m\x1b[K8\x1b[m\x1b[K);\n'}
+[15.676028] (udemy_ros2_pkg) StderrLine: {'line': b'      |                              \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~\x1b[m\x1b[K\n'}
+[15.676142] (udemy_ros2_pkg) StderrLine: {'line': b'      |                              \x1b[32m\x1b[K|\x1b[m\x1b[K              \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[15.676236] (udemy_ros2_pkg) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kdouble\x1b[m\x1b[K         \x1b[34m\x1b[Kint\x1b[m\x1b[K\n'}
+[15.679622] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_speed.cpp:179:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspi_fd_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kspi_fd\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[15.679846] (udemy_ros2_pkg) StderrLine: {'line': b'  179 |     if (ioctl(\x1b[01;31m\x1b[Kspi_fd_\x1b[m\x1b[K, SPI_IOC_MESSAGE(1), &spi) < 0) {\n'}
+[15.679973] (udemy_ros2_pkg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.680079] (udemy_ros2_pkg) StderrLine: {'line': b'      |               \x1b[32m\x1b[Kspi_fd\x1b[m\x1b[K\n'}
+[15.695660] (-) TimerEvent: {}
+[15.796017] (-) TimerEvent: {}
+[15.896420] (-) TimerEvent: {}
+[15.931140] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.936440] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.945000] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.996534] (-) TimerEvent: {}
+[16.060293] (usb_cam) StdoutLine: {'line': b'[ 85%] Built target test_usb_cam_utils\n'}
+[16.281389] (-) TimerEvent: {}
+[16.381717] (-) TimerEvent: {}
+[16.446968] (usb_cam) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable usb_cam_node_exe\x1b[0m\n'}
+[16.481831] (-) TimerEvent: {}
+[16.582158] (-) TimerEvent: {}
+[16.682498] (-) TimerEvent: {}
+[16.782836] (-) TimerEvent: {}
+[17.060192] (-) TimerEvent: {}
+[17.160573] (-) TimerEvent: {}
+[17.201838] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 86%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[17.207110] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 86%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[17.207354] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 86%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext\n'}
+[17.260680] (-) TimerEvent: {}
+[17.361011] (-) TimerEvent: {}
+[17.461355] (-) TimerEvent: {}
+[17.561777] (-) TimerEvent: {}
+[17.662619] (-) TimerEvent: {}
+[17.762935] (-) TimerEvent: {}
+[17.863267] (-) TimerEvent: {}
+[17.963616] (-) TimerEvent: {}
+[18.064959] (-) TimerEvent: {}
+[18.165301] (-) TimerEvent: {}
+[18.266107] (-) TimerEvent: {}
+[18.366432] (-) TimerEvent: {}
+[18.466912] (-) TimerEvent: {}
+[18.567333] (-) TimerEvent: {}
+[18.667754] (-) TimerEvent: {}
+[18.768039] (-) TimerEvent: {}
+[18.868378] (-) TimerEvent: {}
+[18.968695] (-) TimerEvent: {}
+[19.069048] (-) TimerEvent: {}
+[19.169409] (-) TimerEvent: {}
+[19.269769] (-) TimerEvent: {}
+[19.370275] (-) TimerEvent: {}
+[19.472956] (-) TimerEvent: {}
+[19.573831] (usb_cam) StdoutLine: {'line': b'[ 92%] Built target test_usb_cam_lib\n'}
+[19.574082] (-) TimerEvent: {}
+[19.588272] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable service_server\x1b[0m\n'}
+[19.621295] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable service_client\x1b[0m\n'}
+[19.674211] (-) TimerEvent: {}
+[19.687519] (usb_cam) StdoutLine: {'line': b'[ 92%] Built target usb_cam_node_exe\n'}
+[19.774322] (-) TimerEvent: {}
+[19.874664] (-) TimerEvent: {}
+[19.881078] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 89%] Built target service_server\n'}
+[19.898698] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 89%] Built target service_client\n'}
+[19.974777] (-) TimerEvent: {}
+[20.075083] (-) TimerEvent: {}
+[20.175935] (-) TimerEvent: {}
+[20.276305] (-) TimerEvent: {}
+[20.378194] (-) TimerEvent: {}
+[20.478539] (-) TimerEvent: {}
+[20.578846] (-) TimerEvent: {}
+[20.679186] (-) TimerEvent: {}
+[20.711855] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable action_client\x1b[0m\n'}
+[20.716677] (usb_cam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam_node.so\x1b[0m\n'}
+[20.779295] (-) TimerEvent: {}
+[20.879713] (-) TimerEvent: {}
+[20.979998] (-) TimerEvent: {}
+[21.080369] (-) TimerEvent: {}
+[21.181276] (-) TimerEvent: {}
+[21.215741] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 90%] Built target action_client\n'}
+[21.281374] (-) TimerEvent: {}
+[21.381677] (-) TimerEvent: {}
+[21.482012] (-) TimerEvent: {}
+[21.532616] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable rpm_pub\x1b[0m\n'}
+[21.582107] (-) TimerEvent: {}
+[21.643774] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rpm_speed.dir/build.make:76: CMakeFiles/rpm_speed.dir/src/rpm_speed.cpp.o] Error 1\n'}
+[21.644195] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:660: CMakeFiles/rpm_speed.dir/all] Error 2\n'}
+[21.644275] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[21.649363] (usb_cam) StdoutLine: {'line': b'[100%] Built target usb_cam_node\n'}
+[21.661565] (usb_cam) CommandEnded: {'returncode': 0}
+[21.682746] (-) TimerEvent: {}
+[21.752340] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'install'}
+[21.762076] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/serhat/workspaces/build/usb_cam'], 'cwd': '/home/serhat/workspaces/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'serhat'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/serhat'), ('OLDPWD', '/home/serhat/workspaces/ros2_cpp_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'serhat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'serhat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/serhat-ABRA-A5-V15-2:@/tmp/.ICE-unix/1448,unix/serhat-ABRA-A5-V15-2:/tmp/.ICE-unix/1448'), ('XDG_MENU_PREFIX', 'gnome-'), ('RMW_IMLEMENTATION', 'rmw_cyclonedds_cpp'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39f2b605_7e13_4cc4_8113_ec87bf2c7d38'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8OA031'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/serhat/workspaces/build/usb_cam'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[21.773183] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 92%] Built target rpm_pub\n'}
+[21.782857] (-) TimerEvent: {}
+[21.798287] (usb_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.837452] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[21.842741] (usb_cam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.874015] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/environment/library_path.sh\n'}
+[21.874306] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/environment/library_path.dsv\n'}
+[21.882958] (-) TimerEvent: {}
+[21.888837] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/lib/usb_cam/usb_cam_node_exe\n'}
+[21.893241] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/lib/usb_cam/show_image.py\n'}
+[21.907264] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/lib/libusb_cam.so\n'}
+[21.907543] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/lib/libusb_cam_node.so\n'}
+[21.960609] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/include/usb_cam/constants.hpp\n'}
+[21.960938] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/include/usb_cam/conversions.hpp\n'}
+[21.963058] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/include/usb_cam/usb_cam.hpp\n'}
+[21.970809] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/include/usb_cam/usb_cam_node.hpp\n'}
+[21.971088] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/include/usb_cam/utils.hpp\n'}
+[21.971515] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/lib/libusb_cam_node.so\n'}
+[21.972673] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/launch/demo_launch.py\n'}
+[21.973266] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/config/camera_info.yaml\n'}
+[21.973518] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/config/params.yaml\n'}
+[21.974321] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam\n'}
+[21.975067] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam\n'}
+[21.983047] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh\n'}
+[21.983320] (-) TimerEvent: {}
+[21.983459] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv\n'}
+[21.997877] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/environment/path.sh\n'}
+[21.998136] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/environment/path.dsv\n'}
+[21.998451] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/local_setup.bash\n'}
+[21.998881] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/local_setup.sh\n'}
+[21.999166] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/local_setup.zsh\n'}
+[21.999404] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/local_setup.dsv\n'}
+[21.999579] (usb_cam) StdoutLine: {'line': b'-- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/package.dsv\n'}
+[22.011592] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/ament_index/resource_index/packages/usb_cam\n'}
+[22.011962] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam\n'}
+[22.012397] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.012734] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.013102] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.013508] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake\n'}
+[22.013798] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake\n'}
+[22.014088] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/share/usb_cam/package.xml\n'}
+[22.029393] (usb_cam) CommandEnded: {'returncode': 0}
+[22.074500] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 93%] Built target publisher\n'}
+[22.083436] (-) TimerEvent: {}
+[22.183732] (-) TimerEvent: {}
+[22.289188] (-) TimerEvent: {}
+[22.312616] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 0}
+[22.389327] (-) TimerEvent: {}
+[22.489668] (-) TimerEvent: {}
+[22.590051] (-) TimerEvent: {}
+[22.690330] (-) TimerEvent: {}
+[22.790632] (-) TimerEvent: {}
+[22.890932] (-) TimerEvent: {}
+[22.991340] (-) TimerEvent: {}
+[23.091579] (-) TimerEvent: {}
+[23.191858] (-) TimerEvent: {}
+[23.292127] (-) TimerEvent: {}
+[23.392393] (-) TimerEvent: {}
+[23.492678] (-) TimerEvent: {}
+[23.593013] (-) TimerEvent: {}
+[23.693350] (-) TimerEvent: {}
+[23.793730] (-) TimerEvent: {}
+[23.894313] (-) TimerEvent: {}
+[23.994705] (-) TimerEvent: {}
+[24.094932] (-) TimerEvent: {}
+[24.195164] (-) TimerEvent: {}
+[24.295418] (-) TimerEvent: {}
+[24.395673] (-) TimerEvent: {}
+[24.495901] (-) TimerEvent: {}
+[24.596179] (-) TimerEvent: {}
+[24.696427] (-) TimerEvent: {}
+[24.796690] (-) TimerEvent: {}
+[24.896919] (-) TimerEvent: {}
+[24.997148] (-) TimerEvent: {}
+[25.097407] (-) TimerEvent: {}
+[25.197641] (-) TimerEvent: {}
+[25.297873] (-) TimerEvent: {}
+[25.398144] (-) TimerEvent: {}
+[25.498389] (-) TimerEvent: {}
+[25.598648] (-) TimerEvent: {}
+[25.698918] (-) TimerEvent: {}
+[25.834027] (-) TimerEvent: {}
+[25.934259] (-) TimerEvent: {}
+[26.034496] (-) TimerEvent: {}
+[26.134767] (-) TimerEvent: {}
+[26.235034] (-) TimerEvent: {}
+[26.335271] (-) TimerEvent: {}
+[26.435509] (-) TimerEvent: {}
+[26.535795] (-) TimerEvent: {}
+[26.636014] (-) TimerEvent: {}
+[26.736295] (-) TimerEvent: {}
+[26.836516] (-) TimerEvent: {}
+[26.936764] (-) TimerEvent: {}
+[27.037024] (-) TimerEvent: {}
+[27.137243] (-) TimerEvent: {}
+[27.237505] (-) TimerEvent: {}
+[27.337730] (-) TimerEvent: {}
+[27.437984] (-) TimerEvent: {}
+[27.538245] (-) TimerEvent: {}
+[27.638502] (-) TimerEvent: {}
+[27.738755] (-) TimerEvent: {}
+[27.839024] (-) TimerEvent: {}
+[27.939268] (-) TimerEvent: {}
+[28.039522] (-) TimerEvent: {}
+[28.139802] (-) TimerEvent: {}
+[28.240046] (-) TimerEvent: {}
+[28.340296] (-) TimerEvent: {}
+[28.440547] (-) TimerEvent: {}
+[28.540809] (-) TimerEvent: {}
+[28.641053] (-) TimerEvent: {}
+[28.741328] (-) TimerEvent: {}
+[28.841585] (-) TimerEvent: {}
+[28.941837] (-) TimerEvent: {}
+[29.042088] (-) TimerEvent: {}
+[29.142347] (-) TimerEvent: {}
+[29.242588] (-) TimerEvent: {}
+[29.342860] (-) TimerEvent: {}
+[29.443187] (-) TimerEvent: {}
+[29.543440] (-) TimerEvent: {}
+[29.557291] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[29.643644] (-) TimerEvent: {}
+[29.744229] (-) TimerEvent: {}
+[29.844757] (-) TimerEvent: {}
+[29.945442] (-) TimerEvent: {}
+[30.046323] (-) TimerEvent: {}
+[30.146962] (-) TimerEvent: {}
+[30.248204] (-) TimerEvent: {}
+[30.348811] (-) TimerEvent: {}
+[30.449360] (-) TimerEvent: {}
+[30.549975] (-) TimerEvent: {}
+[30.650541] (-) TimerEvent: {}
+[30.899076] (-) TimerEvent: {}
+[30.999349] (-) TimerEvent: {}
+[31.060327] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 95%] Built target subscriber\n'}
+[31.099467] (-) TimerEvent: {}
+[31.199723] (-) TimerEvent: {}
+[31.299984] (-) TimerEvent: {}
+[31.400238] (-) TimerEvent: {}
+[31.500492] (-) TimerEvent: {}
+[31.600786] (-) TimerEvent: {}
+[31.701019] (-) TimerEvent: {}
+[31.801316] (-) TimerEvent: {}
+[31.813393] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable speed_calc\x1b[0m\n'}
+[31.901503] (-) TimerEvent: {}
+[32.002071] (-) TimerEvent: {}
+[32.102325] (-) TimerEvent: {}
+[32.202666] (-) TimerEvent: {}
+[32.221847] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 96%] Built target speed_calc\n'}
+[32.302872] (-) TimerEvent: {}
+[32.403606] (-) TimerEvent: {}
+[32.504208] (-) TimerEvent: {}
+[32.604954] (-) TimerEvent: {}
+[32.705548] (-) TimerEvent: {}
+[32.806296] (-) TimerEvent: {}
+[32.906635] (-) TimerEvent: {}
+[33.007155] (-) TimerEvent: {}
+[33.107747] (-) TimerEvent: {}
+[33.208311] (-) TimerEvent: {}
+[33.308847] (-) TimerEvent: {}
+[33.409516] (-) TimerEvent: {}
+[33.509793] (-) TimerEvent: {}
+[33.610068] (-) TimerEvent: {}
+[33.710315] (-) TimerEvent: {}
+[33.810594] (-) TimerEvent: {}
+[33.910878] (-) TimerEvent: {}
+[34.011129] (-) TimerEvent: {}
+[34.111440] (-) TimerEvent: {}
+[34.211711] (-) TimerEvent: {}
+[34.312028] (-) TimerEvent: {}
+[34.354934] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable action_server\x1b[0m\n'}
+[34.412126] (-) TimerEvent: {}
+[34.512402] (-) TimerEvent: {}
+[34.612696] (-) TimerEvent: {}
+[34.657550] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 98%] Built target action_server\n'}
+[34.658625] (udemy_ros2_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[34.660356] (udemy_ros2_pkg) CommandEnded: {'returncode': 2}
+[34.712860] (-) TimerEvent: {}
+[34.813317] (-) TimerEvent: {}
+[34.913644] (-) TimerEvent: {}
+[35.014311] (-) TimerEvent: {}
+[35.034015] (udemy_ros2_pkg) JobEnded: {'identifier': 'udemy_ros2_pkg', 'rc': 2}
+[35.044663] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/service_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/service_client.cpp:42:35:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   42 |   auto service_client_node =rclcpp[01;31m[K:[m[KNode::make_shared("odd_even_check_client_node");
+      |                                   [01;31m[K^[m[K
+      |                                   [32m[K::[m[K
+gmake[2]: *** [CMakeFiles/service_client.dir/build.make:76: CMakeFiles/service_client.dir/src/service_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:734: CMakeFiles/service_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

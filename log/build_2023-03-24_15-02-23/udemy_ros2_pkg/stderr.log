@@ -1,0 +1,6 @@
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/subscriber.cpp:8:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+    8 |         [01;31m[K{[m[K
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

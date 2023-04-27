@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[  1%] Built target udemy_ros2_pkg__cpp
+[  8%] Built target udemy_ros2_pkg__rosidl_generator_c
+[ 11%] Built target rpm_pub
+[ 14%] Built target publisher
+[ 14%] Built target ament_cmake_python_symlink_udemy_ros2_pkg
+[ 17%] Built target speed_calc
+[ 20%] Built target subscriber
+[ 28%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[ 35%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp
+[ 46%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c
+[ 50%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c
+[ 58%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp
+[ 65%] Built target udemy_ros2_pkg__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target turn_camera_client[0m
+[35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[35m[1mConsolidate compiler generated dependencies of target turn_camera_service[0m
+[35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[ 68%] Built target service_server
+[ 68%] Built target udemy_ros2_pkg
+[ 71%] Built target service_client
+[ 74%] [32m[1mLinking CXX executable turn_camera_client[0m
+[ 74%] Built target udemy_ros2_pkg__py
+[ 76%] [32m[1mLinking CXX executable turn_camera_service[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[ 85%] Built target udemy_ros2_pkg__rosidl_generator_py
+[ 88%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext
+[ 91%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing udemy_ros2_pkg.egg-info/PKG-INFO
+writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt
+writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt
+reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[ 94%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg
+[ 95%] [32m[1mLinking CXX executable action_client[0m
+[ 95%] Built target action_client

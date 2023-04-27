@@ -1,0 +1,24 @@
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_server.cpp:50:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kconts[m[K’ has not been declared
+   50 |             [01;31m[Kconts[m[K std::shared_ptr<GoalHandle> goal_handle)
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_server.cpp:50:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kgoal_handle[m[K’
+   50 |             conts std::shared_ptr<GoalHandle> [01;31m[Kgoal_handle[m[K)
+      |                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_server.cpp:50:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kgoal_handle[m[K’
+   50 |             conts std::shared_ptr<GoalHandle>[01;31m[K [m[K[32m[Kgoal_handle[m[K)
+      |                                              [01;31m[K^[m[K[32m[K~~~~~~~~~~~[m[K
+      |                                              [32m[K)[m[K
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_server.cpp:49:52:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   49 |         rclcpp_action::CancelResponse handle_cancel[01;36m[K([m[K
+      |                                                    [01;36m[K^[m[K
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_server.cpp:50:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   50 |             conts std::[01;31m[Kshared_ptr<GoalHandle>[m[K goal_handle)
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                              [32m[K;[m[K
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_server.cpp:50:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ does not name a type; did you mean ‘[01m[KGoalHandle[m[K’?
+   50 |             conts std::shared_ptr<GoalHandle> [01;31m[Kgoal_handle[m[K)
+      |                                               [01;31m[K^~~~~~~~~~~[m[K
+      |                                               [32m[KGoalHandle[m[K
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:821: CMakeFiles/action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

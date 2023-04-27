@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target speed_calc[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o[0m
+[ 37%] Built target subscriber
+[ 62%] Built target publisher
+[ 87%] Built target speed_calc
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_pub.cpp:[m[K In member function ‘[01m[Kvoid RpmPubNode::publish_rpm()[m[K’:
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/rpm_pub.cpp:30:22:[m[K [01;31m[Kerror: [m[K‘[01m[KRPM_VALUE[m[K’ was not declared in this scope
+   30 |       message.data = [01;31m[KRPM_VALUE[m[K;
+      |                      [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rpm_pub.dir/build.make:76: CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/rpm_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

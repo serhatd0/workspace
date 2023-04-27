@@ -1,0 +1,54 @@
+[0.016s] Invoking command in '/home/serhat/workspaces/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/usb_cam -- -j12 -l12
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target usb_cam[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target usb_cam_node_exe[0m
+[0.086s] [ 14%] Built target gtest_main
+[0.092s] [ 28%] Built target gtest
+[0.093s] [ 42%] Built target usb_cam
+[0.100s] [ 57%] Built target usb_cam_node_exe
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target usb_cam_node[0m
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target test_usb_cam_lib[0m
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target test_usb_cam_utils[0m
+[0.136s] [ 71%] Built target test_usb_cam_utils
+[0.141s] [ 85%] Built target test_usb_cam_lib
+[0.141s] [100%] Built target usb_cam_node
+[0.157s] Invoked command in '/home/serhat/workspaces/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/usb_cam -- -j12 -l12
+[0.207s] Invoking command in '/home/serhat/workspaces/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspaces/build/usb_cam
+[0.214s] -- Install configuration: ""
+[0.214s] -- Execute custom install script
+[0.215s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/environment/library_path.sh
+[0.223s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[0.231s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[0.238s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/lib/usb_cam/show_image.py
+[0.245s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/lib/libusb_cam.so
+[0.252s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/lib/libusb_cam_node.so
+[0.259s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/include/usb_cam/constants.hpp
+[0.267s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/include/usb_cam/conversions.hpp
+[0.274s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/include/usb_cam/usb_cam.hpp
+[0.281s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[0.288s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/include/usb_cam/utils.hpp
+[0.296s] -- Up-to-date symlink: /home/serhat/workspaces/install/usb_cam/lib/libusb_cam_node.so
+[0.296s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/launch/demo_launch.py
+[0.306s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[0.313s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/config/params.yaml
+[0.321s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[0.328s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[0.335s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[0.344s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[0.352s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/environment/path.sh
+[0.359s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/environment/path.dsv
+[0.367s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/local_setup.bash
+[0.374s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/local_setup.sh
+[0.382s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/local_setup.zsh
+[0.390s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/local_setup.dsv
+[0.397s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/package.dsv
+[0.408s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[0.417s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[0.424s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[0.431s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.439s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.446s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[0.454s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[0.462s] -- Symlinking: /home/serhat/workspaces/install/usb_cam/share/usb_cam/package.xml
+[0.473s] Invoked command in '/home/serhat/workspaces/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspaces/build/usb_cam

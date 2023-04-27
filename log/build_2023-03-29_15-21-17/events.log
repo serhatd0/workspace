@@ -1,0 +1,225 @@
+[0.000000] (-) TimerEvent: {}
+[0.000238] (udemy_ros2_pkg) JobQueued: {'identifier': 'udemy_ros2_pkg', 'dependencies': OrderedDict()}
+[0.000753] (udemy_ros2_pkg) JobStarted: {'identifier': 'udemy_ros2_pkg'}
+[0.035750] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'cmake'}
+[0.060780] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'build'}
+[0.061540] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/serhat/workspaces/build/udemy_ros2_pkg', '--', '-j12', '-l12'], 'cwd': '/home/serhat/workspaces/build/udemy_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'serhat'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/serhat'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/serhat'), ('TERM_PROGRAM_VERSION', '1.76.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/122/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/serhat/workspaces/ros2_cpp_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'serhat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'serhat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/serhat-ABRA-A5-V15-2:@/tmp/.ICE-unix/1468,unix/serhat-ABRA-A5-V15-2:/tmp/.ICE-unix/1468'), ('XDG_MENU_PREFIX', 'gnome-'), ('RMW_IMLEMENTATION', 'rmw_cyclonedds_cpp'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b6be139b_efde_467d_bc58_5367f17d645f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EYZS21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-287faa05ef.sock'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/122/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/serhat/workspaces/build/udemy_ros2_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[0.062725] (-) TimerEvent: {}
+[0.162978] (-) TimerEvent: {}
+[0.263251] (-) TimerEvent: {}
+[0.363552] (-) TimerEvent: {}
+[0.458554] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.463686] (-) TimerEvent: {}
+[0.564146] (-) TimerEvent: {}
+[0.664819] (-) TimerEvent: {}
+[0.765124] (-) TimerEvent: {}
+[0.865423] (-) TimerEvent: {}
+[0.941016] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.965593] (-) TimerEvent: {}
+[1.065993] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.066546] (-) TimerEvent: {}
+[1.167037] (-) TimerEvent: {}
+[1.267455] (-) TimerEvent: {}
+[1.290968] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.321751] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.360242] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.367574] (-) TimerEvent: {}
+[1.425289] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.461920] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.467667] (-) TimerEvent: {}
+[1.567981] (-) TimerEvent: {}
+[1.603316] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.620916] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.668104] (-) TimerEvent: {}
+[1.768459] (-) TimerEvent: {}
+[1.868778] (-) TimerEvent: {}
+[1.969024] (-) TimerEvent: {}
+[2.026150] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.069173] (-) TimerEvent: {}
+[2.169620] (-) TimerEvent: {}
+[2.269975] (-) TimerEvent: {}
+[2.370298] (-) TimerEvent: {}
+[2.470518] (-) TimerEvent: {}
+[2.521012] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.570633] (-) TimerEvent: {}
+[2.670875] (-) TimerEvent: {}
+[2.771181] (-) TimerEvent: {}
+[2.871487] (-) TimerEvent: {}
+[2.884115] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.5 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[2.896718] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.5 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[2.913834] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.5 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[2.933917] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.971579] (-) TimerEvent: {}
+[3.071930] (-) TimerEvent: {}
+[3.172473] (-) TimerEvent: {}
+[3.272740] (-) TimerEvent: {}
+[3.372952] (-) TimerEvent: {}
+[3.379631] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.473075] (-) TimerEvent: {}
+[3.502326] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.573178] (-) TimerEvent: {}
+[3.578743] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.650443] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.650606] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.650688] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.673267] (-) TimerEvent: {}
+[3.706638] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.5 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[3.719745] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.5 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[3.759456] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.773420] (-) TimerEvent: {}
+[3.835943] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.836772] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.836982] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.839240] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.839522] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.848790] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.849021] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.849765] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.850628] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.851664] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.852465] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.858546] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.873640] (-) TimerEvent: {}
+[3.974095] (-) TimerEvent: {}
+[4.074637] (-) TimerEvent: {}
+[4.170122] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[4.174727] (-) TimerEvent: {}
+[4.174951] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/serhat/workspaces/build/udemy_ros2_pkg\n'}
+[4.234828] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher\x1b[0m\n'}
+[4.235478] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target speed_calc\x1b[0m\n'}
+[4.236057] (udemy_ros2_pkg) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_udemy_ros2_pkg\n'}
+[4.244544] (udemy_ros2_pkg) StdoutLine: {'line': b'[  2%] Built target udemy_ros2_pkg__cpp\n'}
+[4.248154] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rpm_pub\x1b[0m\n'}
+[4.259319] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber\x1b[0m\n'}
+[4.266808] (udemy_ros2_pkg) StdoutLine: {'line': b'[  7%] Built target publisher\n'}
+[4.270519] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_generator_c\x1b[0m\n'}
+[4.271061] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 12%] Built target speed_calc\n'}
+[4.274819] (-) TimerEvent: {}
+[4.278714] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 17%] Built target rpm_pub\n'}
+[4.287513] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 24%] Built target udemy_ros2_pkg__rosidl_generator_c\n'}
+[4.289567] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 29%] Built target subscriber\n'}
+[4.294042] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.295051] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.295623] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.310339] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 36%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp\n'}
+[4.312248] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 43%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp\n'}
+[4.314098] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 51%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[4.374944] (-) TimerEvent: {}
+[4.419491] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.419738] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.419898] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_c\x1b[0m\n'}
+[4.430946] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 65%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c\n'}
+[4.431176] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 65%] Built target udemy_ros2_pkg__rosidl_typesupport_c\n'}
+[4.433714] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 73%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c\n'}
+[4.475025] (-) TimerEvent: {}
+[4.534051] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_server\x1b[0m\n'}
+[4.541934] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 73%] Built target udemy_ros2_pkg\n'}
+[4.556865] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o\x1b[0m\n'}
+[4.569911] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 78%] Built target udemy_ros2_pkg__py\n'}
+[4.575112] (-) TimerEvent: {}
+[4.596965] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_generator_py\x1b[0m\n'}
+[4.616324] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 82%] Built target udemy_ros2_pkg__rosidl_generator_py\n'}
+[4.629096] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.629318] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.629936] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.645725] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 87%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.646682] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 97%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[4.646796] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 95%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext\n'}
+[4.675202] (-) TimerEvent: {}
+[4.708996] (udemy_ros2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.710910] (udemy_ros2_pkg) StdoutLine: {'line': b'writing udemy_ros2_pkg.egg-info/PKG-INFO\n'}
+[4.711139] (udemy_ros2_pkg) StdoutLine: {'line': b'writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt\n'}
+[4.711542] (udemy_ros2_pkg) StdoutLine: {'line': b'writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt\n'}
+[4.731584] (udemy_ros2_pkg) StdoutLine: {'line': b"reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'\n"}
+[4.735375] (udemy_ros2_pkg) StdoutLine: {'line': b"writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'\n"}
+[4.763182] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg\n'}
+[4.775313] (-) TimerEvent: {}
+[4.875605] (-) TimerEvent: {}
+[4.975986] (-) TimerEvent: {}
+[5.076322] (-) TimerEvent: {}
+[5.176598] (-) TimerEvent: {}
+[5.277054] (-) TimerEvent: {}
+[5.377308] (-) TimerEvent: {}
+[5.477641] (-) TimerEvent: {}
+[5.578297] (-) TimerEvent: {}
+[5.678791] (-) TimerEvent: {}
+[5.779489] (-) TimerEvent: {}
+[5.879955] (-) TimerEvent: {}
+[5.980638] (-) TimerEvent: {}
+[6.081348] (-) TimerEvent: {}
+[6.181867] (-) TimerEvent: {}
+[6.282123] (-) TimerEvent: {}
+[6.382580] (-) TimerEvent: {}
+[6.483154] (-) TimerEvent: {}
+[6.583524] (-) TimerEvent: {}
+[6.684109] (-) TimerEvent: {}
+[6.784389] (-) TimerEvent: {}
+[6.884726] (-) TimerEvent: {}
+[6.984945] (-) TimerEvent: {}
+[7.085197] (-) TimerEvent: {}
+[7.185459] (-) TimerEvent: {}
+[7.285708] (-) TimerEvent: {}
+[7.385959] (-) TimerEvent: {}
+[7.486212] (-) TimerEvent: {}
+[7.586455] (-) TimerEvent: {}
+[7.687009] (-) TimerEvent: {}
+[7.787249] (-) TimerEvent: {}
+[7.887537] (-) TimerEvent: {}
+[7.987790] (-) TimerEvent: {}
+[8.088086] (-) TimerEvent: {}
+[8.188347] (-) TimerEvent: {}
+[8.288606] (-) TimerEvent: {}
+[8.388868] (-) TimerEvent: {}
+[8.489169] (-) TimerEvent: {}
+[8.589426] (-) TimerEvent: {}
+[8.689681] (-) TimerEvent: {}
+[8.789947] (-) TimerEvent: {}
+[8.824147] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/service_server.cpp:4:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktypedef name may not be a nested-name-specifier\n'}
+[8.824294] (udemy_ros2_pkg) StderrLine: {'line': b'    4 | typedef udemy_ros2_pkg::srv::OddEvenCheck \x1b[01;31m\x1b[Kudemy_ros2_pkg\x1b[m\x1b[K::srv::OddEvenCheck;\n'}
+[8.824354] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.843569] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/service_server.cpp:19:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KOddCheckServiceSrv\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KOddEvenCheckServiceNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.843761] (udemy_ros2_pkg) StderrLine: {'line': b'   19 |         const \x1b[01;31m\x1b[KOddCheckServiceSrv\x1b[m\x1b[K::Request::SharedPtr request,\n'}
+[8.843828] (udemy_ros2_pkg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.843884] (udemy_ros2_pkg) StderrLine: {'line': b'      |               \x1b[32m\x1b[KOddEvenCheckServiceNode\x1b[m\x1b[K\n'}
+[8.843955] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/service_server.cpp:19:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.844016] (udemy_ros2_pkg) StderrLine: {'line': b'   19 |         const OddCheckServiceSrv::Request\x1b[01;31m\x1b[K::\x1b[m\x1b[KSharedPtr request,\n'}
+[8.844121] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.844219] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/service_server.cpp:19:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.844351] (udemy_ros2_pkg) StderrLine: {'line': b'   19 |         const OddCheckServiceSrv::Request\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KSharedPtr request,\n'}
+[8.844437] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[8.844522] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[8.844607] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/service_server.cpp:18:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.844692] (udemy_ros2_pkg) StderrLine: {'line': b'   18 |     void check_num_odd_even\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[8.844777] (udemy_ros2_pkg) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.844862] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/service_server.cpp:19:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[8.844949] (udemy_ros2_pkg) StderrLine: {'line': b'   19 |         const OddCheckServiceSrv::\x1b[01;31m\x1b[KRequest\x1b[m\x1b[K::SharedPtr request,\n'}
+[8.845034] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.845122] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[8.845559] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/service_server.cpp:19:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedPtr\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[8.845652] (udemy_ros2_pkg) StderrLine: {'line': b'   19 |         const OddCheckServiceSrv::Request::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K request,\n'}
+[8.845737] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.859457] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/service_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KOddEvenCheckServiceNode::OddEvenCheckServiceNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.859619] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/service_server.cpp:13:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__1\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_21\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.859682] (udemy_ros2_pkg) StderrLine: {'line': b'   13 |                 std::placeholders::\x1b[01;31m\x1b[K__1\x1b[m\x1b[K,std::placeholders::__2\n'}
+[8.859737] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.859790] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[K_21\x1b[m\x1b[K\n'}
+[8.859841] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/service_server.cpp:13:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_22\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.859903] (udemy_ros2_pkg) StderrLine: {'line': b'   13 |                 std::placeholders::__1,std::placeholders::\x1b[01;31m\x1b[K__2\x1b[m\x1b[K\n'}
+[8.859953] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.860003] (udemy_ros2_pkg) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K_22\x1b[m\x1b[K\n'}
+[8.890072] (-) TimerEvent: {}
+[8.990424] (-) TimerEvent: {}
+[9.090875] (-) TimerEvent: {}
+[9.191146] (-) TimerEvent: {}
+[9.291503] (-) TimerEvent: {}
+[9.391786] (-) TimerEvent: {}
+[9.492006] (-) TimerEvent: {}
+[9.592258] (-) TimerEvent: {}
+[9.614764] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/service_server.dir/build.make:76: CMakeFiles/service_server.dir/src/service_server.cpp.o] Error 1\n'}
+[9.615034] (udemy_ros2_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:705: CMakeFiles/service_server.dir/all] Error 2\n'}
+[9.615212] (udemy_ros2_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.617284] (udemy_ros2_pkg) CommandEnded: {'returncode': 2}
+[9.692443] (-) TimerEvent: {}
+[9.782461] (udemy_ros2_pkg) JobEnded: {'identifier': 'udemy_ros2_pkg', 'rc': 2}
+[9.792829] (-) TimerEvent: {}
+[9.793530] (-) EventReactorShutdown: {}

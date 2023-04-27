@@ -1,0 +1,1 @@
+/home/serhat/workspaces/ros2_cpp_ws/src/usb_cam/scripts/show_image.py

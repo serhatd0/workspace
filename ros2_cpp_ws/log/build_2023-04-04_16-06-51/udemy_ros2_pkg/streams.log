@@ -1,0 +1,201 @@
+[0.014s] Invoking command in '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg
+[0.024s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.144s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.153s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.180s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.183s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.189s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.268s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.270s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.383s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.534s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.541s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.667s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.675s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.731s] -- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.759s] -- Found ros_ign_gazebo: 0.244.9 (/opt/ros/humble/share/ros_ign_gazebo/cmake)
+[1.785s] -- Found ament_cmake_cppcheck: 0.12.5 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.786s] -- Found ament_cmake_cpplint: 0.12.5 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.787s] -- Found ament_cmake_uncrustify: 0.12.5 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.788s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.424s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.443s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.443s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.444s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.499s] -- Found ament_cmake_flake8: 0.12.5 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.499s] -- Found ament_cmake_pep257: 0.12.5 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.515s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.527s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.529s] -- Configured cppcheck include dirs: 
+[2.529s] -- Configured cppcheck exclude dirs and/or files: 
+[2.531s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.531s] -- Configured cpplint exclude dirs and/or files: 
+[2.534s] -- Added test 'uncrustify' to check C / C++ code style
+[2.534s] -- Configured uncrustify additional arguments: 
+[2.535s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.535s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.536s] -- Added test 'lint_cmake' to check CMake code style
+[2.537s] -- Added test 'xmllint' to check XML markup files
+[2.540s] -- Configuring done
+[2.649s] -- Generating done
+[2.655s] -- Build files have been written to: /home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg
+[2.671s] Invoked command in '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg
+[2.671s] Invoking command in '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j12 -l12
+[2.709s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_generator_c[0m
+[2.709s] [35m[1mConsolidate compiler generated dependencies of target rpm_pub[0m
+[2.712s] [35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[2.712s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[2.713s] [35m[1mConsolidate compiler generated dependencies of target speed_calc[0m
+[2.723s] [  1%] Built target udemy_ros2_pkg__cpp
+[2.725s] [  8%] Built target udemy_ros2_pkg__rosidl_generator_c
+[2.728s] [  8%] Built target ament_cmake_python_symlink_udemy_ros2_pkg
+[2.733s] [ 11%] Built target rpm_pub
+[2.735s] [ 14%] Built target publisher
+[2.738s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp[0m
+[2.739s] [ 17%] Built target subscriber
+[2.740s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp[0m
+[2.740s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_cpp[0m
+[2.740s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_c[0m
+[2.740s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_c[0m
+[2.743s] [ 20%] Built target speed_calc
+[2.744s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c[0m
+[2.756s] [ 28%] Built target udemy_ros2_pkg__rosidl_typesupport_c
+[2.757s] [ 43%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c
+[2.757s] [ 43%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp
+[2.760s] [ 50%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp
+[2.761s] [ 58%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[2.764s] [ 65%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c
+[2.773s] [35m[1mConsolidate compiler generated dependencies of target service_client[0m
+[2.774s] [35m[1mConsolidate compiler generated dependencies of target turn_camera_service[0m
+[2.774s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[2.774s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[2.774s] [35m[1mConsolidate compiler generated dependencies of target turn_camera_client[0m
+[2.776s] [35m[1mConsolidate compiler generated dependencies of target service_server[0m
+[2.790s] [ 65%] Built target udemy_ros2_pkg
+[2.795s] [ 68%] Built target action_client
+[2.797s] [ 71%] Built target service_client
+[2.800s] [ 74%] Built target action_server
+[2.802s] [ 77%] Built target service_server
+[2.802s] [ 80%] Built target turn_camera_service
+[2.803s] [ 83%] Built target turn_camera_client
+[2.812s] [ 85%] Built target udemy_ros2_pkg__py
+[2.821s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_generator_py[0m
+[2.835s] [ 91%] Built target udemy_ros2_pkg__rosidl_generator_py
+[2.844s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.846s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_c__pyext[0m
+[2.847s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext[0m
+[2.857s] [ 94%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext
+[2.859s] [100%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext
+[2.860s] [ 98%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext
+[3.003s] running egg_info
+[3.003s] writing udemy_ros2_pkg.egg-info/PKG-INFO
+[3.003s] writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt
+[3.004s] writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt
+[3.005s] reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[3.006s] writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[3.027s] [100%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg
+[3.038s] Invoked command in '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j12 -l12
+[3.160s] Invoking command in '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg
+[3.166s] -- Install configuration: ""
+[3.166s] -- Execute custom install script
+[3.166s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/rosidl_interfaces/udemy_ros2_pkg
+[3.167s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__functions.h
+[3.167s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__struct.h
+[3.167s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__type_support.h
+[3.167s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/navigate.h
+[3.167s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_generator_c__visibility_control.h
+[3.167s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__functions.h
+[3.168s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__struct.h
+[3.168s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.h
+[3.168s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__functions.h
+[3.168s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__struct.h
+[3.168s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__type_support.h
+[3.168s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/odd_even_check.h
+[3.168s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/turn_camera.h
+[3.168s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/library_path.sh
+[3.169s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/library_path.dsv
+[3.169s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_c.h
+[3.169s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.169s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h
+[3.169s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_c.h
+[3.170s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__builder.hpp
+[3.170s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__struct.hpp
+[3.170s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__traits.hpp
+[3.170s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/navigate.hpp
+[3.170s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__builder.hpp
+[3.170s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__struct.hpp
+[3.170s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__traits.hpp
+[3.170s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__builder.hpp
+[3.170s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__struct.hpp
+[3.171s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__traits.hpp
+[3.171s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/odd_even_check.hpp
+[3.171s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/turn_camera.hpp
+[3.171s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp
+[3.171s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.171s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_cpp.hpp
+[3.172s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[3.172s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_introspection_c.h
+[3.172s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.172s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_c.h
+[3.172s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_c.h
+[3.173s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp
+[3.173s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_cpp.hpp
+[3.173s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_cpp.hpp
+[3.173s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh
+[3.173s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv
+[3.174s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[3.174s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.174s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.174s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[3.175s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/__init__.py
+[3.175s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_c.c
+[3.175s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.175s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[3.175s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/__init__.py
+[3.175s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/_navigate.py
+[3.175s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/_navigate_s.c
+[3.175s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/libudemy_ros2_pkg__rosidl_generator_py.so
+[3.176s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/__init__.py
+[3.176s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_odd_even_check.py
+[3.176s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_odd_even_check_s.c
+[3.176s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_turn_camera.py
+[3.176s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_turn_camera_s.c
+[3.176s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.176s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.176s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.176s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.177s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.177s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.177s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck.idl
+[3.177s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera.idl
+[3.177s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/action/Navigate.idl
+[3.177s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck.srv
+[3.178s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck_Request.msg
+[3.178s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck_Response.msg
+[3.178s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera.srv
+[3.178s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera_Request.msg
+[3.178s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera_Response.msg
+[3.178s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/action/Navigate.action
+[3.178s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher
+[3.179s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber
+[3.179s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/rpm_pub
+[3.179s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/speed_calc
+[3.179s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/service_server
+[3.179s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/service_client
+[3.180s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/turn_camera_service
+[3.180s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/turn_camera_client
+[3.180s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/action_server
+[3.180s] -- Up-to-date symlink: /home/serhat/workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/action_client
+[3.180s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:20 (message):
+[3.180s]   ament_cmake_symlink_install_directory() called with unused/unsupported
+[3.180s]   arguments: udemy_ros2_pkg/
+[3.180s] Call Stack (most recent call first):
+[3.180s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:395 (ament_cmake_symlink_install_directory)
+[3.180s]   cmake_install.cmake:46 (include)
+[3.181s] 
+[3.181s] [0m
+[3.182s] Invoked command in '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg

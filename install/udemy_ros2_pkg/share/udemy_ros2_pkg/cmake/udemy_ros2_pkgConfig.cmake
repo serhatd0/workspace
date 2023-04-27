@@ -1,0 +1,1 @@
+/home/serhat/workspaces/build/udemy_ros2_pkg/ament_cmake_core/udemy_ros2_pkgConfig.cmake

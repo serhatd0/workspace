@@ -1,0 +1,105 @@
+[0.013s] Invoking command in '/home/serhat/workspaces/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/udemy_ros2_pkg -- -j12 -l12
+[0.054s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.194s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.200s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.237s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.240s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.245s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.333s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.334s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.456s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.624s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.632s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.767s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.774s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.839s] -- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.172s] -- Found ament_cmake_cppcheck: 0.12.5 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.172s] -- Found ament_cmake_cpplint: 0.12.5 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.173s] -- Found ament_cmake_uncrustify: 0.12.5 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.174s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.711s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.915s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.937s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.937s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.937s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.990s] -- Found ament_cmake_flake8: 0.12.5 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.991s] -- Found ament_cmake_pep257: 0.12.5 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.005s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.014s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.015s] -- Configured cppcheck include dirs: 
+[2.015s] -- Configured cppcheck exclude dirs and/or files: 
+[2.019s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.019s] -- Configured cpplint exclude dirs and/or files: 
+[2.022s] -- Added test 'uncrustify' to check C / C++ code style
+[2.023s] -- Configured uncrustify additional arguments: 
+[2.023s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.024s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.025s] -- Added test 'lint_cmake' to check CMake code style
+[2.026s] -- Added test 'xmllint' to check XML markup files
+[2.030s] -- Configuring done
+[2.108s] -- Generating done
+[2.116s] -- Build files have been written to: /home/serhat/workspaces/build/udemy_ros2_pkg
+[2.149s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[2.150s] [35m[1mConsolidate compiler generated dependencies of target rpm_pub[0m
+[2.150s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_generator_c[0m
+[2.152s] [35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[2.154s] [35m[1mConsolidate compiler generated dependencies of target speed_calc[0m
+[2.161s] [  1%] Built target udemy_ros2_pkg__cpp
+[2.167s] [  8%] Built target udemy_ros2_pkg__rosidl_generator_c
+[2.174s] [ 11%] Built target publisher
+[2.176s] [ 14%] Built target rpm_pub
+[2.176s] [ 14%] Built target ament_cmake_python_symlink_udemy_ros2_pkg
+[2.178s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_cpp[0m
+[2.179s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp[0m
+[2.179s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp[0m
+[2.187s] [ 17%] Built target speed_calc
+[2.187s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c[0m
+[2.187s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_c[0m
+[2.188s] [ 20%] Built target subscriber
+[2.189s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_c[0m
+[2.201s] [ 28%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp
+[2.202s] [ 35%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[2.204s] [ 43%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp
+[2.205s] [ 50%] Built target udemy_ros2_pkg__rosidl_typesupport_c
+[2.208s] [ 58%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c
+[2.215s] [ 65%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c
+[2.216s] [35m[1mConsolidate compiler generated dependencies of target service_client[0m
+[2.218s] [35m[1mConsolidate compiler generated dependencies of target service_server[0m
+[2.220s] [35m[1mConsolidate compiler generated dependencies of target turn_camera_client[0m
+[2.221s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[2.221s] [35m[1mConsolidate compiler generated dependencies of target turn_camera_service[0m
+[2.243s] [ 67%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[2.257s] [ 70%] Built target service_server
+[2.257s] [ 73%] Built target service_client
+[2.257s] [ 73%] Built target udemy_ros2_pkg
+[2.258s] [ 76%] Built target turn_camera_client
+[2.263s] [ 79%] Built target turn_camera_service
+[2.264s] [ 82%] Built target action_server
+[2.280s] [ 83%] Built target udemy_ros2_pkg__py
+[2.292s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_generator_py[0m
+[2.318s] [ 89%] Built target udemy_ros2_pkg__rosidl_generator_py
+[2.331s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.332s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_c__pyext[0m
+[2.333s] [35m[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext[0m
+[2.346s] [ 92%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext
+[2.348s] [ 95%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext
+[2.350s] [ 98%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext
+[2.508s] running egg_info
+[2.508s] writing udemy_ros2_pkg.egg-info/PKG-INFO
+[2.508s] writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt
+[2.509s] writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt
+[2.512s] reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[2.514s] writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[2.544s] [ 98%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg
+[5.072s] [01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_client.cpp:[m[K In member function ‘[01m[Kvoid NavigateActionClientNode::result_callback(const rclcpp_action::ClientGoalHandle<udemy_ros2_pkg::action::Navigate>::WrappedResult&)[m[K’:
+[5.072s] [01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_client.cpp:99:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct udemy_ros2_pkg::action::Navigate_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct udemy_ros2_pkg::action::Navigate_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kelapsed_time[m[K’; did you mean ‘[01m[Kelpased_time[m[K’?
+[5.072s]    99 |         std::cout << "Time elapsed: " << result.result->[01;31m[Kelapsed_time[m[K << std::endl;
+[5.072s]       |                                                         [01;31m[K^~~~~~~~~~~~[m[K
+[5.072s]       |                                                         [32m[Kelpased_time[m[K
+[5.734s] gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/action_client.cpp.o] Error 1
+[5.734s] gmake[1]: *** [CMakeFiles/Makefile2:850: CMakeFiles/action_client.dir/all] Error 2
+[5.734s] gmake: *** [Makefile:146: all] Error 2
+[5.739s] Invoked command in '/home/serhat/workspaces/build/udemy_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/udemy_ros2_pkg -- -j12 -l12

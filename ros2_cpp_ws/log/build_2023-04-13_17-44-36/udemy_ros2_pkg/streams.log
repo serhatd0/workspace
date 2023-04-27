@@ -1,0 +1,71 @@
+[0.018s] Invoking command in '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j12 -l12
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[0.080s] [  1%] Built target udemy_ros2_pkg__cpp
+[0.081s] [  8%] Built target udemy_ros2_pkg__rosidl_generator_c
+[0.089s] [ 11%] Built target publisher
+[0.090s] [ 11%] Built target ament_cmake_python_symlink_udemy_ros2_pkg
+[0.090s] [ 14%] Built target rpm_pub
+[0.098s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[0.098s] [ 19%] Built target speed_calc
+[0.121s] [ 29%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c
+[0.122s] [ 34%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[0.124s] [ 41%] Built target udemy_ros2_pkg__rosidl_typesupport_c
+[0.124s] [ 49%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp
+[0.127s] [ 56%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp
+[0.140s] [ 64%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target service_client[0m
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target turn_camera_service[0m
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target turn_camera_client[0m
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.152s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target service_server[0m
+[0.169s] [ 64%] Built target udemy_ros2_pkg
+[0.177s] [ 65%] [32mBuilding CXX object CMakeFiles/turn_camera_service.dir/src/turn_camera_service.cpp.o[0m
+[0.178s] [ 68%] Built target service_client
+[0.183s] [ 70%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[0.184s] [ 71%] [32mBuilding CXX object CMakeFiles/turn_camera_client.dir/src/turn_camera_client.cpp.o[0m
+[0.186s] [ 74%] Built target service_server
+[0.191s] [ 76%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[0.200s] [ 77%] Built target udemy_ros2_pkg__py
+[0.209s] [ 79%] [32m[1mLinking CXX executable turn_camera_service[0m
+[0.212s] [ 80%] [32m[1mLinking CXX executable turn_camera_client[0m
+[0.233s] [ 86%] Built target udemy_ros2_pkg__rosidl_generator_py
+[0.267s] [ 89%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext
+[0.268s] [ 92%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext
+[0.268s] [ 95%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext
+[0.447s] running egg_info
+[0.448s] writing udemy_ros2_pkg.egg-info/PKG-INFO
+[0.448s] writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt
+[0.448s] writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt
+[0.451s] reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[0.451s] writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[0.477s] [ 95%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg
+[1.058s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[1.058s] (.text+0x1b): undefined reference to `main'
+[1.062s] collect2: error: ld returned 1 exit status
+[1.064s] gmake[2]: *** [CMakeFiles/turn_camera_client.dir/build.make:233: turn_camera_client] Error 1
+[1.065s] gmake[1]: *** [CMakeFiles/Makefile2:796: CMakeFiles/turn_camera_client.dir/all] Error 2
+[1.065s] gmake[1]: *** Waiting for unfinished jobs....
+[1.152s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[1.152s] (.text+0x1b): undefined reference to `main'
+[1.155s] collect2: error: ld returned 1 exit status
+[1.157s] gmake[2]: *** [CMakeFiles/turn_camera_service.dir/build.make:233: turn_camera_service] Error 1
+[1.158s] gmake[1]: *** [CMakeFiles/Makefile2:769: CMakeFiles/turn_camera_service.dir/all] Error 2
+[2.693s] [01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_client.cpp:[m[K In member function ‘[01m[Kvoid NavigateActionClientNode::result_callback(const rclcpp_action::ClientGoalHandle<udemy_ros2_pkg::action::Navigate>::WrappedResult&)[m[K’:
+[2.693s] [01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_client.cpp:99:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct udemy_ros2_pkg::action::Navigate_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct udemy_ros2_pkg::action::Navigate_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kelpased_time[m[K’; did you mean ‘[01m[Kelapsed_time[m[K’?
+[2.693s]    99 |         std::cout << "Time elapsed: " << result.result->[01;31m[Kelpased_time[m[K << std::endl;
+[2.693s]       |                                                         [01;31m[K^~~~~~~~~~~~[m[K
+[2.693s]       |                                                         [32m[Kelapsed_time[m[K
+[2.859s] [01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_server.cpp:[m[K In member function ‘[01m[Kvoid NavigateActionServerNode::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<udemy_ros2_pkg::action::Navigate> >)[m[K’:
+[2.859s] [01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_server.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct udemy_ros2_pkg::action::Navigate_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct udemy_ros2_pkg::action::Navigate_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kelpased_time[m[K’; did you mean ‘[01m[Kelapsed_time[m[K’?
+[2.859s]    80 |             result->[01;31m[Kelpased_time[m[K = (rclcpp::Clock().now() - start_time).seconds();
+[2.859s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[2.859s]       |                     [32m[Kelapsed_time[m[K
+[3.300s] gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/action_client.cpp.o] Error 1
+[3.300s] gmake[1]: *** [CMakeFiles/Makefile2:850: CMakeFiles/action_client.dir/all] Error 2
+[4.980s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1
+[4.980s] gmake[1]: *** [CMakeFiles/Makefile2:823: CMakeFiles/action_server.dir/all] Error 2
+[7.316s] [ 97%] [32m[1mLinking CXX executable subscriber[0m
+[7.619s] [ 97%] Built target subscriber
+[7.621s] gmake: *** [Makefile:146: all] Error 2
+[7.622s] Invoked command in '/home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j12 -l12

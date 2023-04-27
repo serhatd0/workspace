@@ -1,0 +1,13 @@
+[0.015s] Invoking command in '/home/serhat/workspaces/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/udemy_ros2_pkg -- -j12 -l12
+[0.080s] [ 25%] Built target subscriber
+[0.080s] [ 50%] Built target rpm_pub
+[0.082s] [ 75%] Built target publisher
+[0.083s] [ 87%] [32mBuilding CXX object CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o[0m
+[2.797s] [01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:[m[K In constructor ‘[01m[KSpeedCalcNode::SpeedCalcNode()[m[K’:
+[2.797s] [01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:13:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krpm_subscription_[m[K’
+[2.797s]    13 |             [01;31m[Krpm_subscription_[m[K = this->create_subscription<std_msgs::msg::Float64>(
+[2.797s]       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.852s] gmake[2]: *** [CMakeFiles/speed_calc.dir/build.make:76: CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o] Error 1
+[3.853s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/speed_calc.dir/all] Error 2
+[3.853s] gmake: *** [Makefile:146: all] Error 2
+[3.856s] Invoked command in '/home/serhat/workspaces/build/udemy_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspaces/build/udemy_ros2_pkg -- -j12 -l12

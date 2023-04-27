@@ -1,0 +1,69 @@
+[35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[  1%] Built target udemy_ros2_pkg__cpp
+[  8%] Built target udemy_ros2_pkg__rosidl_generator_c
+[ 11%] Built target publisher
+[ 11%] Built target ament_cmake_python_symlink_udemy_ros2_pkg
+[ 14%] Built target rpm_pub
+[ 16%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[ 19%] Built target speed_calc
+[ 29%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c
+[ 34%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target udemy_ros2_pkg__rosidl_typesupport_c
+[ 49%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp
+[ 56%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp
+[ 64%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target service_client[0m
+[35m[1mConsolidate compiler generated dependencies of target turn_camera_service[0m
+[35m[1mConsolidate compiler generated dependencies of target turn_camera_client[0m
+[35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[35m[1mConsolidate compiler generated dependencies of target service_server[0m
+[ 64%] Built target udemy_ros2_pkg
+[ 65%] [32mBuilding CXX object CMakeFiles/turn_camera_service.dir/src/turn_camera_service.cpp.o[0m
+[ 68%] Built target service_client
+[ 70%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/turn_camera_client.dir/src/turn_camera_client.cpp.o[0m
+[ 74%] Built target service_server
+[ 76%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[ 77%] Built target udemy_ros2_pkg__py
+[ 79%] [32m[1mLinking CXX executable turn_camera_service[0m
+[ 80%] [32m[1mLinking CXX executable turn_camera_client[0m
+[ 86%] Built target udemy_ros2_pkg__rosidl_generator_py
+[ 89%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext
+[ 92%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing udemy_ros2_pkg.egg-info/PKG-INFO
+writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt
+writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt
+reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[ 95%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/turn_camera_client.dir/build.make:233: turn_camera_client] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:796: CMakeFiles/turn_camera_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/turn_camera_service.dir/build.make:233: turn_camera_service] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:769: CMakeFiles/turn_camera_service.dir/all] Error 2
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_client.cpp:[m[K In member function ‘[01m[Kvoid NavigateActionClientNode::result_callback(const rclcpp_action::ClientGoalHandle<udemy_ros2_pkg::action::Navigate>::WrappedResult&)[m[K’:
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_client.cpp:99:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct udemy_ros2_pkg::action::Navigate_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct udemy_ros2_pkg::action::Navigate_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kelpased_time[m[K’; did you mean ‘[01m[Kelapsed_time[m[K’?
+   99 |         std::cout << "Time elapsed: " << result.result->[01;31m[Kelpased_time[m[K << std::endl;
+      |                                                         [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                         [32m[Kelapsed_time[m[K
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_server.cpp:[m[K In member function ‘[01m[Kvoid NavigateActionServerNode::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<udemy_ros2_pkg::action::Navigate> >)[m[K’:
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/action_server.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct udemy_ros2_pkg::action::Navigate_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct udemy_ros2_pkg::action::Navigate_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kelpased_time[m[K’; did you mean ‘[01m[Kelapsed_time[m[K’?
+   80 |             result->[01;31m[Kelpased_time[m[K = (rclcpp::Clock().now() - start_time).seconds();
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+      |                     [32m[Kelapsed_time[m[K
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:850: CMakeFiles/action_client.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:823: CMakeFiles/action_server.dir/all] Error 2
+[ 97%] [32m[1mLinking CXX executable subscriber[0m
+[ 97%] Built target subscriber
+gmake: *** [Makefile:146: all] Error 2

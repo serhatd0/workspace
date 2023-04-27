@@ -1,0 +1,23 @@
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:[m[K In constructor ‘[01m[KSpeedCalcNode::SpeedCalcNode()[m[K’:
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:17:81:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSpeedCalcNode::create_subscription<std_msgs::msg::Float64>(const char [6], int)[m[K’
+   17 |             speed_publisher_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Float64>([m[K
+      |                                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   18 | [01;31m[K                "speed", 10)[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~[m[K                                                     
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/speed_calc.cpp:17:81:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 2 provided
+   17 |             speed_publisher_ = [01;36m[Kthis->create_subscription<std_msgs::msg::Float64>([m[K
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   18 | [01;36m[K                "speed", 10)[m[K;
+      |                 [01;36m[K~~~~~~~~~~~~[m[K                                                     
+gmake[2]: *** [CMakeFiles/speed_calc.dir/build.make:76: CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/speed_calc.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

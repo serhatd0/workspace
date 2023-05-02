@@ -1,8 +1,8 @@
-# Install script for directory: /home/serhat/workspaces/build/udemy_ros2_pkg/udemy_ros2_pkg__py
+# Install script for directory: /home/serhat/workspace/build/udemy_ros2_pkg/udemy_ros2_pkg__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/serhat/workspaces/install/udemy_ros2_pkg")
+  set(CMAKE_INSTALL_PREFIX "/home/serhat/workspace/install/udemy_ros2_pkg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()

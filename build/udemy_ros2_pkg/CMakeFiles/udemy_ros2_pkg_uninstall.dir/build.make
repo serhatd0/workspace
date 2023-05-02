@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg
+CMAKE_SOURCE_DIR = /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/serhat/workspaces/build/udemy_ros2_pkg
+CMAKE_BINARY_DIR = /home/serhat/workspace/build/udemy_ros2_pkg
 
 # Utility rule file for udemy_ros2_pkg_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/udemy_ros2_pkg_uninstall.dir/compiler_depend.make
 include CMakeFiles/udemy_ros2_pkg_uninstall.dir/progress.make
 
 CMakeFiles/udemy_ros2_pkg_uninstall:
-	/usr/bin/cmake -P /home/serhat/workspaces/build/udemy_ros2_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/serhat/workspace/build/udemy_ros2_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 udemy_ros2_pkg_uninstall: CMakeFiles/udemy_ros2_pkg_uninstall
 udemy_ros2_pkg_uninstall: CMakeFiles/udemy_ros2_pkg_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/udemy_ros2_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/udemy_ros2_pkg_uninstall.dir/clean
 
 CMakeFiles/udemy_ros2_pkg_uninstall.dir/depend:
-	cd /home/serhat/workspaces/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/serhat/workspace/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/udemy_ros2_pkg_uninstall.dir/depend
 

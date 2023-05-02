@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg
+CMAKE_SOURCE_DIR = /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/serhat/workspaces/build/udemy_ros2_pkg
+CMAKE_BINARY_DIR = /home/serhat/workspace/build/udemy_ros2_pkg
 
 # Utility rule file for ament_cmake_python_build_udemy_ros2_pkg_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_udemy_ros2_pkg_egg.dir/compiler_depe
 include CMakeFiles/ament_cmake_python_build_udemy_ros2_pkg_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_udemy_ros2_pkg_egg:
-	cd /home/serhat/workspaces/build/udemy_ros2_pkg/ament_cmake_python/udemy_ros2_pkg && /usr/bin/python3.10 setup.py egg_info
+	cd /home/serhat/workspace/build/udemy_ros2_pkg/ament_cmake_python/udemy_ros2_pkg && /usr/bin/python3.10 setup.py egg_info
 
 ament_cmake_python_build_udemy_ros2_pkg_egg: CMakeFiles/ament_cmake_python_build_udemy_ros2_pkg_egg
 ament_cmake_python_build_udemy_ros2_pkg_egg: CMakeFiles/ament_cmake_python_build_udemy_ros2_pkg_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_udemy_ros2_pkg_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_udemy_ros2_pkg_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_udemy_ros2_pkg_egg.dir/depend:
-	cd /home/serhat/workspaces/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg/CMakeFiles/ament_cmake_python_build_udemy_ros2_pkg_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/serhat/workspace/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/ament_cmake_python_build_udemy_ros2_pkg_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_udemy_ros2_pkg_egg.dir/depend
 

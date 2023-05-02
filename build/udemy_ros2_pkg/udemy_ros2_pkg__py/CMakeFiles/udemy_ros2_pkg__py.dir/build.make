@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg
+CMAKE_SOURCE_DIR = /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/serhat/workspaces/build/udemy_ros2_pkg
+CMAKE_BINARY_DIR = /home/serhat/workspace/build/udemy_ros2_pkg
 
 # Utility rule file for udemy_ros2_pkg__py.
 
@@ -188,8 +188,8 @@ rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/serhat/workspaces/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/serhat/workspaces/build/udemy_ros2_pkg/udemy_ros2_pkg__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/serhat/workspace/build/udemy_ros2_pkg/udemy_ros2_pkg__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/serhat/workspace/build/udemy_ros2_pkg/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c
@@ -241,10 +241,10 @@ udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py.dir/build: udemy_ros2_pkg__py
 .PHONY : udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py.dir/build
 
 udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py.dir/clean:
-	cd /home/serhat/workspaces/build/udemy_ros2_pkg/udemy_ros2_pkg__py && $(CMAKE_COMMAND) -P CMakeFiles/udemy_ros2_pkg__py.dir/cmake_clean.cmake
+	cd /home/serhat/workspace/build/udemy_ros2_pkg/udemy_ros2_pkg__py && $(CMAKE_COMMAND) -P CMakeFiles/udemy_ros2_pkg__py.dir/cmake_clean.cmake
 .PHONY : udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py.dir/clean
 
 udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py.dir/depend:
-	cd /home/serhat/workspaces/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg/udemy_ros2_pkg__py /home/serhat/workspaces/build/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg/udemy_ros2_pkg__py /home/serhat/workspaces/build/udemy_ros2_pkg/udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/serhat/workspace/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg/udemy_ros2_pkg__py /home/serhat/workspace/build/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg/udemy_ros2_pkg__py /home/serhat/workspace/build/udemy_ros2_pkg/udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py.dir/depend
 

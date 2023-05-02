@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from canopen_interfaces/msg/COData.msg
+// generated code does not contain a copyright notice
+
+
+module canopen_interfaces {
+  module msg {
+    struct COData {
+      uint16 index;
+
+      uint8 subindex;
+
+      uint32 data;
+
+      @verbatim (language="comment", text=
+        "8 = uint8_t, 16 = uint16_t, 32 = uint32_t")
+      uint8 type;
+    };
+  };
+};

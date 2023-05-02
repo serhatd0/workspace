@@ -1,0 +1,9 @@
+[01m[K/home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg/src/can_receiver_node.cpp:63:16:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[Kifr[m[K’ has incomplete type ‘[01m[Kifreq[m[K’
+   63 |   struct ifreq [01;31m[Kifr[m[K;
+      |                [01;31m[K^~~[m[K
+[01m[K/home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg/src/can_receiver_node.cpp:63:10:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct ifreq[m[K’
+   63 |   struct [01;36m[Kifreq[m[K ifr;
+      |          [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/can_receiver_node.dir/build.make:76: CMakeFiles/can_receiver_node.dir/src/can_receiver_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:640: CMakeFiles/can_receiver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

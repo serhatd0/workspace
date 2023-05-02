@@ -1,0 +1,42 @@
+[1.371s] Invoking command in '/home/serhat/workspace/ros2_canopen/canopen_utils': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/serhat/workspace/build/canopen_utils/prefix_override:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/canopen_utils build --build-base /home/serhat/workspace/build/canopen_utils/build install --record /home/serhat/workspace/build/canopen_utils/install.log --single-version-externally-managed
+[1.698s] running egg_info
+[1.699s] creating ../../build/canopen_utils/canopen_utils.egg-info
+[1.700s] writing ../../build/canopen_utils/canopen_utils.egg-info/PKG-INFO
+[1.700s] writing dependency_links to ../../build/canopen_utils/canopen_utils.egg-info/dependency_links.txt
+[1.700s] writing entry points to ../../build/canopen_utils/canopen_utils.egg-info/entry_points.txt
+[1.701s] writing requirements to ../../build/canopen_utils/canopen_utils.egg-info/requires.txt
+[1.701s] writing top-level names to ../../build/canopen_utils/canopen_utils.egg-info/top_level.txt
+[1.701s] writing manifest file '../../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[1.702s] reading manifest file '../../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[1.703s] writing manifest file '../../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[1.703s] running build
+[1.703s] running build_py
+[1.704s] creating /home/serhat/workspace/build/canopen_utils/build
+[1.704s] creating /home/serhat/workspace/build/canopen_utils/build/lib
+[1.704s] creating /home/serhat/workspace/build/canopen_utils/build/lib/canopen_utils
+[1.704s] copying canopen_utils/test_node.py -> /home/serhat/workspace/build/canopen_utils/build/lib/canopen_utils
+[1.704s] copying canopen_utils/cyclic_tester.py -> /home/serhat/workspace/build/canopen_utils/build/lib/canopen_utils
+[1.704s] copying canopen_utils/__init__.py -> /home/serhat/workspace/build/canopen_utils/build/lib/canopen_utils
+[1.705s] running install
+[1.775s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.775s]   warnings.warn(
+[1.776s] running install_lib
+[1.777s] creating /home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages/canopen_utils
+[1.777s] copying /home/serhat/workspace/build/canopen_utils/build/lib/canopen_utils/test_node.py -> /home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages/canopen_utils
+[1.777s] copying /home/serhat/workspace/build/canopen_utils/build/lib/canopen_utils/cyclic_tester.py -> /home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages/canopen_utils
+[1.777s] copying /home/serhat/workspace/build/canopen_utils/build/lib/canopen_utils/__init__.py -> /home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages/canopen_utils
+[1.778s] byte-compiling /home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages/canopen_utils/test_node.py to test_node.cpython-310.pyc
+[1.780s] byte-compiling /home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages/canopen_utils/cyclic_tester.py to cyclic_tester.cpython-310.pyc
+[1.781s] byte-compiling /home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages/canopen_utils/__init__.py to __init__.cpython-310.pyc
+[1.781s] running install_data
+[1.783s] creating /home/serhat/workspace/install/canopen_utils/share/ament_index
+[1.783s] creating /home/serhat/workspace/install/canopen_utils/share/ament_index/resource_index
+[1.783s] creating /home/serhat/workspace/install/canopen_utils/share/ament_index/resource_index/packages
+[1.783s] copying resource/canopen_utils -> /home/serhat/workspace/install/canopen_utils/share/ament_index/resource_index/packages
+[1.783s] copying package.xml -> /home/serhat/workspace/install/canopen_utils/share/canopen_utils
+[1.784s] running install_egg_info
+[1.786s] Copying ../../build/canopen_utils/canopen_utils.egg-info to /home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages/canopen_utils-0.0.0-py3.10.egg-info
+[1.787s] running install_scripts
+[1.815s] Installing cyclic_tester script to /home/serhat/workspace/install/canopen_utils/lib/canopen_utils
+[1.816s] writing list of installed files to '/home/serhat/workspace/build/canopen_utils/install.log'
+[1.847s] Invoked command in '/home/serhat/workspace/ros2_canopen/canopen_utils' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/serhat/workspace/build/canopen_utils/prefix_override:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/canopen_utils build --build-base /home/serhat/workspace/build/canopen_utils/build install --record /home/serhat/workspace/build/canopen_utils/install.log --single-version-externally-managed

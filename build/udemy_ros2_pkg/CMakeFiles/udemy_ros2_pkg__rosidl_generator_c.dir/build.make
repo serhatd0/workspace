@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg
+CMAKE_SOURCE_DIR = /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/serhat/workspaces/build/udemy_ros2_pkg
+CMAKE_BINARY_DIR = /home/serhat/workspace/build/udemy_ros2_pkg
 
 # Include any dependencies generated for this target.
 include CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/depend.make
@@ -179,8 +179,8 @@ rosidl_generator_c/udemy_ros2_pkg/srv/odd_even_check.h: /opt/ros/humble/share/ac
 rosidl_generator_c/udemy_ros2_pkg/srv/odd_even_check.h: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
 rosidl_generator_c/udemy_ros2_pkg/srv/odd_even_check.h: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 rosidl_generator_c/udemy_ros2_pkg/srv/odd_even_check.h: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/serhat/workspaces/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_generator_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
+	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/serhat/workspace/build/udemy_ros2_pkg/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.h: rosidl_generator_c/udemy_ros2_pkg/srv/odd_even_check.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.h
@@ -227,44 +227,44 @@ rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c: rosidl_ge
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.o: CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/flags.make
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.o: rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.o: CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/serhat/workspaces/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.o -MF CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.o.d -o CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.o -c /home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.o -MF CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.o.d -o CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.o -c /home/serhat/workspace/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c
 
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c > CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/serhat/workspace/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c > CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.i
 
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c -o CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/serhat/workspace/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c -o CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c.s
 
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.o: CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/flags.make
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.o: rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.o: CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/serhat/workspaces/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.o -MF CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.o.d -o CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.o -c /home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.o -MF CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.o.d -o CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.o -c /home/serhat/workspace/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c
 
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c > CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/serhat/workspace/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c > CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.i
 
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c -o CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/serhat/workspace/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c -o CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.c.s
 
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.o: CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/flags.make
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.o: rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.o: CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/serhat/workspaces/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.o -MF CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.o.d -o CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.o -c /home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.o -MF CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.o.d -o CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.o -c /home/serhat/workspace/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c
 
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c > CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/serhat/workspace/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c > CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.i
 
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c -o CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/serhat/workspace/build/udemy_ros2_pkg/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c -o CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.c.s
 
 # Object files for target udemy_ros2_pkg__rosidl_generator_c
 udemy_ros2_pkg__rosidl_generator_c_OBJECTS = \
@@ -288,7 +288,7 @@ libudemy_ros2_pkg__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfa
 libudemy_ros2_pkg__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libudemy_ros2_pkg__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libudemy_ros2_pkg__rosidl_generator_c.so: CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/serhat/workspaces/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libudemy_ros2_pkg__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libudemy_ros2_pkg__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -314,6 +314,6 @@ CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/ude
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__type_support.h
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/udemy_ros2_pkg/srv/odd_even_check.h
 CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/udemy_ros2_pkg/srv/turn_camera.h
-	cd /home/serhat/workspaces/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/serhat/workspace/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/udemy_ros2_pkg__rosidl_generator_c.dir/depend
 

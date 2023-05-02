@@ -1,0 +1,117 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found rclcpp_lifecycle: 16.0.3 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found lely_core_libraries: 0.0.1 (/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/cmake)
+-- Found canopen_interfaces: 0.0.1 (/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/serhat/workspace/build/canopen_core
+[ 14%] [32mBuilding CXX object CMakeFiles/configuration_manager.dir/src/configuration_manager.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/lifecycle_master_node.dir/src/lifecycle_master_node.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/lely_master_bridge.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/lifecycle_master_node.dir/src/lely_master_bridge.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library libconfiguration_manager.so[0m
+[ 42%] Built target configuration_manager
+[ 50%] [32mBuilding CXX object CMakeFiles/lifecycle_device_manager_node.dir/src/lifecycle_device_manager_node.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libmaster_node.so[0m
+[ 64%] [32m[1mLinking CXX shared library liblifecycle_master_node.so[0m
+[ 71%] [32m[1mLinking CXX shared library liblifecycle_device_manager_node.so[0m
+[ 71%] Built target master_node
+[ 71%] Built target lifecycle_master_node
+[ 78%] [32mBuilding CXX object CMakeFiles/device_container_node.dir/src/device_container_node.cpp.o[0m
+[ 78%] Built target lifecycle_device_manager_node
+[ 85%] [32mBuilding CXX object CMakeFiles/lifecycle_device_container_node.dir/src/lifecycle_device_container_node.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable device_container_node[0m
+[ 92%] Built target device_container_node
+[100%] [32m[1mLinking CXX executable lifecycle_device_container_node[0m
+[100%] Built target lifecycle_device_container_node
+-- Install configuration: ""
+-- Installing: /home/serhat/workspace/install/canopen_core/include
+-- Installing: /home/serhat/workspace/install/canopen_core/include/canopen_core
+-- Installing: /home/serhat/workspace/install/canopen_core/include/canopen_core/exchange.hpp
+-- Installing: /home/serhat/workspace/install/canopen_core/include/canopen_core/configuration_manager.hpp
+-- Installing: /home/serhat/workspace/install/canopen_core/include/canopen_core/lifecycle_master_node.hpp
+-- Installing: /home/serhat/workspace/install/canopen_core/include/canopen_core/lely_master_bridge.hpp
+-- Installing: /home/serhat/workspace/install/canopen_core/include/canopen_core/device.hpp
+-- Installing: /home/serhat/workspace/install/canopen_core/include/canopen_core/lifecycle_device_container_node.hpp
+-- Installing: /home/serhat/workspace/install/canopen_core/include/canopen_core/device_container_node.hpp
+-- Installing: /home/serhat/workspace/install/canopen_core/include/canopen_core/lifecycle_device_manager_node.hpp
+-- Installing: /home/serhat/workspace/install/canopen_core/include/canopen_core/visibility_control.h
+-- Installing: /home/serhat/workspace/install/canopen_core/include/canopen_core/master_node.hpp
+-- Installing: /home/serhat/workspace/install/canopen_core/lib/libconfiguration_manager.so
+-- Set runtime path of "/home/serhat/workspace/install/canopen_core/lib/libconfiguration_manager.so" to ""
+-- Installing: /home/serhat/workspace/install/canopen_core/lib/libmaster_node.so
+-- Set runtime path of "/home/serhat/workspace/install/canopen_core/lib/libmaster_node.so" to ""
+-- Installing: /home/serhat/workspace/install/canopen_core/lib/liblifecycle_master_node.so
+-- Set runtime path of "/home/serhat/workspace/install/canopen_core/lib/liblifecycle_master_node.so" to ""
+-- Installing: /home/serhat/workspace/install/canopen_core/lib/liblifecycle_device_manager_node.so
+-- Set runtime path of "/home/serhat/workspace/install/canopen_core/lib/liblifecycle_device_manager_node.so" to ""
+-- Installing: /home/serhat/workspace/install/canopen_core/lib/canopen_core/lifecycle_device_container_node
+-- Set runtime path of "/home/serhat/workspace/install/canopen_core/lib/canopen_core/lifecycle_device_container_node" to ""
+-- Installing: /home/serhat/workspace/install/canopen_core/lib/canopen_core/device_container_node
+-- Set runtime path of "/home/serhat/workspace/install/canopen_core/lib/canopen_core/device_container_node" to ""
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/launch/
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/launch//canopen_lifecycle.launch.py
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/launch//canopen.launch.py
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/library_path.sh
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/library_path.dsv
+-- Installing: /home/serhat/workspace/install/canopen_core/share/ament_index/resource_index/package_run_dependencies/canopen_core
+-- Installing: /home/serhat/workspace/install/canopen_core/share/ament_index/resource_index/parent_prefix_path/canopen_core
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/ament_prefix_path.sh
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/ament_prefix_path.dsv
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/path.sh
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/path.dsv
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/local_setup.bash
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/local_setup.sh
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/local_setup.zsh
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/local_setup.dsv
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/package.dsv
+-- Installing: /home/serhat/workspace/install/canopen_core/share/ament_index/resource_index/packages/canopen_core
+-- Installing: /home/serhat/workspace/install/canopen_core/share/ament_index/resource_index/rclcpp_components/canopen_core
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_configuration_managerExport.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_configuration_managerExport-noconfig.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_master_nodeExport.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_master_nodeExport-noconfig.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_lifecycle_master_nodeExport.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_lifecycle_master_nodeExport-noconfig.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_lifecycle_device_manager_nodeExport.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_lifecycle_device_manager_nodeExport-noconfig.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/canopen_coreConfig.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/canopen_coreConfig-version.cmake
+-- Installing: /home/serhat/workspace/install/canopen_core/share/canopen_core/package.xml

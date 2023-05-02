@@ -1,0 +1,2 @@
+Invoking command in '/home/serhat/workspace/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/udemy_ros2_pkg
+Invoked command in '/home/serhat/workspace/build/udemy_ros2_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/udemy_ros2_pkg

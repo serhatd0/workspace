@@ -1,0 +1,3 @@
+ros2_canopen::MasterNode;lib/libmaster_node.so
+ros2_canopen::LifecycleMasterNode;lib/liblifecycle_master_node.so
+ros2_canopen::LifecycleDeviceManagerNode;lib/liblifecycle_device_manager_node.so

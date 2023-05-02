@@ -1,0 +1,4 @@
+source;share/canopen_mock_slave/local_setup.bash
+source;share/canopen_mock_slave/local_setup.dsv
+source;share/canopen_mock_slave/local_setup.sh
+source;share/canopen_mock_slave/local_setup.zsh

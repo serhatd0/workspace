@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg
+CMAKE_SOURCE_DIR = /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/serhat/workspaces/build/udemy_ros2_pkg
+CMAKE_BINARY_DIR = /home/serhat/workspace/build/udemy_ros2_pkg
 
 # Utility rule file for udemy_ros2_pkg.
 
@@ -66,13 +66,13 @@ include CMakeFiles/udemy_ros2_pkg.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/udemy_ros2_pkg.dir/progress.make
 
-CMakeFiles/udemy_ros2_pkg: /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/srv/OddEvenCheck.srv
+CMakeFiles/udemy_ros2_pkg: /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg/srv/OddEvenCheck.srv
 CMakeFiles/udemy_ros2_pkg: rosidl_cmake/srv/OddEvenCheck_Request.msg
 CMakeFiles/udemy_ros2_pkg: rosidl_cmake/srv/OddEvenCheck_Response.msg
-CMakeFiles/udemy_ros2_pkg: /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/srv/TurnCamera.srv
+CMakeFiles/udemy_ros2_pkg: /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg/srv/TurnCamera.srv
 CMakeFiles/udemy_ros2_pkg: rosidl_cmake/srv/TurnCamera_Request.msg
 CMakeFiles/udemy_ros2_pkg: rosidl_cmake/srv/TurnCamera_Response.msg
-CMakeFiles/udemy_ros2_pkg: /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/action/Navigate.action
+CMakeFiles/udemy_ros2_pkg: /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg/action/Navigate.action
 CMakeFiles/udemy_ros2_pkg: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 CMakeFiles/udemy_ros2_pkg: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 CMakeFiles/udemy_ros2_pkg: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -148,6 +148,6 @@ CMakeFiles/udemy_ros2_pkg.dir/clean:
 .PHONY : CMakeFiles/udemy_ros2_pkg.dir/clean
 
 CMakeFiles/udemy_ros2_pkg.dir/depend:
-	cd /home/serhat/workspaces/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/serhat/workspace/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/udemy_ros2_pkg.dir/depend
 

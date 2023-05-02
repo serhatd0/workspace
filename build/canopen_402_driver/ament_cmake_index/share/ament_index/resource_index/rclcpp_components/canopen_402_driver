@@ -1,0 +1,2 @@
+ros2_canopen::MotionControllerDriver;lib/libcanopen_402_driver.so
+ros2_canopen::LifecycleMotionControllerDriver;lib/liblifecycle_canopen_402_driver.so

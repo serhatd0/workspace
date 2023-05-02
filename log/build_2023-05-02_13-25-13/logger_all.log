@@ -1,0 +1,948 @@
+[0.579s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.580s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f854f5c9ae0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f854ff81960>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f854ff81960>>)
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.639s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/serhat/workspace'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extensions ['ros']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extension 'ros'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extensions ['cmake', 'python']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extension 'cmake'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extension 'python'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extensions ['python_setup_py']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(Ros) by extension 'python_setup_py'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extension 'ignore'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extension 'ignore_ament_install'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extensions ['colcon_pkg']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extension 'ros'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extensions ['cmake', 'python']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extension 'cmake'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extension 'python'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extensions ['python_setup_py']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen) by extension 'python_setup_py'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen) by extensions ['ignore', 'ignore_ament_install']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen) by extension 'ignore'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen) by extension 'ignore_ament_install'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen) by extensions ['colcon_pkg']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen) by extension 'ros'
+[0.656s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_canopen/canopen' with type 'ros.ament_cmake' and name 'canopen'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_402_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_402_driver) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_402_driver) by extension 'ignore_ament_install'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_402_driver) by extensions ['colcon_pkg']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_402_driver) by extension 'colcon_pkg'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_402_driver) by extensions ['colcon_meta']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_402_driver) by extension 'colcon_meta'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_402_driver) by extensions ['ros']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_402_driver) by extension 'ros'
+[0.659s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_canopen/canopen_402_driver' with type 'ros.ament_cmake' and name 'canopen_402_driver'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_base_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_base_driver) by extension 'ignore'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_base_driver) by extension 'ignore_ament_install'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_base_driver) by extensions ['colcon_pkg']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_base_driver) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_base_driver) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_base_driver) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_base_driver) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_base_driver) by extension 'ros'
+[0.663s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_canopen/canopen_base_driver' with type 'ros.ament_cmake' and name 'canopen_base_driver'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_core) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_core) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_core) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_core) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_core) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_core) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_core) by extension 'colcon_meta'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_core) by extensions ['ros']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_core) by extension 'ros'
+[0.665s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_canopen/canopen_core' with type 'ros.ament_cmake' and name 'canopen_core'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_interfaces) by extension 'ignore'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_interfaces) by extension 'ignore_ament_install'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_interfaces) by extensions ['colcon_pkg']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_interfaces) by extension 'colcon_pkg'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_interfaces) by extensions ['colcon_meta']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_interfaces) by extension 'colcon_meta'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_interfaces) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_interfaces) by extension 'ros'
+[0.666s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_canopen/canopen_interfaces' with type 'ros.ament_cmake' and name 'canopen_interfaces'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_mock_slave) by extensions ['ignore', 'ignore_ament_install']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_mock_slave) by extension 'ignore'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_mock_slave) by extension 'ignore_ament_install'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_mock_slave) by extensions ['colcon_pkg']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_mock_slave) by extension 'colcon_pkg'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_mock_slave) by extensions ['colcon_meta']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_mock_slave) by extension 'colcon_meta'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_mock_slave) by extensions ['ros']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_mock_slave) by extension 'ros'
+[0.667s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_canopen/canopen_mock_slave' with type 'ros.ament_cmake' and name 'canopen_mock_slave'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_proxy_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_proxy_driver) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_proxy_driver) by extension 'ignore_ament_install'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_proxy_driver) by extensions ['colcon_pkg']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_proxy_driver) by extension 'colcon_pkg'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_proxy_driver) by extensions ['colcon_meta']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_proxy_driver) by extension 'colcon_meta'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_proxy_driver) by extensions ['ros']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_proxy_driver) by extension 'ros'
+[0.668s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_canopen/canopen_proxy_driver' with type 'ros.ament_cmake' and name 'canopen_proxy_driver'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_tests) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_tests) by extension 'ignore_ament_install'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_tests) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_tests) by extension 'colcon_pkg'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_tests) by extensions ['colcon_meta']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_tests) by extension 'colcon_meta'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_tests) by extensions ['ros']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_tests) by extension 'ros'
+[0.670s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_canopen/canopen_tests' with type 'ros.ament_cmake' and name 'canopen_tests'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_utils) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_utils) by extension 'ignore_ament_install'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_utils) by extensions ['colcon_pkg']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_utils) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_utils) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_utils) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_utils) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/canopen_utils) by extension 'ros'
+[0.671s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_canopen/canopen_utils' with type 'ros.ament_python' and name 'canopen_utils'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/lely_core_libraries) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/lely_core_libraries) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/lely_core_libraries) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/lely_core_libraries) by extensions ['colcon_pkg']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/lely_core_libraries) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/lely_core_libraries) by extensions ['colcon_meta']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/lely_core_libraries) by extension 'colcon_meta'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/lely_core_libraries) by extensions ['ros']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_canopen/lely_core_libraries) by extension 'ros'
+[0.672s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_canopen/lely_core_libraries' with type 'ros.ament_cmake' and name 'lely_core_libraries'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'ignore'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'ignore_ament_install'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extensions ['colcon_pkg']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'colcon_pkg'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extensions ['colcon_meta']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'colcon_meta'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extensions ['ros']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'ros'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extensions ['cmake', 'python']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'cmake'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'python'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extensions ['python_setup_py']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws) by extension 'python_setup_py'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/build) by extension 'ignore'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/build) ignored
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'ignore'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'ignore_ament_install'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extensions ['colcon_pkg']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'colcon_pkg'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extensions ['colcon_meta']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'colcon_meta'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extensions ['ros']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'ros'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extensions ['cmake', 'python']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'cmake'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'python'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extensions ['python_setup_py']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/images) by extension 'python_setup_py'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/install) by extension 'ignore'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/install) ignored
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/log) by extension 'ignore'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/log) ignored
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'ignore'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'ignore_ament_install'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extensions ['colcon_pkg']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'colcon_pkg'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extensions ['colcon_meta']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'colcon_meta'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extensions ['ros']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'ros'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extensions ['cmake', 'python']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'cmake'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'python'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extensions ['python_setup_py']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src) by extension 'python_setup_py'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/build) by extension 'ignore'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/build) ignored
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/install) by extension 'ignore'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/install) ignored
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/log) by extension 'ignore'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/log) ignored
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extension 'ignore'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extension 'ignore_ament_install'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extensions ['colcon_pkg']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extension 'colcon_pkg'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extensions ['colcon_meta']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extension 'colcon_meta'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extensions ['ros']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_ws/src/udemy_ros2_pkg) by extension 'ros'
+[0.692s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_cpp_ws/src/udemy_ros2_pkg' with type 'ros.ament_cmake' and name 'udemy_ros2_pkg'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'ignore'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'ignore_ament_install'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extensions ['colcon_pkg']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'colcon_pkg'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extensions ['colcon_meta']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'colcon_meta'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extensions ['ros']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'ros'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extensions ['cmake', 'python']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'cmake'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'python'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extensions ['python_setup_py']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(test.bag) by extension 'python_setup_py'
+[0.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.729s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 363 installed packages in /opt/ros/humble
+[0.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.818s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/serhat/workspace/build/canopen_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/serhat/workspace/install/canopen_interfaces', 'merge_install': False, 'path': '/home/serhat/workspace/ros2_canopen/canopen_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'cmake_args' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'cmake_target' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'cmake_clean_cache' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'cmake_clean_first' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'cmake_force_configure' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'ament_cmake_args' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'catkin_cmake_args' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.819s] DEBUG:colcon.colcon_core.verb:Building package 'lely_core_libraries' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/serhat/workspace/build/lely_core_libraries', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/serhat/workspace/install/lely_core_libraries', 'merge_install': False, 'path': '/home/serhat/workspace/ros2_canopen/lely_core_libraries', 'symlink_install': False, 'test_result_base': None}
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'cmake_target' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'udemy_ros2_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.820s] DEBUG:colcon.colcon_core.verb:Building package 'udemy_ros2_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/serhat/workspace/build/udemy_ros2_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/serhat/workspace/install/udemy_ros2_pkg', 'merge_install': False, 'path': '/home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'cmake_target' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.822s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/serhat/workspace/build/canopen_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/serhat/workspace/install/canopen_core', 'merge_install': False, 'path': '/home/serhat/workspace/ros2_canopen/canopen_core', 'symlink_install': False, 'test_result_base': None}
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'canopen_mock_slave' build argument 'cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'canopen_mock_slave' build argument 'cmake_target' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'canopen_mock_slave' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'canopen_mock_slave' build argument 'cmake_clean_cache' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'canopen_mock_slave' build argument 'cmake_clean_first' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'canopen_mock_slave' build argument 'cmake_force_configure' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'canopen_mock_slave' build argument 'ament_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'canopen_mock_slave' build argument 'catkin_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'canopen_mock_slave' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.823s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_mock_slave' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/serhat/workspace/build/canopen_mock_slave', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/serhat/workspace/install/canopen_mock_slave', 'merge_install': False, 'path': '/home/serhat/workspace/ros2_canopen/canopen_mock_slave', 'symlink_install': False, 'test_result_base': None}
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'cmake_target' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.824s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/serhat/workspace/build/canopen_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/serhat/workspace/install/canopen_utils', 'merge_install': False, 'path': '/home/serhat/workspace/ros2_canopen/canopen_utils', 'symlink_install': False, 'test_result_base': None}
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'cmake_target' from command line to 'None'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.827s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_base_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/serhat/workspace/build/canopen_base_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/serhat/workspace/install/canopen_base_driver', 'merge_install': False, 'path': '/home/serhat/workspace/ros2_canopen/canopen_base_driver', 'symlink_install': False, 'test_result_base': None}
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'cmake_args' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'cmake_target' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.830s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_proxy_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/serhat/workspace/build/canopen_proxy_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/serhat/workspace/install/canopen_proxy_driver', 'merge_install': False, 'path': '/home/serhat/workspace/ros2_canopen/canopen_proxy_driver', 'symlink_install': False, 'test_result_base': None}
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'cmake_args' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'cmake_target' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.832s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_402_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/serhat/workspace/build/canopen_402_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/serhat/workspace/install/canopen_402_driver', 'merge_install': False, 'path': '/home/serhat/workspace/ros2_canopen/canopen_402_driver', 'symlink_install': False, 'test_result_base': None}
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'cmake_args' from command line to 'None'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'cmake_target' from command line to 'None'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'cmake_clean_cache' from command line to 'False'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'cmake_clean_first' from command line to 'False'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'cmake_force_configure' from command line to 'False'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'ament_cmake_args' from command line to 'None'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'catkin_cmake_args' from command line to 'None'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.833s] DEBUG:colcon.colcon_core.verb:Building package 'canopen' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/serhat/workspace/build/canopen', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/serhat/workspace/install/canopen', 'merge_install': False, 'path': '/home/serhat/workspace/ros2_canopen/canopen', 'symlink_install': False, 'test_result_base': None}
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'cmake_args' from command line to 'None'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'cmake_target' from command line to 'None'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'cmake_clean_first' from command line to 'False'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'cmake_force_configure' from command line to 'False'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'ament_cmake_args' from command line to 'None'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.835s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/serhat/workspace/build/canopen_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/serhat/workspace/install/canopen_tests', 'merge_install': False, 'path': '/home/serhat/workspace/ros2_canopen/canopen_tests', 'symlink_install': False, 'test_result_base': None}
+[0.836s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.839s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.839s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/serhat/workspace/ros2_canopen/canopen_interfaces' with build type 'ament_cmake'
+[0.839s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/serhat/workspace/ros2_canopen/canopen_interfaces'
+[0.866s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.889s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/serhat/workspace/ros2_canopen/lely_core_libraries' with build type 'ament_cmake'
+[0.889s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/serhat/workspace/ros2_canopen/lely_core_libraries'
+[0.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.895s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg' with build type 'ament_cmake'
+[0.896s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg'
+[0.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_interfaces -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_interfaces
+[0.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/lely_core_libraries': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/serhat/workspace/ros2_canopen/lely_core_libraries -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/lely_core_libraries
+[1.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspace/build/udemy_ros2_pkg -- -j12 -l12
+[6.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspace/build/udemy_ros2_pkg -- -j12 -l12
+[6.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspace/build/udemy_ros2_pkg
+[7.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/serhat/workspace/ros2_canopen/lely_core_libraries -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/lely_core_libraries
+[7.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/lely_core_libraries': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspace/build/lely_core_libraries -- -j12 -l12
+[7.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udemy_ros2_pkg)
+[7.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspace/build/udemy_ros2_pkg
+[7.945s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg' for CMake module files
+[7.977s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg' for CMake config files
+[8.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('udemy_ros2_pkg', 'cmake_prefix_path')
+[8.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/cmake_prefix_path.ps1'
+[8.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/cmake_prefix_path.dsv'
+[8.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/cmake_prefix_path.sh'
+[8.040s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg/lib'
+[8.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('udemy_ros2_pkg', 'ld_library_path_lib')
+[8.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/ld_library_path_lib.ps1'
+[8.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/ld_library_path_lib.dsv'
+[8.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/ld_library_path_lib.sh'
+[8.043s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg/bin'
+[8.043s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg/lib/pkgconfig/udemy_ros2_pkg.pc'
+[8.043s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg/lib/python3.10/site-packages'
+[8.043s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg/bin'
+[8.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.ps1'
+[8.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv'
+[8.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.sh'
+[8.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.bash'
+[8.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.zsh'
+[8.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/udemy_ros2_pkg/share/colcon-core/packages/udemy_ros2_pkg)
+[8.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udemy_ros2_pkg)
+[8.257s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg' for CMake module files
+[8.258s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg' for CMake config files
+[8.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('udemy_ros2_pkg', 'cmake_prefix_path')
+[8.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/cmake_prefix_path.ps1'
+[8.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/cmake_prefix_path.dsv'
+[8.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/cmake_prefix_path.sh'
+[8.263s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg/lib'
+[8.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('udemy_ros2_pkg', 'ld_library_path_lib')
+[8.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/ld_library_path_lib.ps1'
+[8.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/ld_library_path_lib.dsv'
+[8.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/hook/ld_library_path_lib.sh'
+[8.265s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg/bin'
+[8.266s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg/lib/pkgconfig/udemy_ros2_pkg.pc'
+[8.266s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg/lib/python3.10/site-packages'
+[8.266s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/udemy_ros2_pkg/bin'
+[8.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.ps1'
+[8.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv'
+[8.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.sh'
+[8.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.bash'
+[8.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.zsh'
+[8.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/udemy_ros2_pkg/share/colcon-core/packages/udemy_ros2_pkg)
+[9.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_interfaces -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_interfaces
+[9.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspace/build/canopen_interfaces -- -j12 -l12
+[18.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspace/build/canopen_interfaces -- -j12 -l12
+[18.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspace/build/canopen_interfaces
+[18.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_interfaces)
+[18.539s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces' for CMake module files
+[18.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspace/build/canopen_interfaces
+[18.540s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces' for CMake config files
+[18.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_interfaces', 'cmake_prefix_path')
+[18.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/hook/cmake_prefix_path.ps1'
+[18.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/hook/cmake_prefix_path.dsv'
+[18.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/hook/cmake_prefix_path.sh'
+[18.544s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces/lib'
+[18.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_interfaces', 'ld_library_path_lib')
+[18.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/hook/ld_library_path_lib.ps1'
+[18.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/hook/ld_library_path_lib.dsv'
+[18.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/hook/ld_library_path_lib.sh'
+[18.548s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces/bin'
+[18.548s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces/lib/pkgconfig/canopen_interfaces.pc'
+[18.548s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces/lib/python3.10/site-packages'
+[18.549s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces/bin'
+[18.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/package.ps1'
+[18.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/package.dsv'
+[18.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/package.sh'
+[18.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/package.bash'
+[18.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/package.zsh'
+[18.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_interfaces/share/colcon-core/packages/canopen_interfaces)
+[18.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_interfaces)
+[18.818s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces' for CMake module files
+[18.819s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces' for CMake config files
+[18.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_interfaces', 'cmake_prefix_path')
+[18.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/hook/cmake_prefix_path.ps1'
+[18.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/hook/cmake_prefix_path.dsv'
+[18.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/hook/cmake_prefix_path.sh'
+[18.822s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces/lib'
+[18.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_interfaces', 'ld_library_path_lib')
+[18.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/hook/ld_library_path_lib.ps1'
+[18.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/hook/ld_library_path_lib.dsv'
+[18.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/hook/ld_library_path_lib.sh'
+[18.825s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces/bin'
+[18.825s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces/lib/pkgconfig/canopen_interfaces.pc'
+[18.826s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces/lib/python3.10/site-packages'
+[18.826s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_interfaces/bin'
+[18.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/package.ps1'
+[18.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/package.dsv'
+[18.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/package.sh'
+[18.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/package.bash'
+[18.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_interfaces/share/canopen_interfaces/package.zsh'
+[18.832s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_interfaces/share/colcon-core/packages/canopen_interfaces)
+[18.833s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/serhat/workspace/ros2_canopen/canopen_utils' with build type 'ament_python'
+[18.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_utils', 'ament_prefix_path')
+[18.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_utils/share/canopen_utils/hook/ament_prefix_path.ps1'
+[18.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_utils/share/canopen_utils/hook/ament_prefix_path.dsv'
+[18.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_utils/share/canopen_utils/hook/ament_prefix_path.sh'
+[18.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.841s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.219s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/serhat/workspace/ros2_canopen/canopen_utils'
+[19.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/ros2_canopen/canopen_utils': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/serhat/workspace/build/canopen_utils/prefix_override:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/canopen_utils build --build-base /home/serhat/workspace/build/canopen_utils/build install --record /home/serhat/workspace/build/canopen_utils/install.log --single-version-externally-managed
+[20.680s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_utils' for CMake module files
+[20.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/ros2_canopen/canopen_utils' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/serhat/workspace/build/canopen_utils/prefix_override:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/canopen_utils build --build-base /home/serhat/workspace/build/canopen_utils/build install --record /home/serhat/workspace/build/canopen_utils/install.log --single-version-externally-managed
+[20.681s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_utils' for CMake config files
+[20.682s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_utils/lib'
+[20.682s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_utils/bin'
+[20.682s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_utils/lib/pkgconfig/canopen_utils.pc'
+[20.683s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages'
+[20.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_utils', 'pythonpath')
+[20.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_utils/share/canopen_utils/hook/pythonpath.ps1'
+[20.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_utils/share/canopen_utils/hook/pythonpath.dsv'
+[20.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_utils/share/canopen_utils/hook/pythonpath.sh'
+[20.687s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_utils/bin'
+[20.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_utils)
+[20.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_utils/share/canopen_utils/package.ps1'
+[20.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_utils/share/canopen_utils/package.dsv'
+[20.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_utils/share/canopen_utils/package.sh'
+[20.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_utils/share/canopen_utils/package.bash'
+[20.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_utils/share/canopen_utils/package.zsh'
+[20.691s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_utils/share/colcon-core/packages/canopen_utils)
+[48.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspace/build/lely_core_libraries -- -j12 -l12
+[48.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/lely_core_libraries': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspace/build/lely_core_libraries
+[48.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lely_core_libraries)
+[48.745s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries' for CMake module files
+[48.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspace/build/lely_core_libraries
+[48.746s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries' for CMake config files
+[48.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'cmake_prefix_path')
+[48.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/cmake_prefix_path.ps1'
+[48.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/cmake_prefix_path.dsv'
+[48.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/cmake_prefix_path.sh'
+[48.750s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries/lib'
+[48.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'ld_library_path_lib')
+[48.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/ld_library_path_lib.ps1'
+[48.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/ld_library_path_lib.dsv'
+[48.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/ld_library_path_lib.sh'
+[48.752s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries/bin'
+[48.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'path')
+[48.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/path.ps1'
+[48.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/path.dsv'
+[48.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/path.sh'
+[48.755s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries/lib/pkgconfig/lely_core_libraries.pc'
+[48.755s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages'
+[48.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'pythonpath')
+[48.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/pythonpath.ps1'
+[48.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/pythonpath.dsv'
+[48.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/pythonpath.sh'
+[48.759s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries/bin'
+[48.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'pythonscriptspath')
+[48.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/pythonscriptspath.ps1'
+[48.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/pythonscriptspath.dsv'
+[48.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/pythonscriptspath.sh'
+[48.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/package.ps1'
+[48.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/package.dsv'
+[48.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/package.sh'
+[48.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/package.bash'
+[48.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/package.zsh'
+[48.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/lely_core_libraries/share/colcon-core/packages/lely_core_libraries)
+[48.792s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lely_core_libraries)
+[48.794s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries' for CMake module files
+[48.795s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries' for CMake config files
+[48.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'cmake_prefix_path')
+[48.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/cmake_prefix_path.ps1'
+[48.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/cmake_prefix_path.dsv'
+[48.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/cmake_prefix_path.sh'
+[48.799s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries/lib'
+[48.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'ld_library_path_lib')
+[48.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/ld_library_path_lib.ps1'
+[48.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/ld_library_path_lib.dsv'
+[48.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/ld_library_path_lib.sh'
+[48.802s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries/bin'
+[48.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'path')
+[48.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/path.ps1'
+[48.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/path.dsv'
+[48.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/path.sh'
+[48.805s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries/lib/pkgconfig/lely_core_libraries.pc'
+[48.805s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages'
+[48.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'pythonpath')
+[48.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/pythonpath.ps1'
+[48.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/pythonpath.dsv'
+[48.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/pythonpath.sh'
+[48.808s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/lely_core_libraries/bin'
+[48.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'pythonscriptspath')
+[48.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/pythonscriptspath.ps1'
+[48.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/pythonscriptspath.dsv'
+[48.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/hook/pythonscriptspath.sh'
+[48.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/package.ps1'
+[48.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/package.dsv'
+[48.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/package.sh'
+[48.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/package.bash'
+[48.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/package.zsh'
+[48.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/lely_core_libraries/share/colcon-core/packages/lely_core_libraries)
+[48.815s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/serhat/workspace/ros2_canopen/canopen_core' with build type 'ament_cmake'
+[48.815s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/serhat/workspace/ros2_canopen/canopen_core'
+[48.817s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[48.817s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[48.822s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/serhat/workspace/ros2_canopen/canopen_mock_slave' with build type 'ament_cmake'
+[48.822s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/serhat/workspace/ros2_canopen/canopen_mock_slave'
+[48.824s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[48.824s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[48.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_core': AMENT_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_core -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_core
+[48.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_mock_slave': AMENT_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_mock_slave -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_mock_slave
+[51.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_mock_slave' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_mock_slave -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_mock_slave
+[51.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_mock_slave': AMENT_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_mock_slave -- -j12 -l12
+[51.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_core' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_core -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_core
+[51.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_core': AMENT_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_core -- -j12 -l12
+[57.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_mock_slave' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_mock_slave -- -j12 -l12
+[57.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_mock_slave': AMENT_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_mock_slave
+[57.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_mock_slave)
+[57.484s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave' for CMake module files
+[57.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_mock_slave' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_mock_slave
+[57.485s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave' for CMake config files
+[57.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_mock_slave', 'cmake_prefix_path')
+[57.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/hook/cmake_prefix_path.ps1'
+[57.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/hook/cmake_prefix_path.dsv'
+[57.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/hook/cmake_prefix_path.sh'
+[57.489s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave/lib'
+[57.489s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave/bin'
+[57.489s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave/lib/pkgconfig/canopen_mock_slave.pc'
+[57.490s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave/lib/python3.10/site-packages'
+[57.490s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave/bin'
+[57.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/package.ps1'
+[57.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/package.dsv'
+[57.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/package.sh'
+[57.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/package.bash'
+[57.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/package.zsh'
+[57.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_mock_slave/share/colcon-core/packages/canopen_mock_slave)
+[57.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_mock_slave)
+[57.535s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave' for CMake module files
+[57.535s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave' for CMake config files
+[57.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_mock_slave', 'cmake_prefix_path')
+[57.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/hook/cmake_prefix_path.ps1'
+[57.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/hook/cmake_prefix_path.dsv'
+[57.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/hook/cmake_prefix_path.sh'
+[57.539s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave/lib'
+[57.539s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave/bin'
+[57.539s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave/lib/pkgconfig/canopen_mock_slave.pc'
+[57.539s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave/lib/python3.10/site-packages'
+[57.539s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_mock_slave/bin'
+[57.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/package.ps1'
+[57.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/package.dsv'
+[57.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/package.sh'
+[57.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/package.bash'
+[57.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_mock_slave/share/canopen_mock_slave/package.zsh'
+[57.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_mock_slave/share/colcon-core/packages/canopen_mock_slave)
+[67.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_core' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_core -- -j12 -l12
+[68.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_core': AMENT_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_core
+[68.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_core)
+[68.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_core' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_core
+[68.064s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core' for CMake module files
+[68.065s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core' for CMake config files
+[68.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_core', 'cmake_prefix_path')
+[68.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_core/share/canopen_core/hook/cmake_prefix_path.ps1'
+[68.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_core/share/canopen_core/hook/cmake_prefix_path.dsv'
+[68.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_core/share/canopen_core/hook/cmake_prefix_path.sh'
+[68.068s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core/lib'
+[68.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_core', 'ld_library_path_lib')
+[68.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_core/share/canopen_core/hook/ld_library_path_lib.ps1'
+[68.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_core/share/canopen_core/hook/ld_library_path_lib.dsv'
+[68.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_core/share/canopen_core/hook/ld_library_path_lib.sh'
+[68.071s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core/bin'
+[68.071s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core/lib/pkgconfig/canopen_core.pc'
+[68.071s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core/lib/python3.10/site-packages'
+[68.071s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core/bin'
+[68.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_core/share/canopen_core/package.ps1'
+[68.073s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_core/share/canopen_core/package.dsv'
+[68.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_core/share/canopen_core/package.sh'
+[68.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_core/share/canopen_core/package.bash'
+[68.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_core/share/canopen_core/package.zsh'
+[68.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_core/share/colcon-core/packages/canopen_core)
+[68.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_core)
+[68.129s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core' for CMake module files
+[68.130s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core' for CMake config files
+[68.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_core', 'cmake_prefix_path')
+[68.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_core/share/canopen_core/hook/cmake_prefix_path.ps1'
+[68.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_core/share/canopen_core/hook/cmake_prefix_path.dsv'
+[68.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_core/share/canopen_core/hook/cmake_prefix_path.sh'
+[68.133s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core/lib'
+[68.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_core', 'ld_library_path_lib')
+[68.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_core/share/canopen_core/hook/ld_library_path_lib.ps1'
+[68.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_core/share/canopen_core/hook/ld_library_path_lib.dsv'
+[68.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_core/share/canopen_core/hook/ld_library_path_lib.sh'
+[68.137s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core/bin'
+[68.137s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core/lib/pkgconfig/canopen_core.pc'
+[68.137s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core/lib/python3.10/site-packages'
+[68.138s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_core/bin'
+[68.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_core/share/canopen_core/package.ps1'
+[68.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_core/share/canopen_core/package.dsv'
+[68.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_core/share/canopen_core/package.sh'
+[68.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_core/share/canopen_core/package.bash'
+[68.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_core/share/canopen_core/package.zsh'
+[68.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_core/share/colcon-core/packages/canopen_core)
+[68.143s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/serhat/workspace/ros2_canopen/canopen_base_driver' with build type 'ament_cmake'
+[68.143s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/serhat/workspace/ros2_canopen/canopen_base_driver'
+[68.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[68.147s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[68.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_base_driver': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_base_driver -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_base_driver
+[70.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_base_driver' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_base_driver -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_base_driver
+[70.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_base_driver': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_base_driver -- -j12 -l12
+[75.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_base_driver' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_base_driver -- -j12 -l12
+[75.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_base_driver': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_base_driver
+[75.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_base_driver)
+[75.761s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver' for CMake module files
+[75.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_base_driver' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_base_driver
+[75.762s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver' for CMake config files
+[75.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_base_driver', 'cmake_prefix_path')
+[75.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/hook/cmake_prefix_path.ps1'
+[75.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/hook/cmake_prefix_path.dsv'
+[75.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/hook/cmake_prefix_path.sh'
+[75.766s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver/lib'
+[75.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_base_driver', 'ld_library_path_lib')
+[75.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/hook/ld_library_path_lib.ps1'
+[75.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/hook/ld_library_path_lib.dsv'
+[75.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/hook/ld_library_path_lib.sh'
+[75.769s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver/bin'
+[75.769s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver/lib/pkgconfig/canopen_base_driver.pc'
+[75.769s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver/lib/python3.10/site-packages'
+[75.770s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver/bin'
+[75.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.ps1'
+[75.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.dsv'
+[75.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.sh'
+[75.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.bash'
+[75.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.zsh'
+[75.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_base_driver/share/colcon-core/packages/canopen_base_driver)
+[75.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_base_driver)
+[75.823s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver' for CMake module files
+[75.824s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver' for CMake config files
+[75.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_base_driver', 'cmake_prefix_path')
+[75.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/hook/cmake_prefix_path.ps1'
+[75.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/hook/cmake_prefix_path.dsv'
+[75.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/hook/cmake_prefix_path.sh'
+[75.828s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver/lib'
+[75.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_base_driver', 'ld_library_path_lib')
+[75.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/hook/ld_library_path_lib.ps1'
+[75.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/hook/ld_library_path_lib.dsv'
+[75.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/hook/ld_library_path_lib.sh'
+[75.832s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver/bin'
+[75.832s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver/lib/pkgconfig/canopen_base_driver.pc'
+[75.833s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver/lib/python3.10/site-packages'
+[75.833s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_base_driver/bin'
+[75.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.ps1'
+[75.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.dsv'
+[75.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.sh'
+[75.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.bash'
+[75.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.zsh'
+[75.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_base_driver/share/colcon-core/packages/canopen_base_driver)
+[75.839s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/serhat/workspace/ros2_canopen/canopen_proxy_driver' with build type 'ament_cmake'
+[75.839s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/serhat/workspace/ros2_canopen/canopen_proxy_driver'
+[75.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[75.841s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[75.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_proxy_driver': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_proxy_driver -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_proxy_driver
+[77.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_proxy_driver' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_proxy_driver -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_proxy_driver
+[77.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_proxy_driver': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_proxy_driver -- -j12 -l12
+[99.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_proxy_driver' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_proxy_driver -- -j12 -l12
+[99.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_proxy_driver': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_proxy_driver
+[99.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_proxy_driver)
+[99.689s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver' for CMake module files
+[99.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_proxy_driver' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_proxy_driver
+[99.690s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver' for CMake config files
+[99.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_proxy_driver', 'cmake_prefix_path')
+[99.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/hook/cmake_prefix_path.ps1'
+[99.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/hook/cmake_prefix_path.dsv'
+[99.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/hook/cmake_prefix_path.sh'
+[99.695s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver/lib'
+[99.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_proxy_driver', 'ld_library_path_lib')
+[99.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/hook/ld_library_path_lib.ps1'
+[99.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/hook/ld_library_path_lib.dsv'
+[99.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/hook/ld_library_path_lib.sh'
+[99.698s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver/bin'
+[99.698s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver/lib/pkgconfig/canopen_proxy_driver.pc'
+[99.699s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver/lib/python3.10/site-packages'
+[99.699s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver/bin'
+[99.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/package.ps1'
+[99.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/package.dsv'
+[99.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/package.sh'
+[99.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/package.bash'
+[99.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/package.zsh'
+[99.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_proxy_driver/share/colcon-core/packages/canopen_proxy_driver)
+[99.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_proxy_driver)
+[99.775s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver' for CMake module files
+[99.776s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver' for CMake config files
+[99.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_proxy_driver', 'cmake_prefix_path')
+[99.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/hook/cmake_prefix_path.ps1'
+[99.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/hook/cmake_prefix_path.dsv'
+[99.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/hook/cmake_prefix_path.sh'
+[99.783s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver/lib'
+[99.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_proxy_driver', 'ld_library_path_lib')
+[99.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/hook/ld_library_path_lib.ps1'
+[99.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/hook/ld_library_path_lib.dsv'
+[99.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/hook/ld_library_path_lib.sh'
+[99.789s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver/bin'
+[99.789s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver/lib/pkgconfig/canopen_proxy_driver.pc'
+[99.790s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver/lib/python3.10/site-packages'
+[99.790s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_proxy_driver/bin'
+[99.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/package.ps1'
+[99.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/package.dsv'
+[99.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/package.sh'
+[99.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/package.bash'
+[99.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_proxy_driver/share/canopen_proxy_driver/package.zsh'
+[99.798s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_proxy_driver/share/colcon-core/packages/canopen_proxy_driver)
+[99.799s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/serhat/workspace/ros2_canopen/canopen_402_driver' with build type 'ament_cmake'
+[99.799s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/serhat/workspace/ros2_canopen/canopen_402_driver'
+[99.802s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[99.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[99.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_402_driver': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_402_driver -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_402_driver
+[103.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_402_driver' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_402_driver -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_402_driver
+[103.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_402_driver': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_402_driver -- -j12 -l12
+[136.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_402_driver' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_402_driver -- -j12 -l12
+[136.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_402_driver': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_402_driver
+[136.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_402_driver)
+[136.948s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver' for CMake module files
+[136.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_402_driver' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_402_driver
+[136.948s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver' for CMake config files
+[136.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_402_driver', 'cmake_prefix_path')
+[136.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/hook/cmake_prefix_path.ps1'
+[136.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/hook/cmake_prefix_path.dsv'
+[136.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/hook/cmake_prefix_path.sh'
+[136.950s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver/lib'
+[136.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_402_driver', 'ld_library_path_lib')
+[136.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/hook/ld_library_path_lib.ps1'
+[136.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/hook/ld_library_path_lib.dsv'
+[136.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/hook/ld_library_path_lib.sh'
+[136.952s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver/bin'
+[136.952s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver/lib/pkgconfig/canopen_402_driver.pc'
+[136.952s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver/lib/python3.10/site-packages'
+[136.952s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver/bin'
+[136.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/package.ps1'
+[136.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/package.dsv'
+[136.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/package.sh'
+[136.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/package.bash'
+[136.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/package.zsh'
+[136.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_402_driver/share/colcon-core/packages/canopen_402_driver)
+[136.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_402_driver)
+[136.983s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver' for CMake module files
+[136.983s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver' for CMake config files
+[136.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_402_driver', 'cmake_prefix_path')
+[136.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/hook/cmake_prefix_path.ps1'
+[136.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/hook/cmake_prefix_path.dsv'
+[136.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/hook/cmake_prefix_path.sh'
+[136.986s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver/lib'
+[136.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_402_driver', 'ld_library_path_lib')
+[136.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/hook/ld_library_path_lib.ps1'
+[136.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/hook/ld_library_path_lib.dsv'
+[136.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/hook/ld_library_path_lib.sh'
+[136.988s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver/bin'
+[136.988s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver/lib/pkgconfig/canopen_402_driver.pc'
+[136.988s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver/lib/python3.10/site-packages'
+[136.988s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_402_driver/bin'
+[136.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/package.ps1'
+[136.990s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/package.dsv'
+[136.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/package.sh'
+[136.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/package.bash'
+[136.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_402_driver/share/canopen_402_driver/package.zsh'
+[136.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_402_driver/share/colcon-core/packages/canopen_402_driver)
+[136.992s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/serhat/workspace/ros2_canopen/canopen' with build type 'ament_cmake'
+[136.992s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/serhat/workspace/ros2_canopen/canopen'
+[136.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[136.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[136.997s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/serhat/workspace/ros2_canopen/canopen_tests' with build type 'ament_cmake'
+[136.997s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/serhat/workspace/ros2_canopen/canopen_tests'
+[136.998s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[136.998s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[137.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen
+[137.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_tests': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_tests -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_tests
+[137.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen
+[137.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen -- -j12 -l12
+[137.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen -- -j12 -l12
+[137.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen
+[137.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen)
+[137.423s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen' for CMake module files
+[137.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen
+[137.424s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen' for CMake config files
+[137.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen', 'cmake_prefix_path')
+[137.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen/share/canopen/hook/cmake_prefix_path.ps1'
+[137.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen/share/canopen/hook/cmake_prefix_path.dsv'
+[137.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen/share/canopen/hook/cmake_prefix_path.sh'
+[137.426s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen/bin'
+[137.426s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen/lib/pkgconfig/canopen.pc'
+[137.426s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen/lib/python3.10/site-packages'
+[137.427s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen/bin'
+[137.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen/share/canopen/package.ps1'
+[137.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen/share/canopen/package.dsv'
+[137.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen/share/canopen/package.sh'
+[137.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen/share/canopen/package.bash'
+[137.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen/share/canopen/package.zsh'
+[137.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen/share/colcon-core/packages/canopen)
+[137.448s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen)
+[137.451s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen' for CMake module files
+[137.451s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen' for CMake config files
+[137.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen', 'cmake_prefix_path')
+[137.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen/share/canopen/hook/cmake_prefix_path.ps1'
+[137.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen/share/canopen/hook/cmake_prefix_path.dsv'
+[137.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen/share/canopen/hook/cmake_prefix_path.sh'
+[137.453s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen/bin'
+[137.453s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen/lib/pkgconfig/canopen.pc'
+[137.454s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen/lib/python3.10/site-packages'
+[137.454s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen/bin'
+[137.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen/share/canopen/package.ps1'
+[137.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen/share/canopen/package.dsv'
+[137.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen/share/canopen/package.sh'
+[137.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen/share/canopen/package.bash'
+[137.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen/share/canopen/package.zsh'
+[137.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen/share/colcon-core/packages/canopen)
+[137.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_tests' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/serhat/workspace/ros2_canopen/canopen_tests -DCMAKE_INSTALL_PREFIX=/home/serhat/workspace/install/canopen_tests
+[137.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_tests': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_tests -- -j12 -l12
+[138.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_tests' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_tests -- -j12 -l12
+[138.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/serhat/workspace/build/canopen_tests': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_tests
+[138.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_tests)
+[138.285s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_tests' for CMake module files
+[138.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/serhat/workspace/build/canopen_tests' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_tests
+[138.286s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_tests' for CMake config files
+[138.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_tests', 'cmake_prefix_path')
+[138.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/hook/cmake_prefix_path.ps1'
+[138.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/hook/cmake_prefix_path.dsv'
+[138.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/hook/cmake_prefix_path.sh'
+[138.288s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_tests/bin'
+[138.288s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_tests/lib/pkgconfig/canopen_tests.pc'
+[138.288s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_tests/lib/python3.10/site-packages'
+[138.288s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_tests/bin'
+[138.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/package.ps1'
+[138.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/package.dsv'
+[138.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/package.sh'
+[138.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/package.bash'
+[138.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/package.zsh'
+[138.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_tests/share/colcon-core/packages/canopen_tests)
+[138.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_tests)
+[138.317s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_tests' for CMake module files
+[138.317s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_tests' for CMake config files
+[138.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_tests', 'cmake_prefix_path')
+[138.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/hook/cmake_prefix_path.ps1'
+[138.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/hook/cmake_prefix_path.dsv'
+[138.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/hook/cmake_prefix_path.sh'
+[138.319s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_tests/bin'
+[138.319s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_tests/lib/pkgconfig/canopen_tests.pc'
+[138.320s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_tests/lib/python3.10/site-packages'
+[138.320s] Level 1:colcon.colcon_core.environment:checking '/home/serhat/workspace/install/canopen_tests/bin'
+[138.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/package.ps1'
+[138.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/package.dsv'
+[138.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/package.sh'
+[138.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/package.bash'
+[138.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/serhat/workspace/install/canopen_tests/share/canopen_tests/package.zsh'
+[138.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/serhat/workspace/install/canopen_tests/share/colcon-core/packages/canopen_tests)
+[138.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[138.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[138.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[138.323s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[138.481s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[138.481s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[138.482s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[138.520s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[138.524s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/serhat/workspace/install/local_setup.ps1'
+[138.555s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/serhat/workspace/install/_local_setup_util_ps1.py'
+[138.604s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/serhat/workspace/install/setup.ps1'
+[138.651s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/serhat/workspace/install/local_setup.sh'
+[138.683s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/serhat/workspace/install/_local_setup_util_sh.py'
+[138.685s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/serhat/workspace/install/setup.sh'
+[138.690s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/serhat/workspace/install/local_setup.bash'
+[138.720s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/serhat/workspace/install/setup.bash'
+[138.725s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/serhat/workspace/install/local_setup.zsh'
+[138.746s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/serhat/workspace/install/setup.zsh'

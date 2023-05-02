@@ -1,0 +1,8 @@
+source;share/canopen_mock_slave/hook/cmake_prefix_path.ps1
+source;share/canopen_mock_slave/hook/cmake_prefix_path.dsv
+source;share/canopen_mock_slave/hook/cmake_prefix_path.sh
+source;share/canopen_mock_slave/local_setup.bash
+source;share/canopen_mock_slave/local_setup.dsv
+source;share/canopen_mock_slave/local_setup.ps1
+source;share/canopen_mock_slave/local_setup.sh
+source;share/canopen_mock_slave/local_setup.zsh

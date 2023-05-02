@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from canopen_interfaces/srv/COWriteID.srv
+// generated code does not contain a copyright notice
+
+
+module canopen_interfaces {
+  module srv {
+    struct COWriteID_Request {
+      uint8 nodeid;
+
+      uint16 index;
+
+      uint8 subindex;
+
+      uint32 data;
+
+      @verbatim (language="comment", text=
+        "8 = uint8_t, 16 = uint16_t, 32 = uint32_t")
+      uint8 type;
+    };
+    struct COWriteID_Response {
+      boolean success;
+    };
+  };
+};

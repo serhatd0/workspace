@@ -1,11 +1,11 @@
 {
   "package_name": "udemy_ros2_pkg",
-  "output_dir": "/home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg",
+  "output_dir": "/home/serhat/workspace/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg:srv/OddEvenCheck.idl",
-    "/home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg:srv/TurnCamera.idl",
-    "/home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg:action/Navigate.idl"
+    "/home/serhat/workspace/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg:srv/OddEvenCheck.idl",
+    "/home/serhat/workspace/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg:srv/TurnCamera.idl",
+    "/home/serhat/workspace/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg:action/Navigate.idl"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
@@ -119,9 +119,9 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/srv/OddEvenCheck.idl",
-    "/home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/srv/TurnCamera.idl",
-    "/home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/action/Navigate.idl",
+    "/home/serhat/workspace/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/srv/OddEvenCheck.idl",
+    "/home/serhat/workspace/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/srv/TurnCamera.idl",
+    "/home/serhat/workspace/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/action/Navigate.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl",

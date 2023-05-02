@@ -36,6 +36,8 @@ rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_t
 add_executable(publisher src/publisher.cpp)
 ament_target_dependencies(publisher rclcpp std_msgs)
 
+add_executable(can_receiver_node src/can_receiver_node.cpp)
+ament_target_dependencies(can_receiver_node rclcpp std_msgs)
 
 add_executable(subscriber src/subscriber.cpp)
 ament_target_dependencies(subscriber rclcpp std_msgs)
@@ -47,7 +49,7 @@ ament_target_dependencies(rpm_speed rclcpp std_msgs geometry_msgs)
 add_executable(canbustest src/canbustest.cpp)
 ament_target_dependencies(canbustest rclcpp std_msgs geometry_msgs)
 
-add_executable(canbustest2 src/canbustest.cpp)
+add_executable(canbustest2 src/canbustest2.cpp)
 ament_target_dependencies(canbustest2 rclcpp std_msgs geometry_msgs)
 
 add_executable(rpm_pub src/rpm_pub.cpp)
@@ -87,6 +89,7 @@ install(TARGETS
   subscriber
   rpm_speed
   rpm_pub
+  can_receiver_node
   canbustest
   canbustest2
   speed_calc

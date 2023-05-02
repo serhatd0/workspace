@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/serhat/workspace/ros2_cpp_ws/install/usb_cam/include/**",
+        "/home/serhat/workspace/ros2_cpp_ws/install/udemy_ros2_pkg/include/**",
+        "/home/serhat/workspaces/install/usb_cam/include/**",
+        "/home/serhat/workspaces/install/udemy_ros2_pkg/include/**",
+        "/home/serhat/workspace/install/usb_cam/include/**",
+        "/home/serhat/workspace/install/udemy_ros2_pkg/include/**",
+        "/home/serhat/workspace/install/canopen_402_driver/include/**",
+        "/home/serhat/workspace/install/canopen_proxy_driver/include/**",
+        "/home/serhat/workspace/install/canopen_base_driver/include/**",
+        "/home/serhat/workspace/install/canopen_core/include/**",
+        "/home/serhat/workspace/install/lely_core_libraries/include/**",
+        "/home/serhat/workspace/install/canopen_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

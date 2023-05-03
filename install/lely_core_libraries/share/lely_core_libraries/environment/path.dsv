@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/serhat/workspace/build/lely_core_libraries/ament_cmake_environment_hooks/path.dsv

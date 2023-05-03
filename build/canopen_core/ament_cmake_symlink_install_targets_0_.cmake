@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/serhat/workspace/build/canopen_core/lifecycle_device_container_node" "TARGETS" "lifecycle_device_container_node" "DESTINATION" "lib/canopen_core")

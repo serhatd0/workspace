@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg
+CMAKE_SOURCE_DIR = /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/serhat/workspaces/build/udemy_ros2_pkg
+CMAKE_BINARY_DIR = /home/serhat/workspace/build/udemy_ros2_pkg
 
 # Utility rule file for ament_cmake_python_symlink_udemy_ros2_pkg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_udemy_ros2_pkg.dir/compiler_depend
 include CMakeFiles/ament_cmake_python_symlink_udemy_ros2_pkg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_udemy_ros2_pkg:
-	/usr/bin/cmake -E create_symlink /home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_generator_py/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg/ament_cmake_python/udemy_ros2_pkg/udemy_ros2_pkg
+	/usr/bin/cmake -E create_symlink /home/serhat/workspace/build/udemy_ros2_pkg/rosidl_generator_py/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg/ament_cmake_python/udemy_ros2_pkg/udemy_ros2_pkg
 
 ament_cmake_python_symlink_udemy_ros2_pkg: CMakeFiles/ament_cmake_python_symlink_udemy_ros2_pkg
 ament_cmake_python_symlink_udemy_ros2_pkg: CMakeFiles/ament_cmake_python_symlink_udemy_ros2_pkg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_udemy_ros2_pkg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_udemy_ros2_pkg.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_udemy_ros2_pkg.dir/depend:
-	cd /home/serhat/workspaces/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg /home/serhat/workspaces/build/udemy_ros2_pkg/CMakeFiles/ament_cmake_python_symlink_udemy_ros2_pkg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/serhat/workspace/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/ament_cmake_python_symlink_udemy_ros2_pkg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_udemy_ros2_pkg.dir/depend
 

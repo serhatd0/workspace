@@ -1,0 +1,76 @@
+[0.015s] Invoking command in '/home/serhat/workspace/build/canopen_core': CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/home/serhat/workspace/install/usb_cam:/home/serhat/workspace/install/udemy_ros2_pkg:/home/serhat/workspace/install/canopen_tests:/home/serhat/workspace/install/canopen:/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_mock_slave:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/canopen_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:/home/serhat/workspace/install/usb_cam/lib:/home/serhat/workspace/install/udemy_ros2_pkg/lib:/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/serhat/workspace/build/canopen_core -- -j12 -l12
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target master_node[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_master_node[0m
+[0.063s] [ 14%] Built target configuration_manager
+[0.075s] [ 21%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[0.075s] [ 28%] [32mBuilding CXX object CMakeFiles/lifecycle_master_node.dir/src/lifecycle_master_node.cpp.o[0m
+[0.076s] [ 35%] [32mBuilding CXX object CMakeFiles/lifecycle_master_node.dir/src/lely_master_bridge.cpp.o[0m
+[0.081s] [ 42%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/lely_master_bridge.cpp.o[0m
+[0.093s] [ 57%] Built target lifecycle_device_manager_node
+[5.423s] [ 64%] [32m[1mLinking CXX shared library libmaster_node.so[0m
+[5.470s] [ 71%] [32m[1mLinking CXX shared library liblifecycle_master_node.so[0m
+[5.675s] [ 71%] Built target master_node
+[5.722s] [ 71%] Built target lifecycle_master_node
+[5.735s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_device_container_node[0m
+[5.736s] [35m[1mConsolidate compiler generated dependencies of target device_container_node[0m
+[5.754s] [ 78%] [32mBuilding CXX object CMakeFiles/lifecycle_device_container_node.dir/src/lifecycle_device_container_node.cpp.o[0m
+[5.754s] [ 85%] [32mBuilding CXX object CMakeFiles/device_container_node.dir/src/device_container_node.cpp.o[0m
+[10.111s] [ 92%] [32m[1mLinking CXX executable device_container_node[0m
+[10.261s] [ 92%] Built target device_container_node
+[10.789s] [100%] [32m[1mLinking CXX executable lifecycle_device_container_node[0m
+[10.988s] [100%] Built target lifecycle_device_container_node
+[10.999s] Invoked command in '/home/serhat/workspace/build/canopen_core' returned '0': CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/home/serhat/workspace/install/usb_cam:/home/serhat/workspace/install/udemy_ros2_pkg:/home/serhat/workspace/install/canopen_tests:/home/serhat/workspace/install/canopen:/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_mock_slave:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/canopen_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:/home/serhat/workspace/install/usb_cam/lib:/home/serhat/workspace/install/udemy_ros2_pkg/lib:/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/serhat/workspace/build/canopen_core -- -j12 -l12
+[11.046s] Invoking command in '/home/serhat/workspace/build/canopen_core': CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/home/serhat/workspace/install/usb_cam:/home/serhat/workspace/install/udemy_ros2_pkg:/home/serhat/workspace/install/canopen_tests:/home/serhat/workspace/install/canopen:/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_mock_slave:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/canopen_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:/home/serhat/workspace/install/usb_cam/lib:/home/serhat/workspace/install/udemy_ros2_pkg/lib:/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/serhat/workspace/build/canopen_core
+[11.052s] -- Install configuration: ""
+[11.053s] -- Execute custom install script
+[11.053s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/configuration_manager.hpp
+[11.053s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/device.hpp
+[11.053s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/device_container_node.hpp
+[11.053s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/exchange.hpp
+[11.054s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/lely_master_bridge.hpp
+[11.054s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/lifecycle_device_container_node.hpp
+[11.054s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/lifecycle_device_manager_node.hpp
+[11.054s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/lifecycle_master_node.hpp
+[11.054s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/master_node.hpp
+[11.054s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/visibility_control.h
+[11.054s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/lib/canopen_core/lifecycle_device_container_node
+[11.055s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/lib/canopen_core/device_container_node
+[11.055s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/launch//canopen.launch.py
+[11.055s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/launch//canopen_lifecycle.launch.py
+[11.056s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/library_path.sh
+[11.056s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/library_path.dsv
+[11.056s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/ament_index/resource_index/package_run_dependencies/canopen_core
+[11.056s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/ament_index/resource_index/parent_prefix_path/canopen_core
+[11.056s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/ament_prefix_path.sh
+[11.057s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/ament_prefix_path.dsv
+[11.057s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/path.sh
+[11.057s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/path.dsv
+[11.057s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/local_setup.bash
+[11.057s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/local_setup.sh
+[11.058s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/local_setup.zsh
+[11.058s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/local_setup.dsv
+[11.058s] -- Symlinking: /home/serhat/workspace/install/canopen_core/share/canopen_core/package.dsv
+[11.066s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/ament_index/resource_index/packages/canopen_core
+[11.066s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/ament_index/resource_index/rclcpp_components/canopen_core
+[11.066s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.066s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_libraries-extras.cmake
+[11.067s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_targets-extras.cmake
+[11.067s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.067s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/canopen_coreConfig.cmake
+[11.067s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/canopen_coreConfig-version.cmake
+[11.067s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/package.xml
+[11.068s] -- Up-to-date: /home/serhat/workspace/install/canopen_core/lib/libconfiguration_manager.so
+[11.068s] -- Installing: /home/serhat/workspace/install/canopen_core/lib/libmaster_node.so
+[11.071s] -- Set runtime path of "/home/serhat/workspace/install/canopen_core/lib/libmaster_node.so" to ""
+[11.071s] -- Installing: /home/serhat/workspace/install/canopen_core/lib/liblifecycle_master_node.so
+[11.074s] -- Set runtime path of "/home/serhat/workspace/install/canopen_core/lib/liblifecycle_master_node.so" to ""
+[11.074s] -- Up-to-date: /home/serhat/workspace/install/canopen_core/lib/liblifecycle_device_manager_node.so
+[11.074s] -- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_configuration_managerExport.cmake
+[11.074s] -- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_configuration_managerExport-noconfig.cmake
+[11.075s] -- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_master_nodeExport.cmake
+[11.075s] -- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_master_nodeExport-noconfig.cmake
+[11.075s] -- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_lifecycle_master_nodeExport.cmake
+[11.075s] -- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_lifecycle_master_nodeExport-noconfig.cmake
+[11.075s] -- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_lifecycle_device_manager_nodeExport.cmake
+[11.075s] -- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_lifecycle_device_manager_nodeExport-noconfig.cmake
+[11.079s] Invoked command in '/home/serhat/workspace/build/canopen_core' returned '0': CMAKE_PREFIX_PATH=/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/home/serhat/workspace/install/usb_cam:/home/serhat/workspace/install/udemy_ros2_pkg:/home/serhat/workspace/install/canopen_tests:/home/serhat/workspace/install/canopen:/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_mock_slave:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/canopen_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:/home/serhat/workspace/install/usb_cam/lib:/home/serhat/workspace/install/udemy_ros2_pkg/lib:/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/serhat/workspace/build/canopen_core

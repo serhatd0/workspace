@@ -1,0 +1,29 @@
+[1.064s] Invoking command in '/home/serhat/workspace/build/canopen_utils': CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces:/home/serhat/workspace/install/usb_cam:/home/serhat/workspace/install/udemy_ros2_pkg:/home/serhat/workspace/install/canopen_tests:/home/serhat/workspace/install/canopen:/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_mock_slave:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_interfaces/lib:/home/serhat/workspace/install/usb_cam/lib:/home/serhat/workspace/install/udemy_ros2_pkg/lib:/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/serhat/workspace/build/canopen_utils/prefix_override:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/serhat/workspace/build/canopen_utils/build --no-deps install_data
+[1.398s] running develop
+[1.422s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.422s]   warnings.warn(
+[1.426s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.426s]   warnings.warn(
+[1.606s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.606s]   warnings.warn(
+[1.606s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.607s]   warnings.warn(
+[1.607s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.607s]   warnings.warn(
+[1.789s] running egg_info
+[1.790s] creating canopen_utils.egg-info
+[1.790s] writing canopen_utils.egg-info/PKG-INFO
+[1.790s] writing dependency_links to canopen_utils.egg-info/dependency_links.txt
+[1.790s] writing entry points to canopen_utils.egg-info/entry_points.txt
+[1.790s] writing requirements to canopen_utils.egg-info/requires.txt
+[1.790s] writing top-level names to canopen_utils.egg-info/top_level.txt
+[1.791s] writing manifest file 'canopen_utils.egg-info/SOURCES.txt'
+[1.805s] reading manifest file 'canopen_utils.egg-info/SOURCES.txt'
+[1.806s] writing manifest file 'canopen_utils.egg-info/SOURCES.txt'
+[1.808s] running build_ext
+[1.808s] Creating /home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages/canopen-utils.egg-link (link to .)
+[1.809s] Installing cyclic_tester script to /home/serhat/workspace/install/canopen_utils/lib/canopen_utils
+[1.809s] 
+[1.809s] Installed /home/serhat/workspace/build/canopen_utils
+[1.810s] running install_data
+[1.854s] Invoked command in '/home/serhat/workspace/build/canopen_utils' returned '0': CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces:/home/serhat/workspace/install/usb_cam:/home/serhat/workspace/install/udemy_ros2_pkg:/home/serhat/workspace/install/canopen_tests:/home/serhat/workspace/install/canopen:/home/serhat/workspace/install/canopen_402_driver:/home/serhat/workspace/install/canopen_proxy_driver:/home/serhat/workspace/install/canopen_mock_slave:/home/serhat/workspace/install/canopen_base_driver:/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_interfaces/lib:/home/serhat/workspace/install/usb_cam/lib:/home/serhat/workspace/install/udemy_ros2_pkg/lib:/home/serhat/workspace/install/canopen_402_driver/lib:/home/serhat/workspace/install/canopen_proxy_driver/lib:/home/serhat/workspace/install/canopen_base_driver/lib:/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/serhat/workspace/build/canopen_utils/prefix_override:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/serhat/workspace/build/canopen_utils/build --no-deps install_data

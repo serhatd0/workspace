@@ -39,6 +39,9 @@ ament_target_dependencies(publisher rclcpp std_msgs)
 add_executable(can_receiver_node src/can_receiver_node.cpp)
 ament_target_dependencies(can_receiver_node rclcpp std_msgs)
 
+add_executable(can_sender_node src/can_sender_node.cpp)
+ament_target_dependencies(can_sender_node rclcpp std_msgs)
+
 add_executable(subscriber src/subscriber.cpp)
 ament_target_dependencies(subscriber rclcpp std_msgs)
 
@@ -90,6 +93,7 @@ install(TARGETS
   rpm_speed
   rpm_pub
   can_receiver_node
+  can_sender_node
   canbustest
   canbustest2
   speed_calc

@@ -1,0 +1,72 @@
+[35m[1mConsolidate compiler generated dependencies of target master_node[0m
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_master_node[0m
+[ 14%] Built target configuration_manager
+[ 21%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/lely_master_bridge.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/lifecycle_master_node.dir/src/lely_master_bridge.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/lifecycle_master_node.dir/src/lifecycle_master_node.cpp.o[0m
+[ 57%] Built target lifecycle_device_manager_node
+[ 64%] [32m[1mLinking CXX shared library liblifecycle_master_node.so[0m
+[ 71%] [32m[1mLinking CXX shared library libmaster_node.so[0m
+[ 71%] Built target lifecycle_master_node
+[35m[1mConsolidate compiler generated dependencies of target device_container_node[0m
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_device_container_node[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/device_container_node.dir/src/device_container_node.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/lifecycle_device_container_node.dir/src/lifecycle_device_container_node.cpp.o[0m
+[ 85%] Built target master_node
+[ 92%] [32m[1mLinking CXX executable device_container_node[0m
+[ 92%] Built target device_container_node
+[100%] [32m[1mLinking CXX executable lifecycle_device_container_node[0m
+[100%] Built target lifecycle_device_container_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/configuration_manager.hpp
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/device.hpp
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/device_container_node.hpp
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/exchange.hpp
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/lely_master_bridge.hpp
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/lifecycle_device_container_node.hpp
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/lifecycle_device_manager_node.hpp
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/lifecycle_master_node.hpp
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/master_node.hpp
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/include/canopen_core/visibility_control.h
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/lib/canopen_core/lifecycle_device_container_node
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/lib/canopen_core/device_container_node
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/launch//canopen.launch.py
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/launch//canopen_lifecycle.launch.py
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/library_path.sh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/library_path.dsv
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/ament_index/resource_index/package_run_dependencies/canopen_core
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/ament_index/resource_index/parent_prefix_path/canopen_core
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/path.sh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/environment/path.dsv
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/local_setup.bash
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/local_setup.sh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/local_setup.zsh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/local_setup.dsv
+-- Symlinking: /home/serhat/workspace/install/canopen_core/share/canopen_core/package.dsv
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/ament_index/resource_index/packages/canopen_core
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/ament_index/resource_index/rclcpp_components/canopen_core
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/canopen_coreConfig.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/canopen_coreConfig-version.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_core/share/canopen_core/package.xml
+-- Up-to-date: /home/serhat/workspace/install/canopen_core/lib/libconfiguration_manager.so
+-- Installing: /home/serhat/workspace/install/canopen_core/lib/libmaster_node.so
+-- Set runtime path of "/home/serhat/workspace/install/canopen_core/lib/libmaster_node.so" to ""
+-- Installing: /home/serhat/workspace/install/canopen_core/lib/liblifecycle_master_node.so
+-- Set runtime path of "/home/serhat/workspace/install/canopen_core/lib/liblifecycle_master_node.so" to ""
+-- Up-to-date: /home/serhat/workspace/install/canopen_core/lib/liblifecycle_device_manager_node.so
+-- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_configuration_managerExport.cmake
+-- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_configuration_managerExport-noconfig.cmake
+-- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_master_nodeExport.cmake
+-- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_master_nodeExport-noconfig.cmake
+-- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_lifecycle_master_nodeExport.cmake
+-- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_lifecycle_master_nodeExport-noconfig.cmake
+-- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_lifecycle_device_manager_nodeExport.cmake
+-- Up-to-date: /home/serhat/workspace/install/canopen_core/share/canopen_core/cmake/export_lifecycle_device_manager_nodeExport-noconfig.cmake

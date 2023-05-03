@@ -1,3 +1,1 @@
-uint8 nodeid
----
-bool success
+/home/serhat/workspace/ros2_canopen/canopen_interfaces/srv/CONode.srv

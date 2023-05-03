@@ -1,2 +1,1 @@
-ros2_canopen::MotionControllerDriver;lib/libcanopen_402_driver.so
-ros2_canopen::LifecycleMotionControllerDriver;lib/liblifecycle_canopen_402_driver.so
+/home/serhat/workspace/build/canopen_402_driver/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/canopen_402_driver

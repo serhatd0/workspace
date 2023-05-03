@@ -1,5 +1,1 @@
-uint8 nodeid
-uint16 index
-uint8 subindex
-# 8 = uint8_t, 16 = uint16_t, 32 = uint32_t
-uint8 type 
+/home/serhat/workspace/build/canopen_interfaces/rosidl_cmake/srv/COReadID_Request.msg

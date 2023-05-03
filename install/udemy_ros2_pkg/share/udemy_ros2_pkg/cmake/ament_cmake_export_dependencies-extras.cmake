@@ -1,1 +1,1 @@
-/home/serhat/workspaces/build/udemy_ros2_pkg/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake
+/home/serhat/workspace/build/udemy_ros2_pkg/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

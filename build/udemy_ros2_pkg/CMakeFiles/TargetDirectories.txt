@@ -9,7 +9,7 @@
 /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_c.dir
 /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_cpp.dir
 /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_cpp.dir
-/home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/ament_cmake_python_copy_udemy_ros2_pkg.dir
+/home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/ament_cmake_python_symlink_udemy_ros2_pkg.dir
 /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/ament_cmake_python_build_udemy_ros2_pkg_egg.dir
 /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg__rosidl_generator_py.dir
 /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext.dir
@@ -17,6 +17,7 @@
 /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_c__pyext.dir
 /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/publisher.dir
 /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/can_receiver_node.dir
+/home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/can_sender_node.dir
 /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/subscriber.dir
 /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/rpm_speed.dir
 /home/serhat/workspace/build/udemy_ros2_pkg/CMakeFiles/canbustest.dir

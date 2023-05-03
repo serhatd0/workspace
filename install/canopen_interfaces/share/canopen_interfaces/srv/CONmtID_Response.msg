@@ -1,2 +1,1 @@
-
-bool success
+/home/serhat/workspace/build/canopen_interfaces/rosidl_cmake/srv/CONmtID_Response.msg

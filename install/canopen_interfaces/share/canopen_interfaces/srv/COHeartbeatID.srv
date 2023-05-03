@@ -1,4 +1,1 @@
-uint8 nodeid
-uint16  heartbeat #ms
----
-bool success
+/home/serhat/workspace/ros2_canopen/canopen_interfaces/srv/COHeartbeatID.srv

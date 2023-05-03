@@ -1,1 +1,1 @@
-/home/serhat/workspaces/build/udemy_ros2_pkg/rosidl_cmake/srv/TurnCamera_Response.msg
+/home/serhat/workspace/build/udemy_ros2_pkg/rosidl_cmake/srv/TurnCamera_Response.msg

@@ -1,1 +1,1 @@
-canopen_interfaces
+/home/serhat/workspace/build/canopen_interfaces/ament_cmake_python/canopen_interfaces/canopen_interfaces.egg-info/top_level.txt

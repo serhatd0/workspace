@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target canopen_base_driver[0m
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_canopen_base_driver[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lifecycle_canopen_base_driver.dir/src/lely_bridge.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/canopen_base_driver.dir/src/canopen_base_driver.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/canopen_base_driver.dir/src/lely_bridge.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lifecycle_canopen_base_driver.dir/src/lifecycle_canopen_base_driver.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library libcanopen_base_driver.so[0m
+[ 83%] Built target canopen_base_driver
+[100%] [32m[1mLinking CXX shared library liblifecycle_canopen_base_driver.so[0m
+[100%] Built target lifecycle_canopen_base_driver
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/include/canopen_base_driver/canopen_base_driver.hpp
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/include/canopen_base_driver/lely_bridge.hpp
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/include/canopen_base_driver/lifecycle_canopen_base_driver.hpp
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/include/canopen_base_driver/visibility_control.h
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/environment/library_path.sh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/environment/library_path.dsv
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/ament_index/resource_index/package_run_dependencies/canopen_base_driver
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/ament_index/resource_index/parent_prefix_path/canopen_base_driver
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/environment/path.sh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/environment/path.dsv
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/local_setup.bash
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/local_setup.sh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/local_setup.zsh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/local_setup.dsv
+-- Symlinking: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.dsv
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/ament_index/resource_index/packages/canopen_base_driver
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/canopen_base_driverConfig.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/canopen_base_driverConfig-version.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.xml
+-- Installing: /home/serhat/workspace/install/canopen_base_driver/lib/libcanopen_base_driver.so
+-- Set runtime path of "/home/serhat/workspace/install/canopen_base_driver/lib/libcanopen_base_driver.so" to ""
+-- Installing: /home/serhat/workspace/install/canopen_base_driver/lib/liblifecycle_canopen_base_driver.so
+-- Set runtime path of "/home/serhat/workspace/install/canopen_base_driver/lib/liblifecycle_canopen_base_driver.so" to ""
+-- Up-to-date: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/export_canopen_base_driverExport.cmake
+-- Up-to-date: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/export_canopen_base_driverExport-noconfig.cmake
+-- Up-to-date: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/export_lifecycle_canopen_base_driverExport.cmake
+-- Up-to-date: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/export_lifecycle_canopen_base_driverExport-noconfig.cmake

@@ -1,0 +1,38 @@
+Built target simple_prepare
+Built target cia402_prepare
+Built target cia402_lifecycle_prepare
+Built target simple
+Built target cia402_lifecycle
+Built target cia402
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/config/simple//bus.yml
+-- Symlinking: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/config/simple//simple.eds
+-- Symlinking: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/config/simple//master.dcf
+-- Symlinking: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/config/cia402//bus.yml
+-- Symlinking: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/config/cia402//cia402_slave.eds
+-- Symlinking: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_1.bin
+-- Symlinking: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/config/cia402//master.dcf
+-- Symlinking: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//bus.yml
+-- Symlinking: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//cia402_slave.eds
+-- Symlinking: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//cia402_device_1.bin
+-- Symlinking: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//master.dcf
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/launch//cia402_lifecycle_setup.launch.py
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/launch//cia402_setup.launch.py
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/launch//proxy_lifecycle_setup.launch.py
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/launch_tests//test_proxy_driver.py
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/ament_index/resource_index/package_run_dependencies/canopen_tests
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/ament_index/resource_index/parent_prefix_path/canopen_tests
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/environment/path.sh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/environment/path.dsv
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/local_setup.bash
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/local_setup.sh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/local_setup.zsh
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/local_setup.dsv
+-- Symlinking: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/package.dsv
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/ament_index/resource_index/packages/canopen_tests
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/cmake/canopen_testsConfig.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/cmake/canopen_testsConfig-version.cmake
+-- Up-to-date symlink: /home/serhat/workspace/install/canopen_tests/share/canopen_tests/package.xml

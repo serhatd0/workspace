@@ -1,3 +1,1 @@
-
-bool success
-uint32 data
+/home/serhat/workspace/build/canopen_interfaces/rosidl_cmake/srv/COReadID_Response.msg

@@ -1,0 +1,49 @@
+[0.095s] Invoking command in '/home/serhat/workspace/build/canopen_base_driver': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_base_driver -- -j12 -l12
+[0.389s] [35m[1mConsolidate compiler generated dependencies of target canopen_base_driver[0m
+[0.406s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_canopen_base_driver[0m
+[0.469s] [ 66%] [32mBuilding CXX object CMakeFiles/lifecycle_canopen_base_driver.dir/src/lely_bridge.cpp.o[0m
+[0.469s] [ 66%] [32mBuilding CXX object CMakeFiles/canopen_base_driver.dir/src/canopen_base_driver.cpp.o[0m
+[0.469s] [ 66%] [32mBuilding CXX object CMakeFiles/canopen_base_driver.dir/src/lely_bridge.cpp.o[0m
+[0.469s] [ 66%] [32mBuilding CXX object CMakeFiles/lifecycle_canopen_base_driver.dir/src/lifecycle_canopen_base_driver.cpp.o[0m
+[3.623s] [ 83%] [32m[1mLinking CXX shared library libcanopen_base_driver.so[0m
+[3.820s] [ 83%] Built target canopen_base_driver
+[3.994s] [100%] [32m[1mLinking CXX shared library liblifecycle_canopen_base_driver.so[0m
+[4.185s] [100%] Built target lifecycle_canopen_base_driver
+[4.193s] Invoked command in '/home/serhat/workspace/build/canopen_base_driver' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/serhat/workspace/build/canopen_base_driver -- -j12 -l12
+[4.219s] Invoking command in '/home/serhat/workspace/build/canopen_base_driver': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_base_driver
+[4.225s] -- Install configuration: ""
+[4.245s] -- Execute custom install script
+[4.270s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/include/canopen_base_driver/canopen_base_driver.hpp
+[4.271s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/include/canopen_base_driver/lely_bridge.hpp
+[4.271s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/include/canopen_base_driver/lifecycle_canopen_base_driver.hpp
+[4.272s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/include/canopen_base_driver/visibility_control.h
+[4.284s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/environment/library_path.sh
+[4.284s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/environment/library_path.dsv
+[4.286s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/ament_index/resource_index/package_run_dependencies/canopen_base_driver
+[4.286s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/ament_index/resource_index/parent_prefix_path/canopen_base_driver
+[4.287s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/environment/ament_prefix_path.sh
+[4.288s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/environment/ament_prefix_path.dsv
+[4.288s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/environment/path.sh
+[4.289s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/environment/path.dsv
+[4.290s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/local_setup.bash
+[4.290s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/local_setup.sh
+[4.291s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/local_setup.zsh
+[4.292s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/local_setup.dsv
+[4.292s] -- Symlinking: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.dsv
+[4.317s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/ament_index/resource_index/packages/canopen_base_driver
+[4.318s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.319s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[4.319s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/ament_cmake_export_targets-extras.cmake
+[4.320s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.321s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/canopen_base_driverConfig.cmake
+[4.321s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/canopen_base_driverConfig-version.cmake
+[4.322s] -- Up-to-date symlink: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/package.xml
+[4.342s] -- Installing: /home/serhat/workspace/install/canopen_base_driver/lib/libcanopen_base_driver.so
+[4.346s] -- Set runtime path of "/home/serhat/workspace/install/canopen_base_driver/lib/libcanopen_base_driver.so" to ""
+[4.364s] -- Installing: /home/serhat/workspace/install/canopen_base_driver/lib/liblifecycle_canopen_base_driver.so
+[4.372s] -- Set runtime path of "/home/serhat/workspace/install/canopen_base_driver/lib/liblifecycle_canopen_base_driver.so" to ""
+[4.394s] -- Up-to-date: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/export_canopen_base_driverExport.cmake
+[4.394s] -- Up-to-date: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/export_canopen_base_driverExport-noconfig.cmake
+[4.395s] -- Up-to-date: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/export_lifecycle_canopen_base_driverExport.cmake
+[4.395s] -- Up-to-date: /home/serhat/workspace/install/canopen_base_driver/share/canopen_base_driver/cmake/export_lifecycle_canopen_base_driverExport-noconfig.cmake
+[4.407s] Invoked command in '/home/serhat/workspace/build/canopen_base_driver' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_core:/home/serhat/workspace/install/lely_core_libraries:/home/serhat/workspace/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_core/lib:/home/serhat/workspace/install/lely_core_libraries/lib:/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/serhat/workspace/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/serhat/workspace/build/canopen_base_driver

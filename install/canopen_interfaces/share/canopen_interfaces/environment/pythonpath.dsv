@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;local/lib/python3.10/dist-packages
+/home/serhat/workspace/build/canopen_interfaces/ament_cmake_environment_hooks/pythonpath.dsv

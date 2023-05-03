@@ -1,0 +1,41 @@
+Cloning into 'upstr_lely_core_libraries'...
+HEAD is now at f13629b4 CI: use GCC 11 by default
+configure.ac:17: warning: The macro `AC_PROG_CC_STDC' is obsolete.
+configure.ac:17: You should run autoupdate.
+./lib/autoconf/c.m4:1666: AC_PROG_CC_STDC is expanded from...
+configure.ac:17: the top level
+configure.ac:81: warning: $as_echo is obsolete; use AS_ECHO(["message"]) instead
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/ax_pthread.m4:88: AX_PTHREAD is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+configure.ac:81: the top level
+configure.ac:434: warning: AC_CHECK_HEADERS($ixxat_header): you should use literals
+./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+configure.ac:434: the top level
+configure.ac:17: installing './compile'
+configure.ac:6: installing './config.guess'
+configure.ac:6: installing './config.sub'
+configure.ac:7: installing './install-sh'
+configure.ac:7: installing './missing'
+configure.ac:606: installing './tap-driver.sh'
+src/can/Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+libtool: [31mwarning[0m: [1mrelinking 'liblely-tap.la'[0m
+libtool: [31mwarning[0m: [1mrelinking 'liblely-util.la'[0m
+libtool: [31mwarning[0m: [1mrelinking 'liblely-can.la'[0m
+libtool: [31mwarning[0m: [1mrelinking 'liblely-co.la'[0m
+libtool: [31mwarning[0m: [1mrelinking 'liblely-io.la'[0m
+libtool: [31mwarning[0m: [1mrelinking 'liblely-ev.la'[0m
+libtool: [31mwarning[0m: [1mrelinking 'liblely-io2.la'[0m
+libtool: [31mwarning[0m: [1mrelinking 'liblely-coapp.la'[0m
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(

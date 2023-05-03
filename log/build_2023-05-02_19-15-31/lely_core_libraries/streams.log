@@ -1,0 +1,1215 @@
+[0.090s] Invoking command in '/home/serhat/workspace/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/serhat/workspace/install/canopen_utils:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspace/build/lely_core_libraries -- -j12 -l12
+[0.161s] [ 12%] [34m[1mPerforming update step for 'upstr_lely_core_libraries'[0m
+[0.181s] [ 25%] [34m[1mNo patch step for 'upstr_lely_core_libraries'[0m
+[0.221s] [ 37%] [34m[1mPerforming configure step for 'upstr_lely_core_libraries'[0m
+[3.522s] configure.ac:17: warning: The macro `AC_PROG_CC_STDC' is obsolete.
+[3.522s] configure.ac:17: You should run autoupdate.
+[3.522s] ./lib/autoconf/c.m4:1666: AC_PROG_CC_STDC is expanded from...
+[3.522s] configure.ac:17: the top level
+[3.522s] configure.ac:81: warning: $as_echo is obsolete; use AS_ECHO(["message"]) instead
+[3.522s] lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[3.522s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[3.522s] ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[3.522s] ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[3.522s] m4/ax_pthread.m4:88: AX_PTHREAD is expanded from...
+[3.523s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[3.523s] configure.ac:81: the top level
+[3.523s] configure.ac:434: warning: AC_CHECK_HEADERS($ixxat_header): you should use literals
+[3.523s] ./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+[3.523s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[3.523s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[3.523s] configure.ac:434: the top level
+[4.945s] checking build system type... x86_64-pc-linux-gnu
+[4.945s] checking host system type... x86_64-pc-linux-gnu
+[4.945s] checking target system type... x86_64-pc-linux-gnu
+[4.973s] checking for a BSD-compatible install... /usr/bin/install -c
+[4.984s] checking whether build environment is sane... yes
+[5.019s] checking for a race-free mkdir -p... /usr/bin/mkdir -p
+[5.021s] checking for gawk... no
+[5.022s] checking for mawk... mawk
+[5.052s] checking whether make sets $(MAKE)... yes
+[5.081s] checking whether make supports nested variables... yes
+[5.101s] checking whether to enable maintainer-specific portions of Makefiles... yes
+[5.102s] checking whether make supports nested variables... (cached) yes
+[5.118s] checking for a sed that does not truncate output... /usr/bin/sed
+[5.123s] checking whether to build with code coverage support... no
+[5.127s] checking for valgrind... no
+[5.163s] checking whether make supports the include directive... yes (GNU style)
+[5.165s] checking for gcc... gcc
+[5.350s] checking whether the C compiler works... yes
+[5.350s] checking for C compiler default output file name... a.out
+[5.394s] checking for suffix of executables... 
+[5.444s] checking whether we are cross compiling... no
+[5.462s] checking for suffix of object files... o
+[5.479s] checking whether the compiler supports GNU C... yes
+[5.495s] checking whether gcc accepts -g... yes
+[5.525s] checking for gcc option to enable C11 features... none needed
+[5.560s] checking whether gcc understands -c and -o together... yes
+[5.640s] checking dependency style of gcc... gcc3
+[5.692s] checking for stdio.h... yes
+[5.740s] checking for stdlib.h... yes
+[5.780s] checking for string.h... yes
+[5.820s] checking for inttypes.h... yes
+[5.863s] checking for stdint.h... yes
+[5.902s] checking for strings.h... yes
+[5.938s] checking for sys/stat.h... yes
+[5.973s] checking for sys/types.h... yes
+[6.010s] checking for unistd.h... yes
+[6.047s] checking for wchar.h... yes
+[6.072s] checking for minix/config.h... no
+[6.098s] checking whether it is safe to define __EXTENSIONS__... yes
+[6.117s] checking whether _XOPEN_SOURCE should be defined... no
+[6.118s] checking for g++... g++
+[6.168s] checking whether the compiler supports GNU C++... yes
+[6.193s] checking whether g++ accepts -g... yes
+[6.263s] checking for g++ option to enable C++11 features... none needed
+[6.294s] checking dependency style of g++... gcc3
+[6.326s] checking whether g++ supports C++11 features with -std=gnu++11... yes
+[6.351s] checking how to print strings... printf
+[6.352s] checking for a sed that does not truncate output... (cached) /usr/bin/sed
+[6.356s] checking for grep that handles long lines and -e... /usr/bin/grep
+[6.358s] checking for egrep... /usr/bin/grep -E
+[6.359s] checking for fgrep... /usr/bin/grep -F
+[6.364s] checking for ld used by gcc... /usr/bin/ld
+[6.366s] checking if the linker (/usr/bin/ld) is GNU ld... yes
+[6.369s] checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+[6.401s] checking the name lister (/usr/bin/nm -B) interface... BSD nm
+[6.401s] checking whether ln -s works... yes
+[6.406s] checking the maximum length of command line arguments... 1572864
+[6.409s] checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+[6.409s] checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+[6.409s] checking for /usr/bin/ld option to reload object files... -r
+[6.409s] checking for objdump... objdump
+[6.409s] checking how to recognize dependent libraries... pass_all
+[6.410s] checking for dlltool... no
+[6.410s] checking how to associate runtime and link libraries... printf %s\n
+[6.410s] checking for ar... ar
+[6.447s] checking for archiver @FILE support... @
+[6.447s] checking for strip... strip
+[6.447s] checking for ranlib... ranlib
+[6.531s] checking command to parse /usr/bin/nm -B output from gcc object... ok
+[6.533s] checking for sysroot... no
+[6.538s] checking for a working dd... /usr/bin/dd
+[6.542s] checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+[6.556s] checking for mt... mt
+[6.560s] checking if mt is a manifest tool... no
+[6.592s] checking for dlfcn.h... yes
+[6.597s] checking for objdir... .libs
+[6.670s] checking if gcc supports -fno-rtti -fno-exceptions... no
+[6.670s] checking for gcc option to produce PIC... -fPIC -DPIC
+[6.689s] checking if gcc PIC flag -fPIC -DPIC works... yes
+[6.766s] checking if gcc static flag -static works... yes
+[6.809s] checking if gcc supports -c -o file.o... yes
+[6.809s] checking if gcc supports -c -o file.o... (cached) yes
+[6.818s] checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[6.844s] checking whether -lc should be explicitly linked in... no
+[6.905s] checking dynamic linker characteristics... GNU/Linux ld.so
+[6.905s] checking how to hardcode library paths into programs... immediate
+[6.907s] checking whether stripping libraries is possible... yes
+[6.907s] checking if libtool supports shared libraries... yes
+[6.907s] checking whether to build shared libraries... yes
+[6.907s] checking whether to build static libraries... no
+[6.939s] checking how to run the C++ preprocessor... g++ -std=gnu++11 -E
+[7.063s] checking for ld used by g++ -std=gnu++11... /usr/bin/ld -m elf_x86_64
+[7.065s] checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+[7.072s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[7.138s] checking for g++ -std=gnu++11 option to produce PIC... -fPIC -DPIC
+[7.159s] checking if g++ -std=gnu++11 PIC flag -fPIC -DPIC works... yes
+[7.233s] checking if g++ -std=gnu++11 static flag -static works... yes
+[7.261s] checking if g++ -std=gnu++11 supports -c -o file.o... yes
+[7.261s] checking if g++ -std=gnu++11 supports -c -o file.o... (cached) yes
+[7.262s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[7.266s] checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+[7.266s] checking how to hardcode library paths into programs... immediate
+[7.266s] checking for windres... no
+[7.325s] checking for timer_create in -lrt... yes
+[7.349s] checking how to run the C preprocessor... gcc -E
+[7.383s] checking whether gcc is Clang... no
+[7.420s] checking whether pthreads work with -pthread... yes
+[7.455s] checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+[7.455s] checking whether more special flags are required for pthreads... no
+[7.493s] checking for PTHREAD_PRIO_INHERIT... yes
+[7.494s] checking for pkg-config... /usr/bin/pkg-config
+[7.496s] checking pkg-config is at least version 0.9.0... yes
+[7.500s] checking for cpputest >= 4... no
+[7.530s] checking for valgrind/valgrind.h... no
+[7.561s] checking for linux/can.h... yes
+[7.590s] checking for linux/can/error.h... yes
+[7.607s] checking for bluetooth/bluetooth.h... no
+[7.623s] checking for bluetooth/rfcomm.h... no
+[7.708s] checking for library containing str2ba... no
+[7.743s] checking for ifaddrs.h... yes
+[7.780s] checking for linux/can/netlink.h... yes
+[7.813s] checking for linux/can/raw.h... yes
+[7.856s] checking for linux/rtnetlink.h... yes
+[7.886s] checking for sys/epoll.h... yes
+[7.918s] checking for sys/ioctl.h... yes
+[7.918s] checking for python2... python2
+[7.921s] checking whether python2 is version 2... yes
+[7.922s] checking for python3... python3
+[7.925s] checking whether python3 is version 3... yes
+[7.925s] checking for gawk... (cached) mawk
+[7.949s] checking that generated files are newer than configure... done
+[7.950s] configure: creating ./config.status
+[8.815s] config.status: creating doc/Doxyfile
+[8.833s] config.status: creating doc/Makefile
+[8.850s] config.status: creating include/Makefile
+[8.866s] config.status: creating pkgconfig/liblely-can.pc
+[8.882s] config.status: creating pkgconfig/liblely-co.pc
+[8.899s] config.status: creating pkgconfig/liblely-coapp.pc
+[8.916s] config.status: creating pkgconfig/liblely-ev.pc
+[8.933s] config.status: creating pkgconfig/liblely-io.pc
+[8.949s] config.status: creating pkgconfig/liblely-io2.pc
+[8.968s] config.status: creating pkgconfig/liblely-libc.pc
+[8.985s] config.status: creating pkgconfig/liblely-libc_rt.pc
+[9.002s] config.status: creating pkgconfig/liblely-tap.pc
+[9.020s] config.status: creating pkgconfig/liblely-util.pc
+[9.037s] config.status: creating pkgconfig/Makefile
+[9.056s] config.status: creating python/can/Makefile
+[9.072s] config.status: creating python/dcf-tools/Makefile
+[9.088s] config.status: creating python/io/Makefile
+[9.104s] config.status: creating python/Makefile
+[9.121s] config.status: creating src/can/Makefile
+[9.138s] config.status: creating src/co/Makefile
+[9.156s] config.status: creating src/co/version.rc
+[9.172s] config.status: creating src/coapp/Makefile
+[9.190s] config.status: creating src/coapp/version.rc
+[9.207s] config.status: creating src/ev/Makefile
+[9.224s] config.status: creating src/ev/version.rc
+[9.241s] config.status: creating src/io/Makefile
+[9.258s] config.status: creating src/io2/Makefile
+[9.275s] config.status: creating src/io2/version.rc
+[9.293s] config.status: creating src/libc/Makefile
+[9.309s] config.status: creating src/libc/version.rc
+[9.328s] config.status: creating src/tap/Makefile
+[9.345s] config.status: creating src/tap/version.rc
+[9.363s] config.status: creating src/util/Makefile
+[9.380s] config.status: creating src/util/version.rc
+[9.396s] config.status: creating src/Makefile
+[9.414s] config.status: creating tools/Makefile
+[9.432s] config.status: creating tools/version.dcf2c.rc
+[9.450s] config.status: creating test/co-nmt-master.dcf
+[9.467s] config.status: creating test/Makefile
+[9.485s] config.status: creating unit-tests/Makefile
+[9.502s] config.status: creating exec-wrapper.sh
+[9.515s] config.status: creating lcov-wrapper.sh
+[9.530s] config.status: creating Makefile
+[9.543s] config.status: creating config.h
+[9.547s] config.status: config.h is unchanged
+[9.551s] config.status: executing depfiles commands
+[9.791s] config.status: executing libtool commands
+[9.861s] [ 50%] [34m[1mPerforming build step for 'upstr_lely_core_libraries'[0m
+[9.876s] Making all in doc
+[9.878s] Making all in include
+[9.882s] Making all in src
+[9.890s] Making all in libc
+[9.896s]   CC       liblely_libc_la-clock.lo
+[9.897s]   CC       liblely_libc_la-getopt.lo
+[9.897s]   CC       liblely_libc_la-stdatomic.lo
+[9.900s]   CC       liblely_libc_la-stdio.lo
+[9.901s]   CC       liblely_libc_la-stdlib.lo
+[9.901s]   CC       liblely_libc_la-string.lo
+[9.901s]   CC       liblely_libc_la-strings.lo
+[9.902s]   CC       liblely_libc_la-sleep.lo
+[9.903s]   CC       liblely_libc_la-threads-pthread.lo
+[9.904s]   CC       liblely_libc_la-time.lo
+[9.988s]   CCLD     liblely-libc.la
+[10.079s] Making all in tap
+[10.085s]   CC       liblely_tap_la-tap.lo
+[10.139s]   CCLD     liblely-tap.la
+[10.243s] Making all in util
+[10.254s]   CC       liblely_util_la-bimap.lo
+[10.255s]   CC       liblely_util_la-mkjmp.lo
+[10.256s]   CC       liblely_util_la-sllist.lo
+[10.256s]   CC       liblely_util_la-spscring.lo
+[10.257s]   CC       liblely_util_la-bits.lo
+[10.260s]   CC       liblely_util_la-bitset.lo
+[10.262s]   CC       liblely_util_la-config.lo
+[10.262s]   CC       liblely_util_la-cmp.lo
+[10.264s]   CC       liblely_util_la-config_ini.lo
+[10.269s]   CC       liblely_util_la-diag.lo
+[10.269s]   CC       liblely_util_la-daemon.lo
+[10.271s]   CC       liblely_util_la-dllist.lo
+[10.370s]   CC       liblely_util_la-endian.lo
+[10.388s]   CC       liblely_util_la-errnum.lo
+[10.391s]   CXX      liblely_util_la-exception.lo
+[10.401s]   CC       liblely_util_la-fiber.lo
+[10.404s]   CC       liblely_util_la-frbuf.lo
+[10.404s]   CC       liblely_util_la-lex.lo
+[10.405s]   CC       liblely_util_la-fwbuf.lo
+[10.482s]   CC       liblely_util_la-membuf.lo
+[10.484s]   CC       liblely_util_la-pheap.lo
+[10.487s]   CC       liblely_util_la-print.lo
+[10.489s]   CC       liblely_util_la-rbtree.lo
+[10.489s]   CC       liblely_util_la-stop.lo
+[10.496s]   CC       liblely_util_la-time.lo
+[10.505s]   CC       liblely_util_la-ustring.lo
+[10.653s]   CXXLD    liblely-util.la
+[10.809s] Making all in can
+[10.817s]   CC       liblely_can_la-msg.lo
+[10.817s]   CC       liblely_can_la-buf.lo
+[10.818s]   CC       liblely_can_la-net.lo
+[10.818s]   CC       liblely_can_la-socket.lo
+[10.916s]   CCLD     liblely-can.la
+[11.034s] Making all in co
+[11.045s]   CC       liblely_co_la-crc.lo
+[11.048s]   CC       liblely_co_la-csdo.lo
+[11.049s]   CC       liblely_co_la-dcf.lo
+[11.049s]   CC       liblely_co_la-dev.lo
+[11.050s]   CC       liblely_co_la-emcy.lo
+[11.051s]   CC       liblely_co_la-gw.lo
+[11.052s]   CC       liblely_co_la-gw_txt.lo
+[11.052s]   CC       liblely_co_la-lss.lo
+[11.052s]   CC       liblely_co_la-nmt.lo
+[11.056s]   CC       liblely_co_la-nmt_hb.lo
+[11.056s]   CC       liblely_co_la-nmt_cfg.lo
+[11.056s]   CC       liblely_co_la-nmt_boot.lo
+[11.173s]   CC       liblely_co_la-nmt_srv.lo
+[11.181s]   CC       liblely_co_la-obj.lo
+[11.246s]   CC       liblely_co_la-rpdo.lo
+[11.248s]   CC       liblely_co_la-pdo.lo
+[11.265s]   CC       liblely_co_la-sdev.lo
+[11.273s]   CC       liblely_co_la-sdo.lo
+[11.290s]   CC       liblely_co_la-ssdo.lo
+[11.324s]   CC       liblely_co_la-sync.lo
+[11.327s]   CC       liblely_co_la-time.lo
+[11.348s]   CC       liblely_co_la-tpdo.lo
+[11.357s]   CC       liblely_co_la-type.lo
+[11.374s]   CC       liblely_co_la-val.lo
+[11.383s]   CC       liblely_co_la-wtm.lo
+[11.567s]   CCLD     liblely-co.la
+[11.717s] Making all in io
+[11.729s]   CC       liblely_io_la-addr.lo
+[11.729s]   CC       liblely_io_la-attr.lo
+[11.731s]   CC       liblely_io_la-can.lo
+[11.731s]   CC       liblely_io_la-file.lo
+[11.732s]   CC       liblely_io_la-handle.lo
+[11.732s]   CC       liblely_io_la-if.lo
+[11.733s]   CC       liblely_io_la-io.lo
+[11.733s]   CC       liblely_io_la-pipe.lo
+[11.734s]   CC       liblely_io_la-poll.lo
+[11.735s]   CC       liblely_io_la-rtnl.lo
+[11.735s]   CC       liblely_io_la-serial.lo
+[11.736s]   CC       liblely_io_la-sock.lo
+[11.947s]   CCLD     liblely-io.la
+[12.117s] Making all in ev
+[12.124s]   CC       liblely_ev_la-exec.lo
+[12.127s]   CC       liblely_ev_la-fiber_exec.lo
+[12.128s]   CC       liblely_ev_la-future.lo
+[12.129s]   CC       liblely_ev_la-poll.lo
+[12.129s]   CC       liblely_ev_la-loop.lo
+[12.130s]   CC       liblely_ev_la-std_exec.lo
+[12.131s]   CC       liblely_ev_la-strand.lo
+[12.131s]   CC       liblely_ev_la-thrd_loop.lo
+[12.132s]   CC       liblely_ev_la-task.lo
+[12.277s]   CCLD     liblely-ev.la
+[12.397s] Making all in io2
+[12.406s]   CC       can/liblely_io2_la-msg.lo
+[12.410s]   CC       linux/liblely_io2_la-can_chan.lo
+[12.411s]   CC       linux/liblely_io2_la-can_ctrl.lo
+[12.413s]   CC       linux/liblely_io2_la-poll.lo
+[12.414s]   CC       linux/liblely_io2_la-timer.lo
+[12.415s]   CC       posix/liblely_io2_la-fd.lo
+[12.416s]   CC       posix/liblely_io2_la-io.lo
+[12.416s]   CC       posix/liblely_io2_la-sigset.lo
+[12.416s]   CC       sys/liblely_io2_la-clock.lo
+[12.417s]   CC       sys/liblely_io2_la-io.lo
+[12.418s]   CC       user/liblely_io2_la-can.lo
+[12.418s]   CC       user/liblely_io2_la-timer.lo
+[12.495s]   CC       liblely_io2_la-can.lo
+[12.519s]   CC       liblely_io2_la-can_net.lo
+[12.519s]   CC       liblely_io2_la-can_rt.lo
+[12.520s]   CC       liblely_io2_la-clock.lo
+[12.563s]   CC       liblely_io2_la-ctx.lo
+[12.567s]   CC       liblely_io2_la-dev.lo
+[12.570s]   CC       liblely_io2_la-sigset.lo
+[12.582s]   CC       liblely_io2_la-timer.lo
+[12.588s]   CC       liblely_io2_la-tqueue.lo
+[12.590s]   CC       liblely_io2_la-vcan.lo
+[12.726s]   CCLD     liblely-io2.la
+[12.880s] Making all in coapp
+[12.902s]   CXX      liblely_coapp_la-device.lo
+[12.903s]   CXX      liblely_coapp_la-driver.lo
+[12.904s]   CXX      liblely_coapp_la-fiber_driver.lo
+[12.904s]   CXX      liblely_coapp_la-logical_driver.lo
+[12.905s]   CXX      liblely_coapp_la-loop_driver.lo
+[12.905s]   CXX      liblely_coapp_la-lss_master.lo
+[12.906s]   CXX      liblely_coapp_la-master.lo
+[12.907s]   CXX      liblely_coapp_la-node.lo
+[12.907s]   CXX      liblely_coapp_la-sdo.lo
+[12.909s]   CXX      liblely_coapp_la-sdo_error.lo
+[12.911s]   CXX      liblely_coapp_la-type_traits.lo
+[12.911s]   CXX      liblely_coapp_la-slave.lo
+[14.757s]   CXXLD    liblely-coapp.la
+[15.087s] Making all in python
+[15.096s] Making all in dcf-tools
+[15.323s] running sdist
+[15.323s] running egg_info
+[15.325s] writing dcf_tools.egg-info/PKG-INFO
+[15.325s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[15.325s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[15.325s] writing requirements to dcf_tools.egg-info/requires.txt
+[15.325s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[15.328s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[15.329s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[15.329s] running check
+[15.338s] running bdist_wheel
+[15.341s] running build
+[15.341s] running build_py
+[15.344s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[15.344s]   warnings.warn(
+[15.344s] installing to build/bdist.linux-x86_64/wheel
+[15.344s] running install
+[15.344s] running install_lib
+[15.345s] creating build/bdist.linux-x86_64/wheel
+[15.345s] creating build/bdist.linux-x86_64/wheel/dcf
+[15.345s] copying build/lib/dcf/parse.py -> build/bdist.linux-x86_64/wheel/dcf
+[15.345s] copying build/lib/dcf/device.py -> build/bdist.linux-x86_64/wheel/dcf
+[15.345s] copying build/lib/dcf/print.py -> build/bdist.linux-x86_64/wheel/dcf
+[15.345s] copying build/lib/dcf/lint.py -> build/bdist.linux-x86_64/wheel/dcf
+[15.346s] copying build/lib/dcf/cli.py -> build/bdist.linux-x86_64/wheel/dcf
+[15.346s] copying build/lib/dcf/__init__.py -> build/bdist.linux-x86_64/wheel/dcf
+[15.346s] creating build/bdist.linux-x86_64/wheel/dcfgen
+[15.346s] copying build/lib/dcfgen/cli.py -> build/bdist.linux-x86_64/wheel/dcfgen
+[15.346s] copying build/lib/dcfgen/__init__.py -> build/bdist.linux-x86_64/wheel/dcfgen
+[15.346s] creating build/bdist.linux-x86_64/wheel/dcfgen/data
+[15.346s] copying build/lib/dcfgen/data/master.dcf.em -> build/bdist.linux-x86_64/wheel/dcfgen/data
+[15.346s] creating dcf-tools-2.3.0
+[15.347s] creating build/bdist.linux-x86_64/wheel/dcf2dev
+[15.347s] creating dcf-tools-2.3.0/dcf
+[15.347s] copying build/lib/dcf2dev/cdevice.py -> build/bdist.linux-x86_64/wheel/dcf2dev
+[15.347s] creating dcf-tools-2.3.0/dcf2dev
+[15.347s] creating dcf-tools-2.3.0/dcf2dev/data
+[15.347s] creating dcf-tools-2.3.0/dcf_tools.egg-info
+[15.347s] copying build/lib/dcf2dev/cli.py -> build/bdist.linux-x86_64/wheel/dcf2dev
+[15.347s] creating dcf-tools-2.3.0/dcfgen
+[15.347s] creating dcf-tools-2.3.0/dcfgen/data
+[15.347s] copying files to dcf-tools-2.3.0...
+[15.348s] copying build/lib/dcf2dev/__init__.py -> build/bdist.linux-x86_64/wheel/dcf2dev
+[15.348s] copying README.md -> dcf-tools-2.3.0
+[15.348s] creating build/bdist.linux-x86_64/wheel/dcf2dev/data
+[15.348s] copying setup.py -> dcf-tools-2.3.0
+[15.348s] copying build/lib/dcf2dev/data/dev.c.em -> build/bdist.linux-x86_64/wheel/dcf2dev/data
+[15.348s] copying dcf/__init__.py -> dcf-tools-2.3.0/dcf
+[15.348s] copying build/lib/dcf2dev/data/dev.h.em -> build/bdist.linux-x86_64/wheel/dcf2dev/data
+[15.348s] copying dcf/cli.py -> dcf-tools-2.3.0/dcf
+[15.349s] running install_egg_info
+[15.349s] copying dcf/device.py -> dcf-tools-2.3.0/dcf
+[15.349s] copying dcf/lint.py -> dcf-tools-2.3.0/dcf
+[15.349s] copying dcf/parse.py -> dcf-tools-2.3.0/dcf
+[15.349s] copying dcf/print.py -> dcf-tools-2.3.0/dcf
+[15.349s] copying dcf2dev/__init__.py -> dcf-tools-2.3.0/dcf2dev
+[15.349s] copying dcf2dev/cdevice.py -> dcf-tools-2.3.0/dcf2dev
+[15.349s] copying dcf2dev/cli.py -> dcf-tools-2.3.0/dcf2dev
+[15.349s] copying dcf2dev/data/dev.c.em -> dcf-tools-2.3.0/dcf2dev/data
+[15.349s] copying dcf2dev/data/dev.h.em -> dcf-tools-2.3.0/dcf2dev/data
+[15.349s] copying dcf_tools.egg-info/PKG-INFO -> dcf-tools-2.3.0/dcf_tools.egg-info
+[15.349s] copying dcf_tools.egg-info/SOURCES.txt -> dcf-tools-2.3.0/dcf_tools.egg-info
+[15.350s] copying dcf_tools.egg-info/dependency_links.txt -> dcf-tools-2.3.0/dcf_tools.egg-info
+[15.350s] copying dcf_tools.egg-info/entry_points.txt -> dcf-tools-2.3.0/dcf_tools.egg-info
+[15.350s] copying dcf_tools.egg-info/requires.txt -> dcf-tools-2.3.0/dcf_tools.egg-info
+[15.350s] copying dcf_tools.egg-info/top_level.txt -> dcf-tools-2.3.0/dcf_tools.egg-info
+[15.350s] copying dcfgen/__init__.py -> dcf-tools-2.3.0/dcfgen
+[15.350s] copying dcfgen/cli.py -> dcf-tools-2.3.0/dcfgen
+[15.350s] copying dcfgen/data/master.dcf.em -> dcf-tools-2.3.0/dcfgen/data
+[15.350s] Writing dcf-tools-2.3.0/setup.cfg
+[15.350s] Creating tar archive
+[15.350s] running egg_info
+[15.350s] writing dcf_tools.egg-info/PKG-INFO
+[15.351s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[15.351s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[15.351s] writing requirements to dcf_tools.egg-info/requires.txt
+[15.351s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[15.351s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[15.352s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[15.352s] Copying dcf_tools.egg-info to build/bdist.linux-x86_64/wheel/dcf_tools-2.3.0.egg-info
+[15.353s] running install_scripts
+[15.365s] removing 'dcf-tools-2.3.0' (and everything under it)
+[15.370s] creating build/bdist.linux-x86_64/wheel/dcf_tools-2.3.0.dist-info/WHEEL
+[15.370s] creating '/home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/python/dcf-tools/dist/dcf_tools-2.3.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+[15.371s] adding 'dcf/__init__.py'
+[15.371s] adding 'dcf/cli.py'
+[15.371s] adding 'dcf/device.py'
+[15.372s] adding 'dcf/lint.py'
+[15.372s] adding 'dcf/parse.py'
+[15.372s] adding 'dcf/print.py'
+[15.372s] adding 'dcf2dev/__init__.py'
+[15.373s] adding 'dcf2dev/cdevice.py'
+[15.373s] adding 'dcf2dev/cli.py'
+[15.373s] adding 'dcf2dev/data/dev.c.em'
+[15.373s] adding 'dcf2dev/data/dev.h.em'
+[15.373s] adding 'dcfgen/__init__.py'
+[15.374s] adding 'dcfgen/cli.py'
+[15.375s] adding 'dcfgen/data/master.dcf.em'
+[15.375s] adding 'dcf_tools-2.3.0.dist-info/METADATA'
+[15.375s] adding 'dcf_tools-2.3.0.dist-info/WHEEL'
+[15.375s] adding 'dcf_tools-2.3.0.dist-info/entry_points.txt'
+[15.375s] adding 'dcf_tools-2.3.0.dist-info/top_level.txt'
+[15.375s] adding 'dcf_tools-2.3.0.dist-info/RECORD'
+[15.375s] removing build/bdist.linux-x86_64/wheel
+[15.398s] Making all in pkgconfig
+[15.400s] Making all in tools
+[15.410s]   CC       can2udp.o
+[15.413s]   CC       coctl.o
+[15.413s]   CC       cocat.o
+[15.414s]   CC       cocatd.o
+[15.414s]   CC       dcf2c.o
+[15.459s]   CCLD     dcf2c
+[15.466s]   CCLD     cocat
+[15.470s]   CCLD     can2udp
+[15.482s]   CCLD     cocatd
+[15.488s]   CCLD     coctl
+[15.698s] [ 62%] [34m[1mPerforming install step for 'upstr_lely_core_libraries'[0m
+[15.707s] Making install in doc
+[15.712s] Making install in include
+[15.721s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include'
+[15.728s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/co'
+[15.729s]  /usr/bin/install -c -m 644  lely/co/co.h lely/co/crc.h lely/co/csdo.h lely/co/csdo.hpp lely/co/dcf.h lely/co/dcf.hpp lely/co/dev.h lely/co/dev.hpp lely/co/emcy.h lely/co/emcy.hpp lely/co/gw.h lely/co/gw.hpp lely/co/gw_txt.h lely/co/gw_txt.hpp lely/co/lss.h lely/co/lss.hpp lely/co/nmt.h lely/co/nmt.hpp lely/co/obj.h lely/co/obj.hpp lely/co/pdo.h lely/co/rpdo.h lely/co/rpdo.hpp lely/co/sdev.h lely/co/sdev.hpp lely/co/sdo.h lely/co/ssdo.h lely/co/ssdo.hpp lely/co/sync.h lely/co/sync.hpp lely/co/time.h lely/co/time.hpp lely/co/tpdo.h lely/co/tpdo.hpp lely/co/type.h lely/co/type.hpp lely/co/val.h lely/co/val.hpp lely/co/wtm.h lely/co/wtm.hpp '/home/serhat/workspace/build/lely_core_libraries/include/lely/co'
+[15.733s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/io2/posix'
+[15.734s]  /usr/bin/install -c -m 644  lely/io2/posix/poll.h lely/io2/posix/poll.hpp '/home/serhat/workspace/build/lely_core_libraries/include/lely/io2/posix'
+[15.736s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/can'
+[15.737s]  /usr/bin/install -c -m 644  lely/can/buf.h lely/can/buf.hpp lely/can/err.h lely/can/msg.h lely/can/net.h lely/can/net.hpp lely/can/socket.h '/home/serhat/workspace/build/lely_core_libraries/include/lely/can'
+[15.739s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/ev'
+[15.741s]  /usr/bin/install -c -m 644  lely/ev/co_task.hpp lely/ev/ev.h lely/ev/exec.h lely/ev/exec.hpp lely/ev/fiber_exec.h lely/ev/fiber_exec.hpp lely/ev/future.h lely/ev/future.hpp lely/ev/loop.h lely/ev/loop.hpp lely/ev/poll.h lely/ev/poll.hpp lely/ev/std_exec.h lely/ev/strand.h lely/ev/strand.hpp lely/ev/task.h lely/ev/task.hpp lely/ev/thrd_loop.h lely/ev/thrd_loop.hpp '/home/serhat/workspace/build/lely_core_libraries/include/lely/ev'
+[15.743s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/co/def'
+[15.744s]  /usr/bin/install -c -m 644  lely/co/def/array.def lely/co/def/basic.def lely/co/def/cxx.def lely/co/def/time.def lely/co/def/type.def '/home/serhat/workspace/build/lely_core_libraries/include/lely/co/def'
+[15.746s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely'
+[15.747s]  /usr/bin/install -c -m 644  lely/features.h '/home/serhat/workspace/build/lely_core_libraries/include/lely'
+[15.749s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/io'
+[15.750s]  /usr/bin/install -c -m 644  lely/io/addr.h lely/io/attr.h lely/io/can.h lely/io/can.hpp lely/io/file.h lely/io/file.hpp lely/io/if.h lely/io/io.h lely/io/io.hpp lely/io/pipe.h lely/io/pipe.hpp lely/io/poll.h lely/io/poll.hpp lely/io/serial.h lely/io/serial.hpp lely/io/sock.h lely/io/sock.hpp '/home/serhat/workspace/build/lely_core_libraries/include/lely/io'
+[15.752s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/util/def'
+[15.754s]  /usr/bin/install -c -m 644  lely/util/def/type.def '/home/serhat/workspace/build/lely_core_libraries/include/lely/util/def'
+[15.755s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/co/detail'
+[15.756s]  /usr/bin/install -c -m 644  lely/co/detail/dev.h lely/co/detail/obj.h '/home/serhat/workspace/build/lely_core_libraries/include/lely/co/detail'
+[15.758s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/io2/can'
+[15.759s]  /usr/bin/install -c -m 644  lely/io2/can/err.h lely/io2/can/err.hpp lely/io2/can/msg.h lely/io2/can/msg.hpp '/home/serhat/workspace/build/lely_core_libraries/include/lely/io2/can'
+[15.761s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/coapp'
+[15.762s]  /usr/bin/install -c -m 644  lely/coapp/type_traits.hpp lely/coapp/device.hpp lely/coapp/driver.hpp lely/coapp/fiber_driver.hpp lely/coapp/logical_driver.hpp lely/coapp/loop_driver.hpp lely/coapp/lss_master.hpp lely/coapp/master.hpp lely/coapp/node.hpp lely/coapp/sdo.hpp lely/coapp/sdo_error.hpp lely/coapp/slave.hpp '/home/serhat/workspace/build/lely_core_libraries/include/lely/coapp'
+[15.765s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/io2'
+[15.767s]  /usr/bin/install -c -m 644  lely/io2/can.h lely/io2/can.hpp lely/io2/can_net.h lely/io2/can_net.hpp lely/io2/can_rt.h lely/io2/can_rt.hpp lely/io2/clock.h lely/io2/clock.hpp lely/io2/co_can.hpp lely/io2/co_can_rt.hpp lely/io2/co_sigset.hpp lely/io2/co_timer.hpp lely/io2/co_tqueue.hpp lely/io2/ctx.h lely/io2/ctx.hpp lely/io2/dev.h lely/io2/dev.hpp lely/io2/event.h lely/io2/event.hpp lely/io2/io2.h lely/io2/sigset.h lely/io2/sigset.hpp lely/io2/timer.h lely/io2/timer.hpp lely/io2/tqueue.h lely/io2/tqueue.hpp lely/io2/vcan.h lely/io2/vcan.hpp '/home/serhat/workspace/build/lely_core_libraries/include/lely/io2'
+[15.770s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/io2/linux'
+[15.771s]  /usr/bin/install -c -m 644  lely/io2/linux/can.h lely/io2/linux/can.hpp '/home/serhat/workspace/build/lely_core_libraries/include/lely/io2/linux'
+[15.772s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/libc/sys'
+[15.774s]  /usr/bin/install -c -m 644  lely/libc/sys/types.h '/home/serhat/workspace/build/lely_core_libraries/include/lely/libc/sys'
+[15.775s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/io2/user'
+[15.776s]  /usr/bin/install -c -m 644  lely/io2/user/can.h lely/io2/user/can.hpp lely/io2/user/timer.h lely/io2/user/timer.hpp '/home/serhat/workspace/build/lely_core_libraries/include/lely/io2/user'
+[15.778s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/io2/sys'
+[15.779s]  /usr/bin/install -c -m 644  lely/io2/sys/clock.h lely/io2/sys/clock.hpp lely/io2/sys/io.h lely/io2/sys/io.hpp lely/io2/sys/sigset.h lely/io2/sys/sigset.hpp lely/io2/sys/timer.h lely/io2/sys/timer.hpp '/home/serhat/workspace/build/lely_core_libraries/include/lely/io2/sys'
+[15.781s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/tap'
+[15.782s]  /usr/bin/install -c -m 644  lely/tap/tap.h '/home/serhat/workspace/build/lely_core_libraries/include/lely/tap'
+[15.785s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/util'
+[15.786s]  /usr/bin/install -c -m 644  lely/util/bimap.h lely/util/coroutine.h lely/util/coroutine.hpp lely/util/mkjmp.h lely/util/sllist.h lely/util/spscring.h lely/util/bits.h lely/util/bitset.h lely/util/c_call.hpp lely/util/c_type.hpp lely/util/chrono.hpp lely/util/cmp.h lely/util/config.h lely/util/daemon.h lely/util/diag.h lely/util/dllist.h lely/util/endian.h lely/util/errnum.h lely/util/error.hpp lely/util/exception.hpp lely/util/fiber.h lely/util/fiber.hpp lely/util/float.h lely/util/frbuf.h lely/util/fwbuf.h lely/util/invoker.hpp lely/util/lex.h lely/util/membuf.h lely/util/mutex.hpp lely/util/pheap.h lely/util/print.h lely/util/rbtree.h lely/util/result.hpp lely/util/stop.h lely/util/stop.hpp lely/util/time.h lely/util/ustring.h lely/util/util.h '/home/serhat/workspace/build/lely_core_libraries/include/lely/util'
+[15.790s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/include/lely/libc'
+[15.791s]  /usr/bin/install -c -m 644  lely/libc/chrono.hpp lely/libc/functional.hpp lely/libc/stdatomic.h lely/libc/stddef.h lely/libc/stdint.h lely/libc/stdio.h lely/libc/stdlib.h lely/libc/string.h lely/libc/strings.h lely/libc/threads.h lely/libc/time.h lely/libc/type_traits.hpp lely/libc/uchar.h lely/libc/unistd.h lely/libc/utility.hpp '/home/serhat/workspace/build/lely_core_libraries/include/lely/libc'
+[15.794s] Making install in src
+[15.803s] Making install in libc
+[15.821s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/lib'
+[15.822s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-libc.la '/home/serhat/workspace/build/lely_core_libraries/lib'
+[15.842s] libtool: install: /usr/bin/install -c .libs/liblely-libc.so.2.3.0 /home/serhat/workspace/build/lely_core_libraries/lib/liblely-libc.so.2.3.0
+[15.844s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-libc.so.2.3.0 liblely-libc.so.2 || { rm -f liblely-libc.so.2 && ln -s liblely-libc.so.2.3.0 liblely-libc.so.2; }; })
+[15.846s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-libc.so.2.3.0 liblely-libc.so || { rm -f liblely-libc.so && ln -s liblely-libc.so.2.3.0 liblely-libc.so; }; })
+[15.848s] libtool: install: /usr/bin/install -c .libs/liblely-libc.lai /home/serhat/workspace/build/lely_core_libraries/lib/liblely-libc.la
+[15.877s] libtool: finish: PATH="/home/serhat/workspace/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/serhat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/serhat/python/bin/:/sbin" ldconfig -n /home/serhat/workspace/build/lely_core_libraries/lib
+[15.879s] ----------------------------------------------------------------------
+[15.879s] Libraries have been installed in:
+[15.879s]    /home/serhat/workspace/build/lely_core_libraries/lib
+[15.879s] 
+[15.879s] If you ever happen to want to link against installed libraries
+[15.879s] in a given directory, LIBDIR, you must either use libtool, and
+[15.879s] specify the full pathname of the library, or use the '-LLIBDIR'
+[15.879s] flag during linking and do at least one of the following:
+[15.879s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[15.879s]      during execution
+[15.879s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[15.879s]      during linking
+[15.879s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[15.880s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[15.880s] 
+[15.880s] See any operating system documentation about shared libraries for
+[15.880s] more information, such as the ld(1) and ld.so(8) manual pages.
+[15.880s] ----------------------------------------------------------------------
+[15.880s] Making install in tap
+[15.893s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/lib'
+[15.894s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-tap.la '/home/serhat/workspace/build/lely_core_libraries/lib'
+[15.947s] libtool: [31mwarning[0m: [1mrelinking 'liblely-tap.la'[0m
+[15.950s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/tap; /bin/bash "/home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CC --mode=relink gcc -pthread -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:0 -Wl,--as-needed -o liblely-tap.la -rpath /home/serhat/workspace/build/lely_core_libraries/lib liblely_tap_la-tap.lo ../../src/libc/liblely-libc.la )
+[16.032s] libtool: install: /usr/bin/install -c .libs/liblely-tap.so.2.3.0T /home/serhat/workspace/build/lely_core_libraries/lib/liblely-tap.so.2.3.0
+[16.033s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-tap.so.2.3.0 liblely-tap.so.2 || { rm -f liblely-tap.so.2 && ln -s liblely-tap.so.2.3.0 liblely-tap.so.2; }; })
+[16.035s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-tap.so.2.3.0 liblely-tap.so || { rm -f liblely-tap.so && ln -s liblely-tap.so.2.3.0 liblely-tap.so; }; })
+[16.037s] libtool: install: /usr/bin/install -c .libs/liblely-tap.lai /home/serhat/workspace/build/lely_core_libraries/lib/liblely-tap.la
+[16.066s] libtool: finish: PATH="/home/serhat/workspace/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/serhat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/serhat/python/bin/:/sbin" ldconfig -n /home/serhat/workspace/build/lely_core_libraries/lib
+[16.068s] ----------------------------------------------------------------------
+[16.068s] Libraries have been installed in:
+[16.068s]    /home/serhat/workspace/build/lely_core_libraries/lib
+[16.068s] 
+[16.068s] If you ever happen to want to link against installed libraries
+[16.068s] in a given directory, LIBDIR, you must either use libtool, and
+[16.068s] specify the full pathname of the library, or use the '-LLIBDIR'
+[16.068s] flag during linking and do at least one of the following:
+[16.068s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[16.068s]      during execution
+[16.068s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[16.068s]      during linking
+[16.069s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[16.069s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[16.069s] 
+[16.069s] See any operating system documentation about shared libraries for
+[16.069s] more information, such as the ld(1) and ld.so(8) manual pages.
+[16.069s] ----------------------------------------------------------------------
+[16.069s] Making install in util
+[16.109s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/lib'
+[16.110s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-util.la '/home/serhat/workspace/build/lely_core_libraries/lib'
+[16.164s] libtool: [31mwarning[0m: [1mrelinking 'liblely-util.la'[0m
+[16.166s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/util; /bin/bash "/home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:0 -Wl,--as-needed -o liblely-util.la -rpath /home/serhat/workspace/build/lely_core_libraries/lib liblely_util_la-bimap.lo liblely_util_la-mkjmp.lo liblely_util_la-sllist.lo liblely_util_la-spscring.lo liblely_util_la-bits.lo liblely_util_la-bitset.lo liblely_util_la-cmp.lo liblely_util_la-config.lo liblely_util_la-config_ini.lo liblely_util_la-daemon.lo liblely_util_la-diag.lo liblely_util_la-dllist.lo liblely_util_la-endian.lo liblely_util_la-errnum.lo liblely_util_la-exception.lo liblely_util_la-fiber.lo liblely_util_la-frbuf.lo liblely_util_la-fwbuf.lo liblely_util_la-lex.lo liblely_util_la-membuf.lo liblely_util_la-pheap.lo liblely_util_la-print.lo liblely_util_la-rbtree.lo liblely_util_la-stop.lo liblely_util_la-time.lo liblely_util_la-ustring.lo ../../src/libc/liblely-libc.la -lm )
+[16.290s] libtool: install: /usr/bin/install -c .libs/liblely-util.so.2.3.0T /home/serhat/workspace/build/lely_core_libraries/lib/liblely-util.so.2.3.0
+[16.292s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-util.so.2.3.0 liblely-util.so.2 || { rm -f liblely-util.so.2 && ln -s liblely-util.so.2.3.0 liblely-util.so.2; }; })
+[16.293s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-util.so.2.3.0 liblely-util.so || { rm -f liblely-util.so && ln -s liblely-util.so.2.3.0 liblely-util.so; }; })
+[16.295s] libtool: install: /usr/bin/install -c .libs/liblely-util.lai /home/serhat/workspace/build/lely_core_libraries/lib/liblely-util.la
+[16.317s] libtool: finish: PATH="/home/serhat/workspace/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/serhat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/serhat/python/bin/:/sbin" ldconfig -n /home/serhat/workspace/build/lely_core_libraries/lib
+[16.319s] ----------------------------------------------------------------------
+[16.319s] Libraries have been installed in:
+[16.319s]    /home/serhat/workspace/build/lely_core_libraries/lib
+[16.320s] 
+[16.320s] If you ever happen to want to link against installed libraries
+[16.320s] in a given directory, LIBDIR, you must either use libtool, and
+[16.320s] specify the full pathname of the library, or use the '-LLIBDIR'
+[16.320s] flag during linking and do at least one of the following:
+[16.320s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[16.320s]      during execution
+[16.320s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[16.320s]      during linking
+[16.320s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[16.320s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[16.320s] 
+[16.320s] See any operating system documentation about shared libraries for
+[16.320s] more information, such as the ld(1) and ld.so(8) manual pages.
+[16.320s] ----------------------------------------------------------------------
+[16.320s] Making install in can
+[16.342s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/lib'
+[16.343s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-can.la '/home/serhat/workspace/build/lely_core_libraries/lib'
+[16.392s] libtool: [31mwarning[0m: [1mrelinking 'liblely-can.la'[0m
+[16.394s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/can; /bin/bash "/home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CC --mode=relink gcc -pthread -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-can.la -rpath /home/serhat/workspace/build/lely_core_libraries/lib liblely_can_la-buf.lo liblely_can_la-msg.lo liblely_can_la-net.lo liblely_can_la-socket.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la )
+[16.493s] libtool: install: /usr/bin/install -c .libs/liblely-can.so.1.9.2T /home/serhat/workspace/build/lely_core_libraries/lib/liblely-can.so.1.9.2
+[16.495s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so.1 || { rm -f liblely-can.so.1 && ln -s liblely-can.so.1.9.2 liblely-can.so.1; }; })
+[16.497s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so || { rm -f liblely-can.so && ln -s liblely-can.so.1.9.2 liblely-can.so; }; })
+[16.499s] libtool: install: /usr/bin/install -c .libs/liblely-can.lai /home/serhat/workspace/build/lely_core_libraries/lib/liblely-can.la
+[16.530s] libtool: finish: PATH="/home/serhat/workspace/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/serhat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/serhat/python/bin/:/sbin" ldconfig -n /home/serhat/workspace/build/lely_core_libraries/lib
+[16.533s] ----------------------------------------------------------------------
+[16.533s] Libraries have been installed in:
+[16.533s]    /home/serhat/workspace/build/lely_core_libraries/lib
+[16.533s] 
+[16.533s] If you ever happen to want to link against installed libraries
+[16.533s] in a given directory, LIBDIR, you must either use libtool, and
+[16.534s] specify the full pathname of the library, or use the '-LLIBDIR'
+[16.534s] flag during linking and do at least one of the following:
+[16.534s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[16.534s]      during execution
+[16.534s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[16.534s]      during linking
+[16.534s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[16.534s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[16.534s] 
+[16.534s] See any operating system documentation about shared libraries for
+[16.534s] more information, such as the ld(1) and ld.so(8) manual pages.
+[16.534s] ----------------------------------------------------------------------
+[16.534s] Making install in co
+[16.563s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/lib'
+[16.564s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-co.la '/home/serhat/workspace/build/lely_core_libraries/lib'
+[16.628s] libtool: [31mwarning[0m: [1mrelinking 'liblely-co.la'[0m
+[16.636s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/co; /bin/bash "/home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CC --mode=relink gcc -pthread -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:0 -Wl,--as-needed -o liblely-co.la -rpath /home/serhat/workspace/build/lely_core_libraries/lib liblely_co_la-crc.lo liblely_co_la-csdo.lo liblely_co_la-dcf.lo liblely_co_la-dev.lo liblely_co_la-emcy.lo liblely_co_la-gw.lo liblely_co_la-gw_txt.lo liblely_co_la-lss.lo liblely_co_la-nmt.lo liblely_co_la-nmt_boot.lo liblely_co_la-nmt_cfg.lo liblely_co_la-nmt_hb.lo liblely_co_la-nmt_srv.lo liblely_co_la-obj.lo liblely_co_la-pdo.lo liblely_co_la-rpdo.lo liblely_co_la-sdev.lo liblely_co_la-sdo.lo liblely_co_la-ssdo.lo liblely_co_la-sync.lo liblely_co_la-time.lo liblely_co_la-tpdo.lo liblely_co_la-type.lo liblely_co_la-val.lo liblely_co_la-wtm.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la )
+[16.791s] libtool: install: /usr/bin/install -c .libs/liblely-co.so.2.3.0T /home/serhat/workspace/build/lely_core_libraries/lib/liblely-co.so.2.3.0
+[16.793s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-co.so.2.3.0 liblely-co.so.2 || { rm -f liblely-co.so.2 && ln -s liblely-co.so.2.3.0 liblely-co.so.2; }; })
+[16.795s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-co.so.2.3.0 liblely-co.so || { rm -f liblely-co.so && ln -s liblely-co.so.2.3.0 liblely-co.so; }; })
+[16.796s] libtool: install: /usr/bin/install -c .libs/liblely-co.lai /home/serhat/workspace/build/lely_core_libraries/lib/liblely-co.la
+[16.820s] libtool: finish: PATH="/home/serhat/workspace/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/serhat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/serhat/python/bin/:/sbin" ldconfig -n /home/serhat/workspace/build/lely_core_libraries/lib
+[16.822s] ----------------------------------------------------------------------
+[16.822s] Libraries have been installed in:
+[16.822s]    /home/serhat/workspace/build/lely_core_libraries/lib
+[16.822s] 
+[16.823s] If you ever happen to want to link against installed libraries
+[16.823s] in a given directory, LIBDIR, you must either use libtool, and
+[16.823s] specify the full pathname of the library, or use the '-LLIBDIR'
+[16.823s] flag during linking and do at least one of the following:
+[16.823s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[16.823s]      during execution
+[16.823s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[16.823s]      during linking
+[16.823s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[16.823s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[16.824s] 
+[16.824s] See any operating system documentation about shared libraries for
+[16.824s] more information, such as the ld(1) and ld.so(8) manual pages.
+[16.824s] ----------------------------------------------------------------------
+[16.824s] Making install in io
+[16.850s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/lib'
+[16.851s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io.la '/home/serhat/workspace/build/lely_core_libraries/lib'
+[16.899s] libtool: [31mwarning[0m: [1mrelinking 'liblely-io.la'[0m
+[16.902s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/io; /bin/bash "/home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CC --mode=relink gcc -pthread -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-io.la -rpath /home/serhat/workspace/build/lely_core_libraries/lib liblely_io_la-addr.lo liblely_io_la-attr.lo liblely_io_la-can.lo liblely_io_la-file.lo liblely_io_la-handle.lo liblely_io_la-if.lo liblely_io_la-io.lo liblely_io_la-pipe.lo liblely_io_la-poll.lo liblely_io_la-rtnl.lo liblely_io_la-serial.lo liblely_io_la-sock.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la )
+[17.020s] libtool: install: /usr/bin/install -c .libs/liblely-io.so.1.9.2T /home/serhat/workspace/build/lely_core_libraries/lib/liblely-io.so.1.9.2
+[17.021s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so.1 || { rm -f liblely-io.so.1 && ln -s liblely-io.so.1.9.2 liblely-io.so.1; }; })
+[17.023s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so || { rm -f liblely-io.so && ln -s liblely-io.so.1.9.2 liblely-io.so; }; })
+[17.025s] libtool: install: /usr/bin/install -c .libs/liblely-io.lai /home/serhat/workspace/build/lely_core_libraries/lib/liblely-io.la
+[17.047s] libtool: finish: PATH="/home/serhat/workspace/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/serhat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/serhat/python/bin/:/sbin" ldconfig -n /home/serhat/workspace/build/lely_core_libraries/lib
+[17.049s] ----------------------------------------------------------------------
+[17.050s] Libraries have been installed in:
+[17.050s]    /home/serhat/workspace/build/lely_core_libraries/lib
+[17.050s] 
+[17.050s] If you ever happen to want to link against installed libraries
+[17.050s] in a given directory, LIBDIR, you must either use libtool, and
+[17.050s] specify the full pathname of the library, or use the '-LLIBDIR'
+[17.050s] flag during linking and do at least one of the following:
+[17.050s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[17.050s]      during execution
+[17.050s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[17.050s]      during linking
+[17.050s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[17.050s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[17.050s] 
+[17.050s] See any operating system documentation about shared libraries for
+[17.050s] more information, such as the ld(1) and ld.so(8) manual pages.
+[17.050s] ----------------------------------------------------------------------
+[17.051s] Making install in ev
+[17.067s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/lib'
+[17.068s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-ev.la '/home/serhat/workspace/build/lely_core_libraries/lib'
+[17.118s] libtool: [31mwarning[0m: [1mrelinking 'liblely-ev.la'[0m
+[17.121s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/ev; /bin/bash "/home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CC --mode=relink gcc -pthread -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:0 -Wl,--as-needed -o liblely-ev.la -rpath /home/serhat/workspace/build/lely_core_libraries/lib liblely_ev_la-exec.lo liblely_ev_la-fiber_exec.lo liblely_ev_la-future.lo liblely_ev_la-loop.lo liblely_ev_la-poll.lo liblely_ev_la-std_exec.lo liblely_ev_la-strand.lo liblely_ev_la-task.lo liblely_ev_la-thrd_loop.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la )
+[17.221s] libtool: install: /usr/bin/install -c .libs/liblely-ev.so.2.3.0T /home/serhat/workspace/build/lely_core_libraries/lib/liblely-ev.so.2.3.0
+[17.223s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-ev.so.2.3.0 liblely-ev.so.2 || { rm -f liblely-ev.so.2 && ln -s liblely-ev.so.2.3.0 liblely-ev.so.2; }; })
+[17.225s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-ev.so.2.3.0 liblely-ev.so || { rm -f liblely-ev.so && ln -s liblely-ev.so.2.3.0 liblely-ev.so; }; })
+[17.226s] libtool: install: /usr/bin/install -c .libs/liblely-ev.lai /home/serhat/workspace/build/lely_core_libraries/lib/liblely-ev.la
+[17.249s] libtool: finish: PATH="/home/serhat/workspace/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/serhat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/serhat/python/bin/:/sbin" ldconfig -n /home/serhat/workspace/build/lely_core_libraries/lib
+[17.251s] ----------------------------------------------------------------------
+[17.251s] Libraries have been installed in:
+[17.251s]    /home/serhat/workspace/build/lely_core_libraries/lib
+[17.251s] 
+[17.251s] If you ever happen to want to link against installed libraries
+[17.251s] in a given directory, LIBDIR, you must either use libtool, and
+[17.251s] specify the full pathname of the library, or use the '-LLIBDIR'
+[17.251s] flag during linking and do at least one of the following:
+[17.251s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[17.251s]      during execution
+[17.251s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[17.252s]      during linking
+[17.252s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[17.252s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[17.252s] 
+[17.252s] See any operating system documentation about shared libraries for
+[17.252s] more information, such as the ld(1) and ld.so(8) manual pages.
+[17.252s] ----------------------------------------------------------------------
+[17.252s] Making install in io2
+[17.282s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/lib'
+[17.283s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io2.la '/home/serhat/workspace/build/lely_core_libraries/lib'
+[17.336s] libtool: [31mwarning[0m: [1mrelinking 'liblely-io2.la'[0m
+[17.338s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/io2; /bin/bash "/home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CC --mode=relink gcc -pthread -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:0 -Wl,--as-needed -o liblely-io2.la -rpath /home/serhat/workspace/build/lely_core_libraries/lib can/liblely_io2_la-msg.lo linux/liblely_io2_la-can_chan.lo linux/liblely_io2_la-can_ctrl.lo linux/liblely_io2_la-poll.lo linux/liblely_io2_la-timer.lo posix/liblely_io2_la-fd.lo posix/liblely_io2_la-io.lo posix/liblely_io2_la-sigset.lo sys/liblely_io2_la-clock.lo sys/liblely_io2_la-io.lo user/liblely_io2_la-can.lo user/liblely_io2_la-timer.lo liblely_io2_la-can.lo liblely_io2_la-can_net.lo liblely_io2_la-can_rt.lo liblely_io2_la-clock.lo liblely_io2_la-ctx.lo liblely_io2_la-dev.lo liblely_io2_la-sigset.lo liblely_io2_la-timer.lo liblely_io2_la-tqueue.lo liblely_io2_la-vcan.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la -lrt )
+[17.462s] libtool: install: /usr/bin/install -c .libs/liblely-io2.so.2.3.0T /home/serhat/workspace/build/lely_core_libraries/lib/liblely-io2.so.2.3.0
+[17.464s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-io2.so.2.3.0 liblely-io2.so.2 || { rm -f liblely-io2.so.2 && ln -s liblely-io2.so.2.3.0 liblely-io2.so.2; }; })
+[17.466s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-io2.so.2.3.0 liblely-io2.so || { rm -f liblely-io2.so && ln -s liblely-io2.so.2.3.0 liblely-io2.so; }; })
+[17.468s] libtool: install: /usr/bin/install -c .libs/liblely-io2.lai /home/serhat/workspace/build/lely_core_libraries/lib/liblely-io2.la
+[17.492s] libtool: finish: PATH="/home/serhat/workspace/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/serhat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/serhat/python/bin/:/sbin" ldconfig -n /home/serhat/workspace/build/lely_core_libraries/lib
+[17.494s] ----------------------------------------------------------------------
+[17.494s] Libraries have been installed in:
+[17.495s]    /home/serhat/workspace/build/lely_core_libraries/lib
+[17.495s] 
+[17.495s] If you ever happen to want to link against installed libraries
+[17.495s] in a given directory, LIBDIR, you must either use libtool, and
+[17.495s] specify the full pathname of the library, or use the '-LLIBDIR'
+[17.495s] flag during linking and do at least one of the following:
+[17.495s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[17.495s]      during execution
+[17.495s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[17.495s]      during linking
+[17.495s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[17.496s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[17.496s] 
+[17.496s] See any operating system documentation about shared libraries for
+[17.496s] more information, such as the ld(1) and ld.so(8) manual pages.
+[17.496s] ----------------------------------------------------------------------
+[17.496s] Making install in coapp
+[17.529s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/lib'
+[17.531s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-coapp.la '/home/serhat/workspace/build/lely_core_libraries/lib'
+[17.580s] libtool: [31mwarning[0m: [1mrelinking 'liblely-coapp.la'[0m
+[17.583s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/coapp; /bin/bash "/home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:0 -Wl,--as-needed -o liblely-coapp.la -rpath /home/serhat/workspace/build/lely_core_libraries/lib liblely_coapp_la-device.lo liblely_coapp_la-driver.lo liblely_coapp_la-fiber_driver.lo liblely_coapp_la-logical_driver.lo liblely_coapp_la-loop_driver.lo liblely_coapp_la-lss_master.lo liblely_coapp_la-master.lo liblely_coapp_la-node.lo liblely_coapp_la-sdo.lo liblely_coapp_la-sdo_error.lo liblely_coapp_la-slave.lo liblely_coapp_la-type_traits.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la ../../src/io2/liblely-io2.la ../../src/co/liblely-co.la )
+[17.885s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.so.2.3.0T /home/serhat/workspace/build/lely_core_libraries/lib/liblely-coapp.so.2.3.0
+[17.889s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-coapp.so.2.3.0 liblely-coapp.so.2 || { rm -f liblely-coapp.so.2 && ln -s liblely-coapp.so.2.3.0 liblely-coapp.so.2; }; })
+[17.892s] libtool: install: (cd /home/serhat/workspace/build/lely_core_libraries/lib && { ln -s -f liblely-coapp.so.2.3.0 liblely-coapp.so || { rm -f liblely-coapp.so && ln -s liblely-coapp.so.2.3.0 liblely-coapp.so; }; })
+[17.895s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.lai /home/serhat/workspace/build/lely_core_libraries/lib/liblely-coapp.la
+[17.917s] libtool: finish: PATH="/home/serhat/workspace/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/serhat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/serhat/python/bin/:/sbin" ldconfig -n /home/serhat/workspace/build/lely_core_libraries/lib
+[17.919s] ----------------------------------------------------------------------
+[17.919s] Libraries have been installed in:
+[17.919s]    /home/serhat/workspace/build/lely_core_libraries/lib
+[17.919s] 
+[17.919s] If you ever happen to want to link against installed libraries
+[17.919s] in a given directory, LIBDIR, you must either use libtool, and
+[17.919s] specify the full pathname of the library, or use the '-LLIBDIR'
+[17.920s] flag during linking and do at least one of the following:
+[17.920s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[17.920s]      during execution
+[17.920s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[17.920s]      during linking
+[17.920s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[17.920s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[17.920s] 
+[17.920s] See any operating system documentation about shared libraries for
+[17.920s] more information, such as the ld(1) and ld.so(8) manual pages.
+[17.920s] ----------------------------------------------------------------------
+[17.925s] Making install in python
+[17.933s] Making install in dcf-tools
+[18.155s] running sdist
+[18.156s] running egg_info
+[18.158s] writing dcf_tools.egg-info/PKG-INFO
+[18.159s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[18.159s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[18.159s] writing requirements to dcf_tools.egg-info/requires.txt
+[18.160s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[18.164s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[18.164s] running bdist_wheel
+[18.165s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[18.165s] running check
+[18.167s] running build
+[18.167s] running build_py
+[18.169s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[18.169s]   warnings.warn(
+[18.170s] installing to build/bdist.linux-x86_64/wheel
+[18.170s] running install
+[18.170s] running install_lib
+[18.170s] creating build/bdist.linux-x86_64/wheel
+[18.170s] creating build/bdist.linux-x86_64/wheel/dcf
+[18.171s] copying build/lib/dcf/parse.py -> build/bdist.linux-x86_64/wheel/dcf
+[18.171s] copying build/lib/dcf/device.py -> build/bdist.linux-x86_64/wheel/dcf
+[18.171s] copying build/lib/dcf/print.py -> build/bdist.linux-x86_64/wheel/dcf
+[18.171s] copying build/lib/dcf/lint.py -> build/bdist.linux-x86_64/wheel/dcf
+[18.171s] copying build/lib/dcf/cli.py -> build/bdist.linux-x86_64/wheel/dcf
+[18.171s] copying build/lib/dcf/__init__.py -> build/bdist.linux-x86_64/wheel/dcf
+[18.171s] creating build/bdist.linux-x86_64/wheel/dcfgen
+[18.171s] copying build/lib/dcfgen/cli.py -> build/bdist.linux-x86_64/wheel/dcfgen
+[18.172s] copying build/lib/dcfgen/__init__.py -> build/bdist.linux-x86_64/wheel/dcfgen
+[18.172s] creating build/bdist.linux-x86_64/wheel/dcfgen/data
+[18.172s] copying build/lib/dcfgen/data/master.dcf.em -> build/bdist.linux-x86_64/wheel/dcfgen/data
+[18.172s] creating build/bdist.linux-x86_64/wheel/dcf2dev
+[18.172s] copying build/lib/dcf2dev/cdevice.py -> build/bdist.linux-x86_64/wheel/dcf2dev
+[18.172s] copying build/lib/dcf2dev/cli.py -> build/bdist.linux-x86_64/wheel/dcf2dev
+[18.172s] copying build/lib/dcf2dev/__init__.py -> build/bdist.linux-x86_64/wheel/dcf2dev
+[18.172s] creating build/bdist.linux-x86_64/wheel/dcf2dev/data
+[18.172s] copying build/lib/dcf2dev/data/dev.c.em -> build/bdist.linux-x86_64/wheel/dcf2dev/data
+[18.173s] copying build/lib/dcf2dev/data/dev.h.em -> build/bdist.linux-x86_64/wheel/dcf2dev/data
+[18.173s] running install_egg_info
+[18.175s] running egg_info
+[18.176s] writing dcf_tools.egg-info/PKG-INFO
+[18.176s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[18.176s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[18.176s] writing requirements to dcf_tools.egg-info/requires.txt
+[18.176s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[18.177s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[18.178s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[18.178s] Copying dcf_tools.egg-info to build/bdist.linux-x86_64/wheel/dcf_tools-2.3.0.egg-info
+[18.178s] running install_scripts
+[18.185s] creating dcf-tools-2.3.0
+[18.185s] creating dcf-tools-2.3.0/dcf
+[18.185s] creating dcf-tools-2.3.0/dcf2dev
+[18.185s] creating dcf-tools-2.3.0/dcf2dev/data
+[18.186s] creating dcf-tools-2.3.0/dcf_tools.egg-info
+[18.186s] creating dcf-tools-2.3.0/dcfgen
+[18.186s] creating dcf-tools-2.3.0/dcfgen/data
+[18.186s] copying files to dcf-tools-2.3.0...
+[18.186s] copying README.md -> dcf-tools-2.3.0
+[18.186s] copying setup.py -> dcf-tools-2.3.0
+[18.186s] copying dcf/__init__.py -> dcf-tools-2.3.0/dcf
+[18.186s] copying dcf/cli.py -> dcf-tools-2.3.0/dcf
+[18.187s] copying dcf/device.py -> dcf-tools-2.3.0/dcf
+[18.187s] copying dcf/lint.py -> dcf-tools-2.3.0/dcf
+[18.187s] copying dcf/parse.py -> dcf-tools-2.3.0/dcf
+[18.187s] copying dcf/print.py -> dcf-tools-2.3.0/dcf
+[18.187s] copying dcf2dev/__init__.py -> dcf-tools-2.3.0/dcf2dev
+[18.187s] copying dcf2dev/cdevice.py -> dcf-tools-2.3.0/dcf2dev
+[18.187s] copying dcf2dev/cli.py -> dcf-tools-2.3.0/dcf2dev
+[18.187s] copying dcf2dev/data/dev.c.em -> dcf-tools-2.3.0/dcf2dev/data
+[18.188s] copying dcf2dev/data/dev.h.em -> dcf-tools-2.3.0/dcf2dev/data
+[18.188s] copying dcf_tools.egg-info/PKG-INFO -> dcf-tools-2.3.0/dcf_tools.egg-info
+[18.188s] copying dcf_tools.egg-info/SOURCES.txt -> dcf-tools-2.3.0/dcf_tools.egg-info
+[18.188s] copying dcf_tools.egg-info/dependency_links.txt -> dcf-tools-2.3.0/dcf_tools.egg-info
+[18.188s] copying dcf_tools.egg-info/entry_points.txt -> dcf-tools-2.3.0/dcf_tools.egg-info
+[18.188s] copying dcf_tools.egg-info/requires.txt -> dcf-tools-2.3.0/dcf_tools.egg-info
+[18.188s] copying dcf_tools.egg-info/top_level.txt -> dcf-tools-2.3.0/dcf_tools.egg-info
+[18.188s] copying dcfgen/__init__.py -> dcf-tools-2.3.0/dcfgen
+[18.188s] copying dcfgen/cli.py -> dcf-tools-2.3.0/dcfgen
+[18.189s] copying dcfgen/data/master.dcf.em -> dcf-tools-2.3.0/dcfgen/data
+[18.189s] Writing dcf-tools-2.3.0/setup.cfg
+[18.190s] Creating tar archive
+[18.194s] creating build/bdist.linux-x86_64/wheel/dcf_tools-2.3.0.dist-info/WHEEL
+[18.194s] creating '/home/serhat/workspace/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/python/dcf-tools/dist/dcf_tools-2.3.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+[18.194s] adding 'dcf/__init__.py'
+[18.194s] adding 'dcf/cli.py'
+[18.195s] adding 'dcf/device.py'
+[18.195s] adding 'dcf/lint.py'
+[18.196s] adding 'dcf/parse.py'
+[18.196s] adding 'dcf/print.py'
+[18.196s] adding 'dcf2dev/__init__.py'
+[18.196s] adding 'dcf2dev/cdevice.py'
+[18.196s] adding 'dcf2dev/cli.py'
+[18.197s] adding 'dcf2dev/data/dev.c.em'
+[18.197s] adding 'dcf2dev/data/dev.h.em'
+[18.197s] adding 'dcfgen/__init__.py'
+[18.197s] adding 'dcfgen/cli.py'
+[18.198s] adding 'dcfgen/data/master.dcf.em'
+[18.198s] adding 'dcf_tools-2.3.0.dist-info/METADATA'
+[18.198s] adding 'dcf_tools-2.3.0.dist-info/WHEEL'
+[18.198s] adding 'dcf_tools-2.3.0.dist-info/entry_points.txt'
+[18.198s] adding 'dcf_tools-2.3.0.dist-info/top_level.txt'
+[18.198s] adding 'dcf_tools-2.3.0.dist-info/RECORD'
+[18.198s] removing build/bdist.linux-x86_64/wheel
+[18.205s] removing 'dcf-tools-2.3.0' (and everything under it)
+[18.459s] running install
+[18.459s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[18.459s]   warnings.warn(
+[18.459s] running build
+[18.459s] running build_py
+[18.461s] running install_lib
+[18.462s] running install_egg_info
+[18.466s] running egg_info
+[18.466s] writing dcf_tools.egg-info/PKG-INFO
+[18.466s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[18.466s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[18.467s] writing requirements to dcf_tools.egg-info/requires.txt
+[18.467s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[18.467s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[18.468s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[18.468s] removing '/home/serhat/workspace/build/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.0-py3.10.egg-info' (and everything under it)
+[18.468s] Copying dcf_tools.egg-info to /home/serhat/workspace/build/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.0-py3.10.egg-info
+[18.469s] running install_scripts
+[18.485s] Installing dcf2dev script to /home/serhat/workspace/build/lely_core_libraries/bin
+[18.485s] Installing dcfchk script to /home/serhat/workspace/build/lely_core_libraries/bin
+[18.485s] Installing dcfgen script to /home/serhat/workspace/build/lely_core_libraries/bin
+[18.507s] Making install in pkgconfig
+[18.512s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/lib/pkgconfig'
+[18.515s]  /usr/bin/install -c -m 644 liblely-can.pc liblely-co.pc liblely-coapp.pc liblely-ev.pc liblely-io.pc liblely-io2.pc liblely-libc.pc liblely-libc_rt.pc liblely-tap.pc liblely-util.pc '/home/serhat/workspace/build/lely_core_libraries/lib/pkgconfig'
+[18.518s] Making install in tools
+[18.539s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/bin'
+[18.539s]  /usr/bin/mkdir -p '/home/serhat/workspace/build/lely_core_libraries/etc'
+[18.542s]   /bin/bash ../libtool   --mode=install /usr/bin/install -c can2udp coctl cocat cocatd dcf2c '/home/serhat/workspace/build/lely_core_libraries/bin'
+[18.542s]  /usr/bin/install -c -m 644 coctl.dcf cocatd.dcf '/home/serhat/workspace/build/lely_core_libraries/etc'
+[18.577s] libtool: install: /usr/bin/install -c .libs/can2udp /home/serhat/workspace/build/lely_core_libraries/bin/can2udp
+[18.597s] libtool: install: /usr/bin/install -c .libs/coctl /home/serhat/workspace/build/lely_core_libraries/bin/coctl
+[18.621s] libtool: install: /usr/bin/install -c .libs/cocat /home/serhat/workspace/build/lely_core_libraries/bin/cocat
+[18.646s] libtool: install: /usr/bin/install -c .libs/cocatd /home/serhat/workspace/build/lely_core_libraries/bin/cocatd
+[18.672s] libtool: install: /usr/bin/install -c .libs/dcf2c /home/serhat/workspace/build/lely_core_libraries/bin/dcf2c
+[18.729s] [ 75%] [34m[1mCompleted 'upstr_lely_core_libraries'[0m
+[18.778s] [100%] Built target upstr_lely_core_libraries
+[18.793s] Invoked command in '/home/serhat/workspace/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/serhat/workspace/install/canopen_utils:/opt/ros/humble /usr/bin/cmake --build /home/serhat/workspace/build/lely_core_libraries -- -j12 -l12
+[18.827s] Invoking command in '/home/serhat/workspace/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/serhat/workspace/install/canopen_utils:/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspace/build/lely_core_libraries
+[18.836s] -- Install configuration: ""
+[18.836s] -- Execute custom install script
+[18.838s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-can.la
+[18.838s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-can.so
+[18.838s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-can.so.1
+[18.838s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-can.so.1.9.2
+[18.838s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-co.la
+[18.839s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-co.so
+[18.839s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-co.so.2
+[18.839s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-co.so.2.3.0
+[18.839s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-coapp.la
+[18.839s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-coapp.so
+[18.839s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-coapp.so.2
+[18.839s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-coapp.so.2.3.0
+[18.839s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-ev.la
+[18.839s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-ev.so
+[18.839s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-ev.so.2
+[18.840s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-ev.so.2.3.0
+[18.840s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-io.la
+[18.840s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-io.so
+[18.840s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-io.so.1
+[18.840s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-io.so.1.9.2
+[18.840s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-io2.la
+[18.840s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-io2.so
+[18.841s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-io2.so.2
+[18.842s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-io2.so.2.3.0
+[18.842s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-libc.la
+[18.842s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-libc.so
+[18.842s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-libc.so.2
+[18.843s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-libc.so.2.3.0
+[18.843s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-tap.la
+[18.843s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-tap.so
+[18.843s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-tap.so.2
+[18.843s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-tap.so.2.3.0
+[18.843s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-util.la
+[18.844s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-util.so
+[18.844s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-util.so.2
+[18.844s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/liblely-util.so.2.3.0
+[18.844s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/pkgconfig/liblely-can.pc
+[18.844s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/pkgconfig/liblely-co.pc
+[18.844s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/pkgconfig/liblely-coapp.pc
+[18.845s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/pkgconfig/liblely-ev.pc
+[18.845s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/pkgconfig/liblely-io.pc
+[18.845s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/pkgconfig/liblely-io2.pc
+[18.845s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/pkgconfig/liblely-libc.pc
+[18.845s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/pkgconfig/liblely-libc_rt.pc
+[18.845s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/pkgconfig/liblely-tap.pc
+[18.846s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/pkgconfig/liblely-util.pc
+[18.846s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__init__.py
+[18.846s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__pycache__/__init__.cpython-310.pyc
+[18.846s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__pycache__/cli.cpython-310.pyc
+[18.847s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__pycache__/device.cpython-310.pyc
+[18.847s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__pycache__/lint.cpython-310.pyc
+[18.847s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__pycache__/parse.cpython-310.pyc
+[18.847s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__pycache__/print.cpython-310.pyc
+[18.847s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf/cli.py
+[18.848s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf/device.py
+[18.848s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf/lint.py
+[18.848s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf/parse.py
+[18.848s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf/print.py
+[18.849s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/__init__.py
+[18.849s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/__pycache__/__init__.cpython-310.pyc
+[18.849s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/__pycache__/cdevice.cpython-310.pyc
+[18.849s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/__pycache__/cli.cpython-310.pyc
+[18.849s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/cdevice.py
+[18.850s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/cli.py
+[18.850s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data/dev.c.em
+[18.850s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data/dev.h.em
+[18.850s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.0-py3.10.egg-info/PKG-INFO
+[18.850s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.0-py3.10.egg-info/SOURCES.txt
+[18.851s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.0-py3.10.egg-info/dependency_links.txt
+[18.851s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.0-py3.10.egg-info/entry_points.txt
+[18.851s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.0-py3.10.egg-info/requires.txt
+[18.851s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.0-py3.10.egg-info/top_level.txt
+[18.851s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/__init__.py
+[18.852s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/__pycache__/__init__.cpython-310.pyc
+[18.852s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/__pycache__/cli.cpython-310.pyc
+[18.852s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py
+[18.852s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/data/master.dcf.em
+[18.855s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/can/buf.h
+[18.855s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/can/buf.hpp
+[18.856s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/can/err.h
+[18.856s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/can/msg.h
+[18.856s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/can/net.h
+[18.856s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/can/net.hpp
+[18.856s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/can/socket.h
+[18.857s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/co.h
+[18.857s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/crc.h
+[18.857s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/csdo.h
+[18.857s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/csdo.hpp
+[18.857s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/dcf.h
+[18.857s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/dcf.hpp
+[18.857s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/def/array.def
+[18.858s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/def/basic.def
+[18.858s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/def/cxx.def
+[18.858s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/def/time.def
+[18.858s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/def/type.def
+[18.858s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/detail/dev.h
+[18.858s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/detail/obj.h
+[18.859s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/dev.h
+[18.859s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/dev.hpp
+[18.859s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/emcy.h
+[18.859s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/emcy.hpp
+[18.859s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/gw.h
+[18.859s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/gw.hpp
+[18.860s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/gw_txt.h
+[18.860s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/gw_txt.hpp
+[18.860s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/lss.h
+[18.860s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/lss.hpp
+[18.860s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/nmt.h
+[18.860s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/nmt.hpp
+[18.861s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/obj.h
+[18.861s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/obj.hpp
+[18.861s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/pdo.h
+[18.861s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/rpdo.h
+[18.861s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/rpdo.hpp
+[18.861s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/sdev.h
+[18.861s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/sdev.hpp
+[18.862s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/sdo.h
+[18.862s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/ssdo.h
+[18.862s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/ssdo.hpp
+[18.862s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/sync.h
+[18.862s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/sync.hpp
+[18.862s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/time.h
+[18.863s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/time.hpp
+[18.863s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/tpdo.h
+[18.863s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/tpdo.hpp
+[18.863s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/type.h
+[18.863s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/type.hpp
+[18.863s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/val.h
+[18.864s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/val.hpp
+[18.864s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/wtm.h
+[18.864s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/co/wtm.hpp
+[18.864s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/coapp/device.hpp
+[18.864s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/coapp/driver.hpp
+[18.864s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/coapp/fiber_driver.hpp
+[18.865s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/coapp/logical_driver.hpp
+[18.865s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/coapp/loop_driver.hpp
+[18.865s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/coapp/lss_master.hpp
+[18.865s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/coapp/master.hpp
+[18.865s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/coapp/node.hpp
+[18.865s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/coapp/sdo.hpp
+[18.865s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/coapp/sdo_error.hpp
+[18.866s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/coapp/slave.hpp
+[18.866s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/coapp/type_traits.hpp
+[18.866s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/co_task.hpp
+[18.866s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/ev.h
+[18.866s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/exec.h
+[18.866s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/exec.hpp
+[18.866s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/fiber_exec.h
+[18.867s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/fiber_exec.hpp
+[18.867s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/future.h
+[18.867s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/future.hpp
+[18.867s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/loop.h
+[18.867s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/loop.hpp
+[18.867s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/poll.h
+[18.868s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/poll.hpp
+[18.868s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/std_exec.h
+[18.868s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/strand.h
+[18.868s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/strand.hpp
+[18.868s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/task.h
+[18.868s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/task.hpp
+[18.869s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/thrd_loop.h
+[18.869s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/ev/thrd_loop.hpp
+[18.869s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/features.h
+[18.869s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/addr.h
+[18.869s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/attr.h
+[18.869s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/can.h
+[18.870s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/can.hpp
+[18.870s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/file.h
+[18.870s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/file.hpp
+[18.870s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/if.h
+[18.870s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/io.h
+[18.870s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/io.hpp
+[18.870s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/pipe.h
+[18.871s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/pipe.hpp
+[18.871s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/poll.h
+[18.871s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/poll.hpp
+[18.871s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/serial.h
+[18.871s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/serial.hpp
+[18.871s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/sock.h
+[18.872s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io/sock.hpp
+[18.872s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/can.h
+[18.872s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/can.hpp
+[18.872s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/can/err.h
+[18.872s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/can/err.hpp
+[18.873s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/can/msg.h
+[18.873s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/can/msg.hpp
+[18.873s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/can_net.h
+[18.873s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/can_net.hpp
+[18.873s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/can_rt.h
+[18.873s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/can_rt.hpp
+[18.873s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/clock.h
+[18.873s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/clock.hpp
+[18.873s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/co_can.hpp
+[18.874s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/co_can_rt.hpp
+[18.874s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/co_sigset.hpp
+[18.874s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/co_timer.hpp
+[18.874s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/co_tqueue.hpp
+[18.874s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/ctx.h
+[18.874s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/ctx.hpp
+[18.874s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/dev.h
+[18.874s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/dev.hpp
+[18.874s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/event.h
+[18.874s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/event.hpp
+[18.875s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/io2.h
+[18.875s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/linux/can.h
+[18.875s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/linux/can.hpp
+[18.875s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/posix/poll.h
+[18.875s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/posix/poll.hpp
+[18.875s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/sigset.h
+[18.875s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/sigset.hpp
+[18.875s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/sys/clock.h
+[18.875s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/sys/clock.hpp
+[18.875s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/sys/io.h
+[18.875s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/sys/io.hpp
+[18.876s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/sys/sigset.h
+[18.876s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/sys/sigset.hpp
+[18.876s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/sys/timer.h
+[18.876s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/sys/timer.hpp
+[18.876s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/timer.h
+[18.876s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/timer.hpp
+[18.876s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/tqueue.h
+[18.876s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/tqueue.hpp
+[18.876s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/user/can.h
+[18.876s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/user/can.hpp
+[18.877s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/user/timer.h
+[18.877s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/user/timer.hpp
+[18.877s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/vcan.h
+[18.877s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/io2/vcan.hpp
+[18.877s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/chrono.hpp
+[18.877s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/functional.hpp
+[18.877s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/stdatomic.h
+[18.877s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/stddef.h
+[18.877s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/stdint.h
+[18.877s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/stdio.h
+[18.877s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/stdlib.h
+[18.877s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/string.h
+[18.878s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/strings.h
+[18.878s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/sys/types.h
+[18.878s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/threads.h
+[18.878s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/time.h
+[18.878s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/type_traits.hpp
+[18.878s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/uchar.h
+[18.878s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/unistd.h
+[18.878s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/libc/utility.hpp
+[18.878s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/tap/tap.h
+[18.878s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/bimap.h
+[18.878s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/bits.h
+[18.879s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/bitset.h
+[18.879s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/c_call.hpp
+[18.879s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/c_type.hpp
+[18.879s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/chrono.hpp
+[18.879s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/cmp.h
+[18.879s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/config.h
+[18.879s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/coroutine.h
+[18.879s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/coroutine.hpp
+[18.879s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/daemon.h
+[18.879s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/def/type.def
+[18.879s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/diag.h
+[18.880s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/dllist.h
+[18.880s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/endian.h
+[18.880s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/errnum.h
+[18.880s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/error.hpp
+[18.880s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/exception.hpp
+[18.880s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/fiber.h
+[18.880s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/fiber.hpp
+[18.880s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/float.h
+[18.880s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/frbuf.h
+[18.880s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/fwbuf.h
+[18.880s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/invoker.hpp
+[18.881s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/lex.h
+[18.881s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/membuf.h
+[18.881s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/mkjmp.h
+[18.881s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/mutex.hpp
+[18.881s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/pheap.h
+[18.881s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/print.h
+[18.881s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/rbtree.h
+[18.881s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/result.hpp
+[18.881s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/sllist.h
+[18.881s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/spscring.h
+[18.881s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/stop.h
+[18.882s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/stop.hpp
+[18.882s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/time.h
+[18.882s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/ustring.h
+[18.882s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/include/lely/util/util.h
+[18.882s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_libraries-extras.cmake
+[18.882s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/environment/library_path.sh
+[18.882s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/environment/library_path.dsv
+[18.883s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/ament_index/resource_index/package_run_dependencies/lely_core_libraries
+[18.883s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/ament_index/resource_index/parent_prefix_path/lely_core_libraries
+[18.883s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/environment/ament_prefix_path.sh
+[18.883s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/environment/ament_prefix_path.dsv
+[18.883s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/environment/path.sh
+[18.883s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/environment/path.dsv
+[18.883s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/local_setup.bash
+[18.884s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/local_setup.sh
+[18.884s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/local_setup.zsh
+[18.884s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/local_setup.dsv
+[18.884s] -- Symlinking: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/package.dsv
+[18.893s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/ament_index/resource_index/packages/lely_core_libraries
+[18.893s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_libraries-extras.cmake
+[18.894s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.894s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/cmake/ament_cmake_export_libraries-extras.cmake
+[18.894s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_librariesConfig.cmake
+[18.894s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_librariesConfig-version.cmake
+[18.894s] -- Up-to-date symlink: /home/serhat/workspace/install/lely_core_libraries/share/lely_core_libraries/package.xml
+[18.894s] -- Up-to-date: /home/serhat/workspace/install/lely_core_libraries/bin
+[18.894s] -- Installing: /home/serhat/workspace/install/lely_core_libraries/bin/dcf2c
+[18.894s] -- Installing: /home/serhat/workspace/install/lely_core_libraries/bin/coctl
+[18.895s] -- Installing: /home/serhat/workspace/install/lely_core_libraries/bin/cocat
+[18.895s] -- Installing: /home/serhat/workspace/install/lely_core_libraries/bin/dcfchk
+[18.895s] -- Installing: /home/serhat/workspace/install/lely_core_libraries/bin/can2udp
+[18.895s] -- Installing: /home/serhat/workspace/install/lely_core_libraries/bin/dcfgen
+[18.895s] -- Installing: /home/serhat/workspace/install/lely_core_libraries/bin/cocatd
+[18.895s] -- Installing: /home/serhat/workspace/install/lely_core_libraries/bin/dcf2dev
+[18.899s] Invoked command in '/home/serhat/workspace/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/serhat/workspace/install/canopen_utils:/opt/ros/humble /usr/bin/cmake --install /home/serhat/workspace/build/lely_core_libraries

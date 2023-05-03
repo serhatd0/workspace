@@ -1,0 +1,7 @@
+[01m[K/home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg/src/canbustest2.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg/src/canbustest2.cpp:35:11:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* __builtin_memcpy(void*, const void*, long unsigned int)[m[K’ writing 14 bytes into a region of size 8 overflows the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+   35 |     [01;35m[Kstrcpy((char*)frame.data, "Hello, World!")[m[K;
+      |     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg/src/canbustest2.cpp:14:22:[m[K [01;36m[Knote: [m[Kat offset 8 into destination object ‘[01m[Kframe[m[K’ of size 16
+   14 |     struct can_frame [01;36m[Kframe[m[K;
+      |                      [01;36m[K^~~~~[m[K

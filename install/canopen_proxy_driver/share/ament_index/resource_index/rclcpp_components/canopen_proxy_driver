@@ -1,2 +1,1 @@
-ros2_canopen::LifecycleProxyDriver;lib/liblifecycle_canopen_proxy_driver.so
-ros2_canopen::ProxyDriver;lib/libcanopen_proxy_driver.so
+/home/serhat/workspace/build/canopen_proxy_driver/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/canopen_proxy_driver

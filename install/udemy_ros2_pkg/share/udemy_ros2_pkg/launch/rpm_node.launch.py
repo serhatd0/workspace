@@ -1,1 +1,1 @@
-/home/serhat/workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/launch/rpm_node.launch.py
+/home/serhat/workspace/ros2_cpp_ws/src/udemy_ros2_pkg/launch/rpm_node.launch.py

@@ -1,1 +1,1 @@
-uint8 nodeid
+/home/serhat/workspace/build/canopen_interfaces/rosidl_cmake/srv/CONode_Request.msg

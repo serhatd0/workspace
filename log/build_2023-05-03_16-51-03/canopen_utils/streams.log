@@ -1,0 +1,36 @@
+[1.351s] Invoking command in '/home/serhat/workspace/build/canopen_utils': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/serhat/workspace/build/canopen_utils/prefix_override:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/serhat/workspace/build/canopen_utils/build
+[1.608s] running develop
+[1.618s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.618s]   warnings.warn(
+[1.632s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.632s]   warnings.warn(
+[1.741s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.741s]   warnings.warn(
+[1.742s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.742s]   warnings.warn(
+[1.744s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.745s]   warnings.warn(
+[1.966s] Invoked command in '/home/serhat/workspace/build/canopen_utils' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/serhat/workspace/build/canopen_utils/prefix_override:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/serhat/workspace/build/canopen_utils/build
+[1.967s] Invoking command in '/home/serhat/workspace/ros2_canopen/canopen_utils': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/serhat/workspace/build/canopen_utils/prefix_override:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/canopen_utils build --build-base /home/serhat/workspace/build/canopen_utils/build install --record /home/serhat/workspace/build/canopen_utils/install.log --single-version-externally-managed
+[2.201s] running egg_info
+[2.202s] writing ../../build/canopen_utils/canopen_utils.egg-info/PKG-INFO
+[2.224s] writing dependency_links to ../../build/canopen_utils/canopen_utils.egg-info/dependency_links.txt
+[2.224s] writing entry points to ../../build/canopen_utils/canopen_utils.egg-info/entry_points.txt
+[2.225s] writing requirements to ../../build/canopen_utils/canopen_utils.egg-info/requires.txt
+[2.225s] writing top-level names to ../../build/canopen_utils/canopen_utils.egg-info/top_level.txt
+[2.249s] reading manifest file '../../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[2.275s] writing manifest file '../../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[2.276s] running build
+[2.276s] running build_py
+[2.291s] running install
+[2.291s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.292s]   warnings.warn(
+[2.292s] running install_lib
+[2.322s] running install_data
+[2.330s] running install_egg_info
+[2.331s] removing '/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages/canopen_utils-0.0.0-py3.10.egg-info' (and everything under it)
+[2.332s] Copying ../../build/canopen_utils/canopen_utils.egg-info to /home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages/canopen_utils-0.0.0-py3.10.egg-info
+[2.351s] running install_scripts
+[2.368s] Installing cyclic_tester script to /home/serhat/workspace/install/canopen_utils/lib/canopen_utils
+[2.369s] writing list of installed files to '/home/serhat/workspace/build/canopen_utils/install.log'
+[2.396s] Invoked command in '/home/serhat/workspace/ros2_canopen/canopen_utils' returned '0': AMENT_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/serhat/workspace/install/canopen_interfaces LD_LIBRARY_PATH=/home/serhat/workspace/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/serhat/workspace/build/canopen_utils/prefix_override:/home/serhat/workspace/install/canopen_utils/lib/python3.10/site-packages:/home/serhat/workspace/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/canopen_utils build --build-base /home/serhat/workspace/build/canopen_utils/build install --record /home/serhat/workspace/build/canopen_utils/install.log --single-version-externally-managed

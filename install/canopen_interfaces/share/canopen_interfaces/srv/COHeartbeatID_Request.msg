@@ -1,2 +1,1 @@
-uint8 nodeid
-uint16  heartbeat #ms
+/home/serhat/workspace/build/canopen_interfaces/rosidl_cmake/srv/COHeartbeatID_Request.msg
